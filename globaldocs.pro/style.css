@@ -368,6 +368,53 @@ img {
   flex-wrap: wrap;
 }
 
+.hero-cta-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  height: 56px;
+  padding: 0 40px;
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: inherit;
+  color: #fff;
+  background: #0D7377;
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 4px 14px rgba(13, 115, 119, 0.35);
+}
+
+.hero-cta-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(13, 115, 119, 0.45);
+}
+
+.hero-cta-btn:active {
+  transform: scale(0.98);
+  box-shadow: 0 2px 8px rgba(13, 115, 119, 0.3);
+}
+
+.hero-cta-btn i {
+  font-size: 1.25rem;
+}
+
+.hero-scroll-link {
+  display: block;
+  margin-top: 16px;
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.hero-scroll-link:hover {
+  color: #fff;
+}
+
 .hero-trust {
   display: flex;
   gap: 20px;
@@ -399,6 +446,10 @@ img {
     align-items: center;
     gap: 10px;
     padding-top: 20px;
+  }
+  .hero-cta-btn {
+    width: 100%;
+    max-width: 300px;
   }
 }
 
