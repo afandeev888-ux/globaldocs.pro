@@ -386,6 +386,23 @@
   });
   </script>
 
+  <script>
+  (function() {
+    var bar = document.createElement('div');
+    bar.className = 'mobile-sticky-bar';
+    bar.innerHTML = '<a href="https://wa.me/79518994988?text=Hi%20Global%20Docs%20Pro!%20I%20need%20help%20with%20documents%20from%20Russia." target="_blank"><i class="ph ph-bold ph-whatsapp-logo"></i> Write on WhatsApp</a><div class="sub-text">⚡ Reply within 2 hours</div>';
+    document.body.appendChild(bar);
+
+    var shown = false;
+    window.addEventListener('scroll', function() {
+      if (!shown && window.scrollY > 300) {
+        bar.classList.add('visible');
+        shown = true;
+      }
+    });
+  })();
+  </script>
+
 </body>
 </html>
 
