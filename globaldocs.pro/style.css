@@ -1107,3 +1107,31 @@ img {
 .btn-telegram i.ph {
   color: #fff;
 }
+
+/* Contact info item icons */
+.contact-info-item .icon i.ph {
+  font-size: 20px;
+  color: var(--primary);
+}
+
+/* Country link flags */
+.country-link .flag {
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.country-link .flag i.ph {
+  font-size: 1.3rem;
+  vertical-align: middle;
+}
+
+/* Globe icons with country colors */
+.service-card .icon i.ph-fill {
+  font-size: 32px;
+}
+
+/* Info box warning icon */
+.info-box-icon i.ph {
+  font-size: 18px;
+  vertical-align: middle;
+}
