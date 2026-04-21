@@ -94,13 +94,13 @@
     <div class="hero-content">
       <h1>Получите российские документы без выезда в Россию</h1>
       <p>Свидетельства о рождении, дипломы, свидетельства о браке, справки об отсутствии судимости — мы получим их из российских ЗАГСов и реестров, поставим апостиль или консульскую легализацию, и доставим оригиналы вам в Европу, США или Израиль. Отслеживайте каждый этап.</p>
-      <div class="hero-buttons">
-        <a href="#contact" class="btn btn-primary">Связаться с нами</a>
-        <a href="#services" class="btn btn-secondary">Наши услуги</a>
-      </div>
+      <a href="https://wa.me/79518994988?text=Hi%20Global%20Docs%20Pro!%20I%20need%20help%20with%20documents%20from%20Russia." target="_blank" class="hero-cta-btn">
+        <i class="ph ph-bold ph-chat-circle-dots"></i> Узнать стоимость
+      </a>
+      <a href="#how" class="hero-scroll-link">↓ Как это работает</a>
       <div class="hero-trust">
         <span class="trust-item"><i class="ph ph-bold ph-check-circle"></i> Бесплатная консультация</span>
-        <span class="trust-item"><i class="ph ph-bold ph-clock"></i> Ответ в течение 2 часов (в рабочие дни)</span>
+        <span class="trust-item"><i class="ph ph-bold ph-clock"></i> Ответ в течение 2 часов</span>
         <span class="trust-item"><i class="ph ph-bold ph-shield-check"></i> Без предоплаты</span>
       </div>
     </div>
@@ -188,7 +188,7 @@
         <div class="step-card">
           <div class="step-number">1</div>
           <h3>Свяжитесь с нами</h3>
-          <p>Напишите нам в WhatsApp или Telegram и расскажите, какие документы вам нужны. Мы проконсультируем вас по процессу и назовём стоимость.</p>
+          <p>Напишите нам в WhatsApp и расскажите, какие документы вам нужны. Мы проконсультируем вас по процессу и назовём стоимость.</p>
         </div>
         <div class="step-card">
           <div class="step-number">2</div>
@@ -265,10 +265,9 @@
       </div>
       <div class="partners-cta">
         <h3>Заинтересованы в партнёрстве?</h3>
-        <p>Напишите нам в WhatsApp или Telegram. Обсудим условия и начнём работу.</p>
+        <p>Напишите нам в WhatsApp. Обсудим условия и начнём работу.</p>
         <div class="buttons">
           <a href="https://wa.me/79518994988" target="_blank" class="btn btn-whatsapp"><i class="ph ph-bold ph-whatsapp-logo"></i> Обсудить в WhatsApp</a>
-          <a href="https://t.me/rafael818" target="_blank" class="btn btn-telegram"><i class="ph ph-bold ph-telegram-logo"></i> Написать в Telegram</a>
         </div>
       </div>
     </div>
@@ -280,7 +279,6 @@
       <p>Свяжитесь с нами прямо сейчас и получите бесплатную консультацию. Мы поможем получить ваши документы быстро и без лишних хлопот.</p>
       <div class="cta-buttons">
         <a href="https://wa.me/79518994988" target="_blank" class="btn btn-whatsapp"><i class="ph ph-bold ph-whatsapp-logo"></i> WhatsApp</a>
-        <a href="https://t.me/rafael818" target="_blank" class="btn btn-telegram"><i class="ph ph-bold ph-telegram-logo"></i> Telegram</a>
       </div>
     </div>
   </section>
@@ -342,6 +340,23 @@
       if (!dd.contains(e.target)) dd.classList.remove('open');
     });
   });
+  </script>
+
+  <script>
+  (function() {
+    var bar = document.createElement('div');
+    bar.className = 'mobile-sticky-bar';
+    bar.innerHTML = '<a href="https://wa.me/79518994988?text=Hi%20Global%20Docs%20Pro!%20I%20need%20help%20with%20documents%20from%20Russia." target="_blank"><i class="ph ph-bold ph-whatsapp-logo"></i> Написать в WhatsApp</a><div class="sub-text">⚡ Ответим в течение 2 часов</div>';
+    document.body.appendChild(bar);
+
+    var shown = false;
+    window.addEventListener('scroll', function() {
+      if (!shown && window.scrollY > 300) {
+        bar.classList.add('visible');
+        shown = true;
+      }
+    });
+  })();
   </script>
 
 </body>

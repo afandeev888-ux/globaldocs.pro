@@ -98,13 +98,13 @@
     <div class="hero-content">
       <h1>Russische Dokumente direkt zu Ihnen nach Hause — Ohne Rückreise</h1>
       <p>Geburtsurkunden, Diplome, Heiratsurkunden, Führungszeugnisse — wir beschaffen sie aus russischen Registern, versehen sie mit Apostille oder Legalisation und senden Ihnen die Originale nach Europa, USA oder Israel. Verfolgen Sie jeden Schritt.</p>
-      <div class="hero-buttons">
-        <a href="#contact" class="btn btn-primary">Kontaktieren Sie uns</a>
-        <a href="#services" class="btn btn-secondary">Unsere Leistungen</a>
-      </div>
+      <a href="https://wa.me/79518994988?text=Hi%20Global%20Docs%20Pro!%20I%20need%20help%20with%20documents%20from%20Russia." target="_blank" class="hero-cta-btn">
+        <i class="ph ph-bold ph-chat-circle-dots"></i> Preis anfragen
+      </a>
+      <a href="#how" class="hero-scroll-link">↓ So funktioniert es</a>
       <div class="hero-trust">
         <span class="trust-item"><i class="ph ph-bold ph-check-circle"></i> Kostenlose Beratung</span>
-        <span class="trust-item"><i class="ph ph-bold ph-clock"></i> Antwort innerhalb von 2 Stunden (Werktage)</span>
+        <span class="trust-item"><i class="ph ph-bold ph-clock"></i> Antwort innerhalb von 2 Stunden</span>
         <span class="trust-item"><i class="ph ph-bold ph-shield-check"></i> Keine Vorauszahlung</span>
       </div>
     </div>
@@ -179,7 +179,7 @@
         <div class="step-card">
           <div class="step-number">1</div>
           <h3>Kontaktieren Sie uns</h3>
-          <p>Schreiben Sie uns über WhatsApp oder Telegram und teilen Sie uns mit, welche Dokumente Sie benötigen. Wir beraten Sie zum Ablauf und nennen Ihnen einen Preis.</p>
+          <p>Schreiben Sie uns über WhatsApp und teilen Sie uns mit, welche Dokumente Sie benötigen. Wir beraten Sie zum Ablauf und nennen Ihnen einen Preis.</p>
         </div>
         <div class="step-card">
           <div class="step-number">2</div>
@@ -274,10 +274,9 @@
       </div>
       <div class="partners-cta">
         <h3>Interesse an einer Partnerschaft?</h3>
-        <p>Schreiben Sie uns über WhatsApp oder Telegram. Wir besprechen die Konditionen und beginnen innerhalb von 24 Stunden.</p>
+        <p>Schreiben Sie uns über WhatsApp. Wir besprechen die Konditionen und beginnen innerhalb von 24 Stunden.</p>
         <div class="buttons">
           <a href="https://wa.me/79518994988" target="_blank" class="btn btn-whatsapp"><i class="ph ph-bold ph-whatsapp-logo"></i> Auf WhatsApp besprechen</a>
-          <a href="https://t.me/rafael818" target="_blank" class="btn btn-telegram"><i class="ph ph-bold ph-telegram-logo"></i> Auf Telegram schreiben</a>
         </div>
       </div>
     </div>
@@ -290,7 +289,6 @@
       <p>Kontaktieren Sie uns jetzt und erhalten Sie eine kostenlose Beratung. Wir helfen Ihnen, Ihre Dokumente schnell und ohne Aufwand zu erhalten.</p>
       <div class="cta-buttons">
         <a href="https://wa.me/79518994988" target="_blank" class="btn btn-whatsapp"><i class="ph ph-bold ph-whatsapp-logo"></i> WhatsApp</a>
-        <a href="https://t.me/rafael818" target="_blank" class="btn btn-telegram"><i class="ph ph-bold ph-telegram-logo"></i> Telegram</a>
       </div>
     </div>
   </section>
@@ -386,6 +384,23 @@
       if (!dd.contains(e.target)) dd.classList.remove('open');
     });
   });
+  </script>
+
+  <script>
+  (function() {
+    var bar = document.createElement('div');
+    bar.className = 'mobile-sticky-bar';
+    bar.innerHTML = '<a href="https://wa.me/79518994988?text=Hi%20Global%20Docs%20Pro!%20I%20need%20help%20with%20documents%20from%20Russia." target="_blank"><i class="ph ph-bold ph-whatsapp-logo"></i> Auf WhatsApp schreiben</a><div class="sub-text">⚡ Antwort innerhalb von 2 Stunden</div>';
+    document.body.appendChild(bar);
+
+    var shown = false;
+    window.addEventListener('scroll', function() {
+      if (!shown && window.scrollY > 300) {
+        bar.classList.add('visible');
+        shown = true;
+      }
+    });
+  })();
   </script>
 
 
