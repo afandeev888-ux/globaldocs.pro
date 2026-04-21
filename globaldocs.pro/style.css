@@ -368,6 +368,40 @@ img {
   flex-wrap: wrap;
 }
 
+.hero-trust {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 28px;
+  padding-top: 24px;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.trust-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.875rem;
+  color: rgba(255, 255, 255, 0.85);
+  white-space: nowrap;
+}
+
+.trust-item i {
+  color: #4ade80;
+  font-size: 1.1rem;
+  flex-shrink: 0;
+}
+
+@media (max-width: 768px) {
+  .hero-trust {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding-top: 20px;
+  }
+}
+
 .btn {
   display: inline-flex;
   align-items: center;
