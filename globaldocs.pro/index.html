@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Global Docs Pro</title>
+  <meta name="description" content="Global Docs Pro language routing page.">
+  <meta name="robots" content="noindex,follow">
+  <meta property="og:title" content="Global Docs Pro — Language Selector">
+  <meta property="og:description" content="Select your language for Global Docs Pro.">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:url" content="https://globaldocs.pro/">
+  <link rel="canonical" href="https://globaldocs.pro/">
+  <link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/">
+  <link rel="alternate" hreflang="ru" href="https://globaldocs.pro/ru/">
+  <link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/">
+  <link rel="alternate" hreflang="x-default" href="https://globaldocs.pro/">
+  <meta name="yandex-verification" content="b30514d0fecb3c2a" />
+</head>
+<body>
+  <script>
+    function resolveLangFromBrowser() {
+      var lang = (navigator.language || navigator.userLanguage || "").toLowerCase().substring(0, 2);
+      if (lang === "ru") return "ru";
+      if (lang === "de") return "de";
+      return "en";
+    }
+
+    function targetPathForLang(lang) {
+      if (lang === "ru") return "/ru/";
+      if (lang === "de") return "/de/";
+      return "/en/";
+    }
+
+    function goToLang(lang) {
+      try {
+        localStorage.setItem("lang_choice", lang);
+      } catch (e) {}
+      window.location.replace(targetPathForLang(lang));
+    }
+
+    (function autoRedirect() {
+      try {
+        var stored = localStorage.getItem("lang_choice");
+        var lang = stored || resolveLangFromBrowser();
+        window.location.replace(targetPathForLang(lang));
+      } catch (e) {
+        var fallback = resolveLangFromBrowser();
+        window.location.replace(targetPathForLang(fallback));
+      }
+    })();
+  </script>
+
+</body>
+</html>
