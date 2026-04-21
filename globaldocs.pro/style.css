@@ -1083,3 +1083,27 @@ img {
   color: var(--primary, #2563eb);
   font-weight: 700;
 }
+
+/* ========================================
+   PHOSPHOR ICONS
+   ======================================== */
+.icon i.ph {
+  color: #0D7377;
+  font-size: 24px;
+  line-height: 1;
+}
+
+.contact-card .icon i.ph {
+  font-size: 28px;
+}
+
+.btn i.ph {
+  font-size: 20px;
+  vertical-align: middle;
+  margin-right: 2px;
+}
+
+.btn-whatsapp i.ph,
+.btn-telegram i.ph {
+  color: #fff;
+}
