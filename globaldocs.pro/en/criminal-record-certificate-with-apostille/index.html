@@ -33,11 +33,14 @@
         <li><a href="/en/#about">About</a></li>
         <li><a href="/en/#partners">Partners</a></li>
         <li><a href="/en/contacts.html">Contact</a></li>
-        <li class="lang-switcher">
-          <a href="/en/criminal-record-certificate-with-apostille/" class="active" onclick="setLanguage('en')">EN</a>
-          <a href="/ru/spravka-ob-otsutstvii-sudimosti-s-apostilem/" onclick="setLanguage('ru')">RU</a>
-          <a href="/de/fuehrungszeugnis-mit-apostille/" onclick="setLanguage('de')">DE</a>
-        </li>
+        <li class="lang-dropdown">  <button class="lang-dropdown-btn" aria-label="Change language" onclick="this.parentElement.classList.toggle('open')">
+    <svg class="lang-globe" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+    <span>English</span>
+    <svg class="lang-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>  </button>  <div class="lang-dropdown-menu">
+          <a href="/ru/spravka-ob-otsutstvii-sudimosti-s-apostilem/" onclick="sessionStorage.setItem('lang_choice','ru')"><svg class="lang-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Русский</a>
+          <a href="/en/criminal-record-certificate-with-apostille/" class="active" onclick="sessionStorage.setItem('lang_choice','en')"><svg class="lang-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>English</a>
+          <a href="/de/fuehrungszeugnis-mit-apostille/" onclick="sessionStorage.setItem('lang_choice','de')"><svg class="lang-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Deutsch</a>
+  </div></li>
       </ul>
       <button class="burger" id="burger" aria-label="Menu">
         <span></span>
@@ -438,6 +441,13 @@
         }
       });
     });
+  
+  // Close lang dropdown on outside click
+  document.addEventListener('click', function(e) {
+    document.querySelectorAll('.lang-dropdown.open').forEach(function(dd) {
+      if (!dd.contains(e.target)) dd.classList.remove('open');
+    });
+  });
   </script>
 
 </body>
