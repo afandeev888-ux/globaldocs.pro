@@ -218,20 +218,17 @@
   <nav class="navbar">
     <div class="container">
       <a href="/ru/" class="navbar-brand">Global Docs <span>Pro</span></a>
-      <ul class="nav-links" id="navLinks">
+<div class="lang-links">
+  <a href="/ru/" class="active" onclick="sessionStorage.setItem('lang_choice','ru')">RU</a>
+  <a href="/en/" onclick="sessionStorage.setItem('lang_choice','en')">EN</a>
+  <a href="/de/" onclick="sessionStorage.setItem('lang_choice','de')">DE</a>
+</div>
+<ul class="nav-links" id="navLinks">
         <li><a href="/ru/">Главная</a></li>
         <li><a href="/ru/#services">Услуги</a></li>
         <li><a href="/ru/about.html">О нас</a></li>
         <li><a href="/ru/#partners">Партнёрам</a></li>
         <li><a href="/ru/contacts.html">Контакты</a></li>
-        <li class="lang-dropdown">  <button class="lang-dropdown-btn" aria-label="Change language" onclick="this.parentElement.classList.toggle('open')">
-    <svg class="lang-globe" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
-    <span>Русский</span>
-    <svg class="lang-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>  </button>  <div class="lang-dropdown-menu">
-          <a href="/ru/spravka-ob-otsutstvii-sudimosti-s-apostilem/" class="active" onclick="sessionStorage.setItem('lang_choice','ru')"><svg class="lang-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Русский</a>
-          <a href="/en/criminal-record-certificate-with-apostille/" onclick="sessionStorage.setItem('lang_choice','en')"><svg class="lang-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>English</a>
-          <a href="/de/fuehrungszeugnis-mit-apostille/" onclick="sessionStorage.setItem('lang_choice','de')"><svg class="lang-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>Deutsch</a>
-  </div></li>
       </ul>
       <button class="burger" id="burger" aria-label="Меню">
         <span></span>
@@ -632,13 +629,6 @@
         }
       });
     });
-  
-  // Close lang dropdown on outside click
-  document.addEventListener('click', function(e) {
-    document.querySelectorAll('.lang-dropdown.open').forEach(function(dd) {
-      if (!dd.contains(e.target)) dd.classList.remove('open');
-    });
-  });
   </script>
 
 </body>
