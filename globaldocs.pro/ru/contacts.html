@@ -15,7 +15,8 @@
   <link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/contacts.html">
   <link rel="alternate" hreflang="x-default" href="https://globaldocs.pro/en/contacts.html">
   <link rel="stylesheet" href="../style.css">
-  <link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.2/src/bold/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.2/src/fill/style.css">
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
   <style>
     .contacts-container {
@@ -223,7 +224,8 @@
   <section class="page-hero" style="padding: 100px 0 60px; background: var(--gray-50); text-align: center;">
     <div class="container">
       <h1>Контакты</h1>
-      <p style="max-width: 600px; margin: 20px auto 0; color: var(--gray-600);">Мы всегда на связи и готовы помочь вам с оформлением и доставкой документов из России.</p>
+      <p style="max-width: 600px; margin: 20px auto 0; color: var(--gray-600); font-size: 1.15rem;">Пишите нам в любое время, из любого часового пояса.</p>
+      <p style="max-width: 540px; margin: 8px auto 0; color: var(--gray-500); font-size: 0.95rem;">Мы оперативно ответим в рабочие часы по Москве.</p>
       <div class="hours-widget">
         <div>
           <div class="hours-label"><span>Москва (UTC+3)</span><strong>Ежедневно 09:00–19:00</strong></div>
@@ -331,7 +333,7 @@
       if(dot&&note){
         if(h>=9&&h<19){
           dot.className='hours-dot open';
-          note.textContent='Ответим в течение 2 часов';
+          note.textContent='Сейчас рабочее время — ответим оперативно';
         } else {
           dot.className='hours-dot closed';
           note.textContent='Напишите нам — ответим с начала рабочего дня';
