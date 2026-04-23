@@ -81,22 +81,6 @@
     ]
 }
   </script>
-  <!-- Google Analytics 4 — Consent Mode v2 (denied by default) -->
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag("consent","default",{
-      "ad_storage":"denied",
-      "analytics_storage":"denied",
-      "ad_user_data":"denied",
-      "ad_personalization":"denied"
-    });
-  </script>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-E5L2QE2D7M"></script>
-  <script>
-    gtag("js",new Date());
-    gtag("config","G-E5L2QE2D7M");
-  </script>
 </head>
 <body>
   <nav class="navbar">
@@ -158,14 +142,13 @@
         <li>Consent (for analytics, where applicable)</li>
       </ul>
 
-      <h2>5. Analytics and Cookies</h2>
-      <p>We use Google Analytics to understand how visitors use our website.</p>
+      <h2>5. Analytics</h2>
+      <p>We use Cloudflare Web Analytics to understand how visitors use our website. This service does not use cookies, does not track personal data and does not require visitor consent.</p>
       <ul>
-        <li>Analytics is disabled by default and activated only after your consent</li>
-        <li>Data is collected in anonymized form where possible</li>
+        <li>No cookies are placed on your device</li>
+        <li>No personal data (IP address, user agent, etc.) is collected or stored</li>
+        <li>All data is anonymized and aggregated</li>
       </ul>
-      <p>For more information about how Google uses your data, please visit <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google's Privacy Policy</a>.</p>
-      <p>You can control cookies through your browser settings.</p>
 
       <h2>6. Data Sharing</h2>
       <p>We do <strong>NOT</strong> sell your personal data.</p>
@@ -228,24 +211,6 @@
       <div class="footer-bottom">© 2026 GlobalDocs.pro. All rights reserved.</div>
     </div>
   </footer>
-
-  <!-- Cookie Consent -->
-  <div class="cookie-banner" id="cookieBanner">
-    <div class="container">
-      <p>We use analytics to improve this site. <a href="/en/privacy.html">Learn more</a></p>
-      <button class="cookie-btn-accept" id="cookieAccept">OK</button>
-    </div>
   </div>
-  <script>
-  (function(){
-    if(localStorage.getItem("cookie_consent"))return;
-    var b=document.getElementById("cookieBanner");if(b)b.classList.add("visible");
-    document.getElementById("cookieAccept").onclick=function(){
-      localStorage.setItem("cookie_consent","1");
-      gtag("consent","update",{"analytics_storage":"granted"});
-      b.classList.remove("visible");
-    };
-  })();
-  </script>
 </body>
 </html>

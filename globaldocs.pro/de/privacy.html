@@ -81,22 +81,6 @@
     ]
 }
   </script>
-  <!-- Google Analytics 4 — Consent Mode v2 (denied by default) -->
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag("consent","default",{
-      "ad_storage":"denied",
-      "analytics_storage":"denied",
-      "ad_user_data":"denied",
-      "ad_personalization":"denied"
-    });
-  </script>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-E5L2QE2D7M"></script>
-  <script>
-    gtag("js",new Date());
-    gtag("config","G-E5L2QE2D7M");
-  </script>
 </head>
 <body>
   <nav class="navbar">
@@ -158,14 +142,13 @@
         <li>Einwilligung (für Analysen, falls zutreffend)</li>
       </ul>
 
-      <h2>5. Analyse und Cookies</h2>
-      <p>Wir verwenden Google Analytics, um zu verstehen, wie Besucher unsere Website nutzen.</p>
+      <h2>5. Analyse</h2>
+      <p>Wir verwenden Cloudflare Web Analytics, um zu verstehen, wie Besucher unsere Website nutzen. Dieser Dienst verwendet keine Cookies, erfasst keine persönlichen Daten und erfordert keine Einwilligung der Besucher.</p>
       <ul>
-        <li>Analyse ist standardmäßig deaktiviert und wird erst nach Ihrer Einwilligung aktiviert</li>
-        <li>Daten werden nach Möglichkeit in anonymisierter Form erhoben</li>
+        <li>Es werden keine Cookies auf Ihrem Gerät platziert</li>
+        <li>Es werden keine persönlichen Daten (IP-Adresse, User-Agent usw.) erfasst oder gespeichert</li>
+        <li>Alle Daten sind anonymisiert und aggregiert</li>
       </ul>
-      <p>Weitere Informationen darüber, wie Google Ihre Daten verwendet, finden Sie in der <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Datenschutzerklärung von Google</a>.</p>
-      <p>Sie können Cookies über Ihre Browsereinstellungen verwalten.</p>
 
       <h2>6. Datenweitergabe</h2>
       <p>Wir verkaufen Ihre personenbezogenen Daten <strong>NICHT</strong>.</p>
@@ -229,24 +212,6 @@
       <div class="footer-bottom">© 2026 GlobalDocs.pro. All rights reserved.</div>
     </div>
   </footer>
-
-  <!-- Cookie Consent -->
-  <div class="cookie-banner" id="cookieBanner">
-    <div class="container">
-      <p>Wir nutzen Analytics zur Verbesserung der Website. <a href="/de/privacy.html">Mehr erfahren</a></p>
-      <button class="cookie-btn-accept" id="cookieAccept">OK</button>
-    </div>
   </div>
-  <script>
-  (function(){
-    if(localStorage.getItem("cookie_consent"))return;
-    var b=document.getElementById("cookieBanner");if(b)b.classList.add("visible");
-    document.getElementById("cookieAccept").onclick=function(){
-      localStorage.setItem("cookie_consent","1");
-      gtag("consent","update",{"analytics_storage":"granted"});
-      b.classList.remove("visible");
-    };
-  })();
-  </script>
 </body>
 </html>

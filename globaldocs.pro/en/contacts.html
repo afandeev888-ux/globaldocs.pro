@@ -197,22 +197,6 @@
     ]
 }
   </script>
-  <!-- Google Analytics 4 — Consent Mode v2 (denied by default) -->
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag("consent","default",{
-      "ad_storage":"denied",
-      "analytics_storage":"denied",
-      "ad_user_data":"denied",
-      "ad_personalization":"denied"
-    });
-  </script>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-E5L2QE2D7M"></script>
-  <script>
-    gtag("js",new Date());
-    gtag("config","G-E5L2QE2D7M");
-  </script>
 </head>
 <body>
 
@@ -332,51 +316,6 @@
     const navLinks = document.getElementById('navLinks');
     burger.addEventListener('click', () => { burger.classList.toggle('active'); navLinks.classList.toggle('active'); });
     navLinks.querySelectorAll('a').forEach(link => { link.addEventListener('click', () => { burger.classList.remove('active'); navLinks.classList.remove('active'); }); });
-  </script>
-
-  <script>
-  (function(){
-    function update(){
-      var now=new Date();
-      var utc=now.getTime()+now.getTimezoneOffset()*60000;
-      var msk=new Date(utc+3*3600000);
-      var h=msk.getHours(), m=msk.getMinutes();
-      var el=document.getElementById('moscowTime');
-      if(el) el.textContent=(h<10?'0':'')+h+':'+(m<10?'0':'')+m;
-      var dot=document.getElementById('hoursDot');
-      var note=document.getElementById('hoursNote');
-      if(dot&&note){
-        if(h>=9&&h<19){
-          dot.className='hours-dot open';
-          note.textContent='Business hours now — quick reply';
-        } else {
-          dot.className='hours-dot closed';
-          note.textContent='Leave a message — we\'ll reply at the start of business hours';
-        }
-      }
-    }
-    update();
-    setInterval(update,30000);
-  })();
-  </script>
-
-  <!-- Cookie Consent -->
-  <div class="cookie-banner" id="cookieBanner">
-    <div class="container">
-      <p>We use analytics to improve this site. <a href="/en/privacy.html">Learn more</a></p>
-      <button class="cookie-btn-accept" id="cookieAccept">OK</button>
-    </div>
-  </div>
-  <script>
-  (function(){
-    if(localStorage.getItem("cookie_consent"))return;
-    var b=document.getElementById("cookieBanner");if(b)b.classList.add("visible");
-    document.getElementById("cookieAccept").onclick=function(){
-      localStorage.setItem("cookie_consent","1");
-      gtag("consent","update",{"analytics_storage":"granted"});
-      b.classList.remove("visible");
-    };
-  })();
   </script>
 </body>
 

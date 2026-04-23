@@ -63,22 +63,6 @@
     "inLanguage": "ru"
 }
   </script>
-  <!-- Google Analytics 4 — Consent Mode v2 (denied by default) -->
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag("consent","default",{
-      "ad_storage":"denied",
-      "analytics_storage":"denied",
-      "ad_user_data":"denied",
-      "ad_personalization":"denied"
-    });
-  </script>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-E5L2QE2D7M"></script>
-  <script>
-    gtag("js",new Date());
-    gtag("config","G-E5L2QE2D7M");
-  </script>
 </head>
 <body>
 
@@ -359,25 +343,7 @@
     });
   })();
   </script>
-
-  <!-- Cookie Consent -->
-  <div class="cookie-banner" id="cookieBanner">
-    <div class="container">
-      <p>Мы используем аналитику для улучшения работы сайта. <a href="/ru/privacy.html">Подробнее</a></p>
-      <button class="cookie-btn-accept" id="cookieAccept">OK</button>
-    </div>
   </div>
-  <script>
-  (function(){
-    if(localStorage.getItem("cookie_consent"))return;
-    var b=document.getElementById("cookieBanner");if(b)b.classList.add("visible");
-    document.getElementById("cookieAccept").onclick=function(){
-      localStorage.setItem("cookie_consent","1");
-      gtag("consent","update",{"analytics_storage":"granted"});
-      b.classList.remove("visible");
-    };
-  })();
-  </script>
 </body>
 
 </html>
