@@ -200,6 +200,112 @@
     <priority>0.9</priority>
   </url>
 
+  <!-- ZAGS Document Retrieval -->
+  <url>
+    <loc>https://globaldocs.pro/en/zags-document-retrieval/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/zags-document-retrieval/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/ru/poluchenie-dokumentov-zags/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/zags-dokumentenbeschaffung/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://globaldocs.pro/ru/poluchenie-dokumentov-zags/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/zags-document-retrieval/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/ru/poluchenie-dokumentov-zags/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/zags-dokumentenbeschaffung/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://globaldocs.pro/de/zags-dokumentenbeschaffung/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/zags-document-retrieval/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/ru/poluchenie-dokumentov-zags/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/zags-dokumentenbeschaffung/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Legalization for Italy -->
+  <url>
+    <loc>https://globaldocs.pro/en/legalization-in-italy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/legalization-in-italy/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/ru/legalizaciya-dokumentov-v-italii/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/legalisierung-fuer-italien/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://globaldocs.pro/ru/legalizaciya-dokumentov-v-italii/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/legalization-in-italy/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/ru/legalizaciya-dokumentov-v-italii/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/legalisierung-fuer-italien/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://globaldocs.pro/de/legalisierung-fuer-italien/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/legalization-in-italy/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/ru/legalizaciya-dokumentov-v-italii/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/legalisierung-fuer-italien/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Legalization for Spain -->
+  <url>
+    <loc>https://globaldocs.pro/en/legalization-in-spain/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/legalization-in-spain/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/ru/legalizaciya-dokumentov-v-ispanii/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/legalisierung-fuer-spanien/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://globaldocs.pro/de/legalisierung-fuer-spanien/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/legalization-in-spain/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/ru/legalizaciya-dokumentov-v-ispanii/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/legalisierung-fuer-spanien/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Legalization for Israel -->
+  <url>
+    <loc>https://globaldocs.pro/en/legalization-in-israel/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/legalization-in-israel/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/ru/legalizaciya-dokumentov-v-izraile/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/legalisierung-fuer-israel/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://globaldocs.pro/de/legalisierung-fuer-israel/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/legalization-in-israel/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/ru/legalizaciya-dokumentov-v-izraile/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/legalisierung-fuer-israel/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Consular Legalization -->
+  <url>
+    <loc>https://globaldocs.pro/en/consular-legalization/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/consular-legalization/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/ru/konsulskaya-legalizaciya-dokumentov/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/konsularische-legalisation/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://globaldocs.pro/de/konsularische-legalisation/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/consular-legalization/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/ru/konsulskaya-legalizaciya-dokumentov/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/konsularische-legalisation/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
   <!-- Services Page -->
   <url>
     <loc>https://globaldocs.pro/en/services.html</loc>
