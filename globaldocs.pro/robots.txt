@@ -1,7 +1,0 @@
-User-agent: *
-Allow: /
-Disallow: /assets/private/
-Disallow: /temp/
-Disallow: /admin/
-
-Sitemap: https://globaldocs.pro/sitemap.xml

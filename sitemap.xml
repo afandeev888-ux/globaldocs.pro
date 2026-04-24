@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- Landing Pages -->
+  <url>
+    <loc>https://globaldocs.pro/en/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/ru/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://globaldocs.pro/"/>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://globaldocs.pro/ru/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/ru/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/"/>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://globaldocs.pro/de/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/ru/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/"/>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Documents from Russia to Germany -->
+  <url>
+    <loc>https://globaldocs.pro/en/documents-from-russia-to-germany/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/documents-from-russia-to-germany/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/ru/documents-from-russia-to-germany/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/documents-from-russia-to-germany/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://globaldocs.pro/ru/documents-from-russia-to-germany/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/documents-from-russia-to-germany/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/ru/documents-from-russia-to-germany/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/documents-from-russia-to-germany/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://globaldocs.pro/de/documents-from-russia-to-germany/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/documents-from-russia-to-germany/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/ru/documents-from-russia-to-germany/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/documents-from-russia-to-germany/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Documents from Russia to USA -->
+  <url>
+    <loc>https://globaldocs.pro/en/documents-from-russia-to-usa/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/documents-from-russia-to-usa/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/ru/documents-from-russia-to-usa/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/documents-from-russia-to-usa/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://globaldocs.pro/ru/documents-from-russia-to-usa/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/documents-from-russia-to-usa/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/ru/documents-from-russia-to-usa/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/documents-from-russia-to-usa/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://globaldocs.pro/de/documents-from-russia-to-usa/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/documents-from-russia-to-usa/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/ru/documents-from-russia-to-usa/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/documents-from-russia-to-usa/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Apostille -->
+  <url>
+    <loc>https://globaldocs.pro/en/apostille/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/apostille/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/ru/apostille/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/apostille/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://globaldocs.pro/ru/apostille/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/apostille/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/ru/apostille/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/apostille/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://globaldocs.pro/de/apostille/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/apostille/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/ru/apostille/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/apostille/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Legalization for Germany (RU/DE) -->
+  <url>
+    <loc>https://globaldocs.pro/ru/legalizaciya-dokumentov-v-germanii/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/documents-from-russia-to-germany/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/ru/legalizaciya-dokumentov-v-germanii/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/dokumentenlegalisierung-deutschland/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://globaldocs.pro/de/dokumentenlegalisierung-deutschland/</loc>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/dokumentenlegalisierung-deutschland/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/ru/legalizaciya-dokumentov-v-germanii/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Legalization for Spain (RU) -->
+  <url>
+    <loc>https://globaldocs.pro/ru/legalizaciya-dokumentov-v-ispanii/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/ru/legalizaciya-dokumentov-v-ispanii/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Legalization for Israel (RU) -->
+  <url>
+    <loc>https://globaldocs.pro/ru/legalizaciya-dokumentov-v-izraile/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/ru/legalizaciya-dokumentov-v-izraile/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Consular Legalization (RU) -->
+  <url>
+    <loc>https://globaldocs.pro/ru/konsulskaya-legalizaciya-dokumentov/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/ru/konsulskaya-legalizaciya-dokumentov/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Police Clearance Certificate (NEW) -->
+  <url>
+    <loc>https://globaldocs.pro/ru/spravka-ob-otsutstvii-sudimosti-s-apostilem/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/ru/spravka-ob-otsutstvii-sudimosti-s-apostilem/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/criminal-record-certificate-with-apostille/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/fuehrungszeugnis-mit-apostille/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://globaldocs.pro/en/criminal-record-certificate-with-apostille/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/ru/spravka-ob-otsutstvii-sudimosti-s-apostilem/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/criminal-record-certificate-with-apostille/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/fuehrungszeugnis-mit-apostille/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://globaldocs.pro/de/fuehrungszeugnis-mit-apostille/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/ru/spravka-ob-otsutstvii-sudimosti-s-apostilem/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/criminal-record-certificate-with-apostille/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/fuehrungszeugnis-mit-apostille/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Notarial Translation -->
+  <url>
+    <loc>https://globaldocs.pro/en/notarial-translation/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/notarial-translation/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/ru/notariy-nyy-perevod/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/notarielle-uebersetzung/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://globaldocs.pro/ru/notariy-nyy-perevod/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/notarial-translation/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/ru/notariy-nyy-perevod/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/notarielle-uebersetzung/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://globaldocs.pro/de/notarielle-uebersetzung/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/notarial-translation/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/ru/notariy-nyy-perevod/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/notarielle-uebersetzung/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- ZAGS Document Retrieval -->
+  <url>
+    <loc>https://globaldocs.pro/en/zags-document-retrieval/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/zags-document-retrieval/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/ru/poluchenie-dokumentov-zags/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/zags-dokumentenbeschaffung/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://globaldocs.pro/ru/poluchenie-dokumentov-zags/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/zags-document-retrieval/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/ru/poluchenie-dokumentov-zags/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/zags-dokumentenbeschaffung/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://globaldocs.pro/de/zags-dokumentenbeschaffung/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/zags-document-retrieval/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/ru/poluchenie-dokumentov-zags/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/zags-dokumentenbeschaffung/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Legalization for Italy -->
+  <url>
+    <loc>https://globaldocs.pro/en/legalization-in-italy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/legalization-in-italy/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/ru/legalizaciya-dokumentov-v-italii/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/legalisierung-fuer-italien/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://globaldocs.pro/ru/legalizaciya-dokumentov-v-italii/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/legalization-in-italy/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/ru/legalizaciya-dokumentov-v-italii/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/legalisierung-fuer-italien/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://globaldocs.pro/de/legalisierung-fuer-italien/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/legalization-in-italy/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/ru/legalizaciya-dokumentov-v-italii/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/legalisierung-fuer-italien/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Legalization for Spain -->
+  <url>
+    <loc>https://globaldocs.pro/en/legalization-in-spain/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/legalization-in-spain/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/ru/legalizaciya-dokumentov-v-ispanii/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/legalisierung-fuer-spanien/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://globaldocs.pro/de/legalisierung-fuer-spanien/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/legalization-in-spain/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/ru/legalizaciya-dokumentov-v-ispanii/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/legalisierung-fuer-spanien/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Legalization for Israel -->
+  <url>
+    <loc>https://globaldocs.pro/en/legalization-in-israel/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/legalization-in-israel/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/ru/legalizaciya-dokumentov-v-izraile/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/legalisierung-fuer-israel/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://globaldocs.pro/de/legalisierung-fuer-israel/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/legalization-in-israel/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/ru/legalizaciya-dokumentov-v-izraile/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/legalisierung-fuer-israel/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Consular Legalization -->
+  <url>
+    <loc>https://globaldocs.pro/en/consular-legalization/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/consular-legalization/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/ru/konsulskaya-legalizaciya-dokumentov/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/konsularische-legalisation/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://globaldocs.pro/de/konsularische-legalisation/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/consular-legalization/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/ru/konsulskaya-legalizaciya-dokumentov/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/konsularische-legalisation/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Services Page -->
+  <url>
+    <loc>https://globaldocs.pro/en/services.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/services.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/ru/services.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/services.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://globaldocs.pro/ru/services.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/services.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/ru/services.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/services.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://globaldocs.pro/de/services.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/services.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/ru/services.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/services.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Useful Links -->
+  <url>
+    <loc>https://globaldocs.pro/en/useful-links/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/useful-links/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/ru/useful-links/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/useful-links/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://globaldocs.pro/ru/useful-links/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/useful-links/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/ru/useful-links/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/useful-links/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://globaldocs.pro/de/useful-links/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/useful-links/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/ru/useful-links/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/useful-links/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Contact Pages -->
+  <url>
+    <loc>https://globaldocs.pro/en/contacts.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/contacts.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/ru/contacts.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/contacts.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://globaldocs.pro/ru/contacts.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/contacts.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/ru/contacts.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/contacts.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://globaldocs.pro/de/contacts.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/contacts.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/ru/contacts.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/contacts.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- FAQ Pages -->
+  <url>
+    <loc>https://globaldocs.pro/en/faq.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/ru/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/faq.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://globaldocs.pro/ru/faq.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/ru/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/faq.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://globaldocs.pro/de/faq.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/ru/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/faq.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Blog (Russian) -->
+  <url>
+    <loc>https://globaldocs.pro/ru/blog/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://globaldocs.pro/ru/blog/spisok-stran-gaagskoy-konvencii-2025/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://globaldocs.pro/ru/blog/kak-poluchit-spravku-ob-otsutstvii-sudimosti-iz-za-granicy/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://globaldocs.pro/ru/blog/elektronnyy-apostil-e-apostille-v-rossii/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://globaldocs.pro/ru/blog/novyy-zakon-o-legalizacii-dokumentov-2025/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+</urlset>
