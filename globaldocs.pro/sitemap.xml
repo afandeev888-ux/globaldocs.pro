@@ -365,4 +365,30 @@
     <priority>0.8</priority>
   </url>
 
+  <!-- FAQ Pages -->
+  <url>
+    <loc>https://globaldocs.pro/en/faq.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/ru/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/faq.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://globaldocs.pro/ru/faq.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/ru/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/faq.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://globaldocs.pro/de/faq.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/ru/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/faq.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
 </urlset>
