@@ -436,6 +436,110 @@
     <priority>0.9</priority>
   </url>
 
+  <!-- About Pages -->
+  <url>
+    <loc>https://globaldocs.pro/en/about.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/about.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/ru/about.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/about.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://globaldocs.pro/ru/about.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/about.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/ru/about.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/about.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://globaldocs.pro/de/about.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/about.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/ru/about.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/about.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Partners Pages -->
+  <url>
+    <loc>https://globaldocs.pro/en/partners.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/partners.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/ru/partners.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/partners.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://globaldocs.pro/ru/partners.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/partners.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/ru/partners.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/partners.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://globaldocs.pro/de/partners.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/partners.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/ru/partners.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/partners.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Privacy Pages -->
+  <url>
+    <loc>https://globaldocs.pro/en/privacy.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/ru/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/privacy.html"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://globaldocs.pro/ru/privacy.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/ru/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/privacy.html"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://globaldocs.pro/de/privacy.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/ru/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/privacy.html"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <!-- Disclaimer Pages -->
+  <url>
+    <loc>https://globaldocs.pro/en/disclaimer.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/disclaimer.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/ru/disclaimer.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/disclaimer.html"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://globaldocs.pro/ru/disclaimer.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/disclaimer.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/ru/disclaimer.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/disclaimer.html"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://globaldocs.pro/de/disclaimer.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/disclaimer.html"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/ru/disclaimer.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/disclaimer.html"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
   <!-- Blog (Russian) -->
   <url>
     <loc>https://globaldocs.pro/ru/blog/</loc>
