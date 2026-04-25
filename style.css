@@ -109,7 +109,7 @@ img {
 
 .nav-links a {
   padding: 8px 16px;
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   font-weight: 500;
   color: var(--gray-600);
   border-radius: var(--radius);
@@ -139,7 +139,7 @@ img {
 .lang-switcher .lang {
   position: relative;
   text-decoration: none;
-  font-size: 0.88rem;
+  font-size: 0.95rem;
   color: var(--gray-400);
   font-weight: 500;
   transition: color 0.2s ease;
@@ -258,7 +258,7 @@ img {
   border: 1px solid rgba(255,255,255,0.2);
   padding: 8px 20px;
   border-radius: 50px;
-  font-size: 0.85rem;
+  font-size: 0.95rem;
   font-weight: 500;
   margin-bottom: 24px;
 }
@@ -340,7 +340,7 @@ img {
 .hero-scroll-link {
   display: block;
   margin-top: 16px;
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   color: rgba(255, 255, 255, 0.7);
   text-decoration: none;
   transition: color 0.2s ease;
@@ -364,7 +364,7 @@ img {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  font-size: 0.875rem;
+  font-size: 0.95rem;
   color: rgba(255, 255, 255, 0.85);
   white-space: nowrap;
 }
@@ -524,7 +524,7 @@ img {
 }
 
 .service-card p {
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   color: var(--gray-500);
   line-height: 1.6;
 }
@@ -589,7 +589,7 @@ img {
 }
 
 .stat-item .label {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   color: var(--gray-500);
   font-weight: 500;
   margin-top: 4px;
@@ -633,7 +633,7 @@ img {
 }
 
 .step-card p {
-  font-size: 0.88rem;
+  font-size: 0.95rem;
   color: var(--gray-500);
   line-height: 1.6;
 }
@@ -847,7 +847,7 @@ img {
 }
 
 .contact-card p {
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   color: var(--gray-500);
   margin-bottom: 20px;
 }
@@ -899,7 +899,7 @@ img {
 }
 
 .footer-links a {
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   color: var(--gray-400);
   transition: var(--transition);
 }
@@ -912,7 +912,7 @@ img {
   border-top: 1px solid var(--gray-800);
   padding-top: 24px;
   text-align: center;
-  font-size: 0.85rem;
+  font-size: 0.95rem;
   color: var(--gray-500);
 }
 
