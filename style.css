@@ -1315,3 +1315,71 @@ img {
 .service-card-link:focus-visible h3 {
   color: var(--primary);
 }
+
+/* ========================================
+   LUCIDE SVG ICONS
+   ======================================== */
+.icon {
+  display: inline-block;
+  width: 1.25em;
+  height: 1.25em;
+  vertical-align: middle;
+}
+
+.icon svg {
+  width: 100%;
+  height: 100%;
+}
+
+/* Icon sizes */
+.service-card .icon svg,
+.advantage-card .icon svg {
+  width: 32px;
+  height: 32px;
+}
+
+.contact-card .icon svg {
+  width: 36px;
+  height: 36px;
+}
+
+.btn .icon svg {
+  width: 20px;
+  height: 20px;
+  margin-right: 4px;
+}
+
+.hero-cta-btn .icon svg {
+  width: 22px;
+  height: 22px;
+}
+
+.trust-item .icon svg {
+  width: 18px;
+  height: 18px;
+  color: #4ade80;
+}
+
+.lang-switcher .globe .icon svg {
+  width: 18px;
+  height: 18px;
+  color: var(--gray-400);
+}
+
+/* Filled icons */
+.icon svg[fill="currentColor"] {
+  fill: currentColor;
+}
+
+/* Globe icons with country colors */
+.service-card .icon svg[fill="currentColor"] {
+  width: 32px;
+  height: 32px;
+}
+
+/* Info box icons */
+.info-box-icon .icon svg {
+  width: 18px;
+  height: 18px;
+  vertical-align: middle;
+}
