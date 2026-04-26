@@ -247,6 +247,17 @@
   border-color: var(--primary-light);
 }
 
+/* Clickable doc-card links */
+a.doc-card {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+a.doc-card:hover h3 {
+  color: var(--primary);
+}
+
 .doc-card .icon {
   font-size: 2rem;
   margin-bottom: 14px;
