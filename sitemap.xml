@@ -450,6 +450,20 @@
     <priority>0.9</priority>
   </url>
 
+  <!-- Documents for Moldova -->
+  <url>
+    <loc>https://globaldocs.pro/ru/dokumenty-dlya-moldovy/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Documents for Georgia -->
+  <url>
+    <loc>https://globaldocs.pro/ru/dokumenty-dlya-gruzii/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
   <!-- About Pages -->
   <url>
     <loc>https://globaldocs.pro/en/about.html</loc>
