@@ -16,7 +16,6 @@
   <link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/useful-links/">
   <link rel="alternate" hreflang="x-default" href="https://globaldocs.pro/en/useful-links/">
   <link rel="stylesheet" href="../../style.css">
-  <link rel="stylesheet" href="/css/fontawesome/all.min.css">
   <link rel="stylesheet" href="../../page.css">
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
 
@@ -120,7 +119,266 @@
     <div class="container">
       <a href="/ru/" class="navbar-brand">Global Docs <span>Pro</span></a>
       <div class="lang-switcher">
-        <span class="globe"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+        <span class="globe"><i class="fa-solid fa-globe"></i></span>
+        <a href="/ru/" class="lang active" onclick="sessionStorage.setItem('lang_choice','ru')">RU</a>
+        <a href="/en/" class="lang" onclick="sessionStorage.setItem('lang_choice','en')">EN</a>
+        <a href="/de/" class="lang" onclick="sessionStorage.setItem('lang_choice','de')">DE</a>
+      </div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="/ru/#services">Услуги</a></li>
+        <li><a href="/ru/about.html">О нас</a></li>
+        <li><a href="/ru/#how">Как это работает</a></li>
+        <li><a href="/ru/contacts.html">Контакты</a></li>
+      </ul>
+      <button class="burger" id="burger" aria-label="Меню"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+
+  <!-- Page Hero -->
+  <section class="page-hero">
+    <div class="container">
+      <div class="breadcrumb">
+        <a href="/ru/">Главная</a> / Нормативные акты
+      </div>
+      <h1>Нормативные акты</h1>
+      <p>Официальные нормативные акты и правовые ресурсы, связанные с апостилем, консульской легализацией, нотариальным переводом и документами ЗАГС из России.</p>
+    </div>
+  </section>
+
+  <!-- Apostille -->
+  <section class="content-section">
+    <div class="container">
+      <div class="text-content">
+        <h2><span class="icon" style="color: #0D7377;"><i class="fa-solid fa-stamp"></i></span> Апостиль</h2>
+        <p>Система апостиля регулируется Гаагской конвенцией 1961 года, к которой Россия присоединилась и активно применяет. Ниже приведены ключевые правовые акты, определяющие порядок проставления апостилей на российских документах, компетентные органы и типы документов, подлежащих апостилированию.</p>
+
+        <div class="links-list">
+          <a href="https://www.hcch.net/en/instruments/conventions/full-text/?cid=41" target="_blank" rel="noopener" class="link-card">
+            <div class="link-card-icon"><i class="fa-solid fa-file-lines"></i></div>
+            <div class="link-card-content">
+              <h3>Гаагская конвенция от 5 октября 1961 года (полный текст)</h3>
+              <p>Основной международный договор, заложивший систему апостиля. Определяет, что такое апостиль, к каким документам он применяется и формат сертификата. На данный момент ратифицирована более чем 120 странами.</p>
+              <span class="link-card-source">hcch.net</span>
+            </div>
+            <div class="link-card-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+          </a>
+
+          <a href="http://pravo.gov.ru" target="_blank" rel="noopener" class="link-card">
+            <div class="link-card-icon"><span class="icon" ><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z M2 16l3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z M7 21h10 M12 3v18 M8 6l4-4 4 4"/></svg></span></div>
+            <div class="link-card-content">
+              <h3>Официальный интернет-портал правовой информации (pravo.gov.ru)</h3>
+              <p>Официальная база данных федеральных законов, указов Президента и постановлений Правительства Российской Федерации. Полезна для поиска конкретных нормативных актов, касающихся легализации документов, ЗАГС и нотариальных действий.</p>
+              <span class="link-card-source">pravo.gov.ru</span>
+            </div>
+            <div class="link-card-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+          </a>
+
+          <a href="https://www.hcch.net/en/instruments/conventions/status-table/?cid=41" target="_blank" rel="noopener" class="link-card">
+            <div class="link-card-icon"><i class="fa-solid fa-globe"></i></div>
+            <div class="link-card-content">
+              <h3>Конвенция об апостиле — таблица статусов (страны-участницы)</h3>
+              <p>Официальная таблица статусов, в которой указаны все страны, присоединившиеся к Гаагской конвенции 1961 года об апостиле. Если ваша страна назначения указана в списке — нужен апостиль. Если нет — потребуется консульская легализация через посольство.</p>
+              <span class="link-card-source">hcch.net</span>
+            </div>
+            <div class="link-card-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+          </a>
+        </div>
+
+        <div class="info-box">
+          <p><span class="icon info-box-icon" ><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 12m-9 0a9 9 0 1 0 18 0 9 9 0 1 0-18 0 M12 16v-4 M12 8h.01"/></svg></span> Россия является участницей Гаагской конвенции об апостиле с 1992 года. Компетентными органами по проставлению апостилей являются региональные органы ЗАГС (для документов актов гражданского состояния), Министерство юстиции, Министерство образования, Министерство внутренних дел и другие уполномоченные ведомства.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Notarized Translation -->
+  <section class="content-section" style="background: var(--gray-50);">
+    <div class="container">
+      <div class="text-content">
+        <h2><span class="icon" style="color: #0D7377;"><i class="fa-solid fa-language"></i></span> Нотариальный перевод</h2>
+        <p>Нотариальный перевод в России регулируется федеральным законодательством о нотариате. Нотариус не проверяет качество самого перевода, а удостоверяет личность и подпись переводчика, придавая документу юридическую силу. Ниже приведены основные правовые источники.</p>
+
+        <div class="links-list">
+          <a href="https://base.garant.ru/10102426" target="_blank" rel="noopener" class="link-card">
+            <div class="link-card-icon"><span class="icon" ><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z M2 16l3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z M7 21h10 M12 3v18 M8 6l4-4 4 4"/></svg></span></div>
+            <div class="link-card-content">
+              <h3>Федеральный закон № 4462-1 «Основы законодательства РФ о нотариате» (11 февраля 1993 г.)</h3>
+              <p>Основной закон, регулирующий всю нотариальную деятельность в России. Статьи 81–85 регулируют нотариальное удостоверение переводов, определяя порядок, требования к переводчику и роль нотариуса в процессе заверения.</p>
+              <span class="link-card-source">base.garant.ru</span>
+            </div>
+            <div class="link-card-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+          </a>
+
+          <a href="https://www.minjust.gov.ru" target="_blank" rel="noopener" class="link-card">
+            <div class="link-card-icon"><span class="icon" ><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2 M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2 M10 6h4 M10 10h4 M10 14h4 M10 18h4"/></svg></span></div>
+            <div class="link-card-content">
+              <h3>Министерство юстиции Российской Федерации</h3>
+              <p>Федеральный орган, осуществляющий надзор за нотариальной деятельностью в России. На сайте размещены нормативные обновления, справочники нотариусов и официальные разъяснения по вопросам легализации и удостоверения документов.</p>
+              <span class="link-card-source">minjust.gov.ru</span>
+            </div>
+            <div class="link-card-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+          </a>
+
+          <a href="https://www.notariat.ru" target="_blank" rel="noopener" class="link-card">
+            <div class="link-card-icon"><i class="fa-solid fa-stamp"></i></div>
+            <div class="link-card-content">
+              <h3>Федеральная нотариальная палата (notariat.ru)</h3>
+              <p>Официальный сайт Федеральной нотариальной палаты России. Содержит информацию о нотариальных услугах, тарифах, инструмент поиска нотариуса и практические руководства по нотариальному переводу и удостоверению документов.</p>
+              <span class="link-card-source">notariat.ru</span>
+            </div>
+            <div class="link-card-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+          </a>
+        </div>
+
+        <div class="info-box">
+          <p><span class="icon info-box-icon" ><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 12m-9 0a9 9 0 1 0 18 0 9 9 0 1 0-18 0 M12 16v-4 M12 8h.01"/></svg></span> Нотариальный перевод должен включать оригинальный текст и перевод, подпись переводчика и удостоверительную надпись нотариуса с печатью. Нотариус удостоверяет личность и подпись переводчика, но не несёт ответственности за точность самого перевода.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Civil Registry (ZAGS) -->
+  <section class="content-section">
+    <div class="container">
+      <div class="text-content">
+        <h2><span class="icon" style="color: #0D7377;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg></span> Документы ЗАГС</h2>
+        <p>Свидетельства о рождении, о браке, о разводе и другие документы актов гражданского состояния выдаются органами ЗАГС (Записи актов гражданского состояния). Порядок выдачи регулируется федеральным законом и рядом правительственных постановлений.</p>
+
+        <div class="links-list">
+          <a href="https://base.garant.ru/173972" target="_blank" rel="noopener" class="link-card">
+            <div class="link-card-icon"><span class="icon" ><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z M2 16l3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z M7 21h10 M12 3v18 M8 6l4-4 4 4"/></svg></span></div>
+            <div class="link-card-content">
+              <h3>Федеральный закон № 143-ФЗ «Об актах гражданского состояния» (15 ноября 1997 г.)</h3>
+              <p>Основной закон, регулирующий порядок выдачи, внесения изменений и хранения документов актов гражданского состояния в России. Охватывает записи о рождении, браке, разводе, смерти, смене имени и усыновлении. Определяет, кто имеет право запрашивать документы и необходимые процедуры.</p>
+              <span class="link-card-source">base.garant.ru</span>
+            </div>
+            <div class="link-card-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+          </a>
+
+          <a href="https://www.gosuslugi.ru" target="_blank" rel="noopener" class="link-card">
+            <div class="link-card-icon"><span class="icon" ><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V5z M8 21h8 M12 17v4"/></svg></span></div>
+            <div class="link-card-content">
+              <h3>Госуслуги — Единый портал государственных услуг</h3>
+              <p>Единый портал государственных услуг, где граждане России могут заказать повторные документы ЗАГС, апостили, справки об отсутствии судимости и другие официальные документы онлайн. Полезный ресурс даже для тех, кто подаёт заявку из-за рубежа.</p>
+              <span class="link-card-source">gosuslugi.ru</span>
+            </div>
+            <div class="link-card-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+          </a>
+
+          <a href="https://mvd.ru" target="_blank" rel="noopener" class="link-card">
+            <div class="link-card-icon"><span class="icon" ><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 7a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V7z M9 11a2 2 0 1 0 0-4 2 2 0 0 0 0 4z M15 10h4 M15 14h2"/></svg></span></div>
+            <div class="link-card-content">
+              <h3>Министерство внутренних дел (МВД) — Справка о несудимости</h3>
+              <p>МВД является уполномоченным органом по выдаче справок об отсутствии судимости. На сайте представлена информация о порядке оформления справки, сроках обработки и проставлении апостиля.</p>
+              <span class="link-card-source">mvd.ru</span>
+            </div>
+            <div class="link-card-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+          </a>
+        </div>
+
+        <div class="info-box">
+          <p><span class="icon info-box-icon" ><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 12m-9 0a9 9 0 1 0 18 0 9 9 0 1 0-18 0 M12 16v-4 M12 8h.01"/></svg></span> Повторные документы ЗАГС (повторные свидетельства) могут быть получены самим лицом, его законным представителем или по нотариально удостоверенной доверенности. Срок оформления составляет от 5 до 30 рабочих дней в зависимости от региона и типа документа.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Consular Legalization -->
+  <section class="content-section" style="background: var(--gray-50);">
+    <div class="container">
+      <div class="text-content">
+        <h2><span class="icon" style="color: #0D7377;"><i class="fa-solid fa-stamp"></i></span> Консульская легализация</h2>
+        <p>Для документов, предназначенных для стран, не являющихся участницами Гаагской конвенции об апостиле, требуется консульская легализация. Это более сложная многоступенчатая процедура, включающая несколько российских ведомств и посольство страны назначения.</p>
+
+        <div class="links-list">
+          <a href="https://www.mid.ru" target="_blank" rel="noopener" class="link-card">
+            <div class="link-card-icon"><span class="icon" ><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z M4 22v-7"/></svg></span></div>
+            <div class="link-card-content">
+              <h3>Министерство иностранных дел (МИД) России</h3>
+              <p>Российский МИД участвует в процессе консульской легализации. На сайте размещена информация о требованиях к легализации, перечень стран, требующих консульскую легализацию, и практические рекомендации для заявителей.</p>
+              <span class="link-card-source">mid.ru</span>
+            </div>
+            <div class="link-card-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+          </a>
+
+          <a href="https://www.hcch.net/en/instruments/conventions/status-table/?cid=41" target="_blank" rel="noopener" class="link-card">
+            <div class="link-card-icon"><span class="icon" ><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 6h11 M11 12h10 M11 18h10 M4 6h.01 M4 12h.01 M4 18h.01"/></svg></span></div>
+            <div class="link-card-content">
+              <h3>Страны, не участвующие в Гаагской конвенции (требующие легализацию)</h3>
+              <p>Такие страны, как ОАЭ, Саудовская Аравия, Катар, Кувейт, Китай и некоторые другие, не являются участницами Гаагской конвенции. Документы для этих стран проходят полную цепочку консульской легализации вместо упрощённой процедуры апостиля.</p>
+              <span class="link-card-source">hcch.net</span>
+            </div>
+            <div class="link-card-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+          </a>
+        </div>
+
+        <div class="info-box">
+          <p><span class="icon info-box-icon" ><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 12m-9 0a9 9 0 1 0 18 0 9 9 0 1 0-18 0 M12 16v-4 M12 8h.01"/></svg></span> Процесс консульской легализации в России, как правило, включает: (1) нотариальное удостоверение или сертификацию органом, выдавшим документ, (2) легализацию в региональном Министерстве юстиции, (3) легализацию в Консульском департаменте МИД, и (4) заверение в посольстве страны назначения. Мы выполняем все этапы от вашего имени.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div style="max-width: 800px; margin: 0 auto; padding: 20px;">
+    <div class="info-box" style="margin-top: 0; margin-bottom: 0;">
+      <p><span class="icon info-box-icon" style="color: #f59e0b;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 12m-9 0a9 9 0 1 0 18 0 9 9 0 1 0-18 0 M12 8v4 M12 16h.01"/></svg></span> <strong>Обратите внимание:</strong> некоторые российские государственные сайты (pravo.gov.ru, minjust.gov.ru, gosuslugi.ru, mvd.ru) могут быть медленными или недоступными за пределами России из-за технических ограничений. Если вы не можете открыть ссылку, свяжитесь с нами — мы предоставим вам нужную правовую информацию напрямую.</p>
+    </div>
+  </div>
+
+  <!-- FAQ -->
+  <section class="faq-section">
+    <div class="container">
+      <div class="section-header" style="text-align: center; margin-bottom: 40px;">
+        <h2>Часто задаваемые вопросы</h2>
+        <p>Популярные вопросы о легализации документов и правовой базе.</p>
+      </div>
+      <div class="faq-list">
+        <div class="faq-item">
+          <div class="faq-question" onclick="this.parentElement.classList.toggle('active')">
+            Что такое Гаагская конвенция об апостиле?
+            <span class="arrow"><span class="icon" ><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></span></span>
+          </div>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              Гаагская конвенция от 5 октября 1961 года, отменяющая требование легализации иностранных официальных документов — это международный договор, упрощающий процедуру удостоверения подлинности официальных документов для использования за рубежом. Вместо многоступенчатой консульской легализации достаточно проставить единый сертификат апостиля для стран-участниц конвенции. В настоящее время более 120 стран являются участниками, включая США, все государства ЕС, Великобританию, Австралию, Канаду и Израиль.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question" onclick="this.parentElement.classList.toggle('active')">
+            Какие страны принимают апостиль?
+            <span class="arrow"><span class="icon" ><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></span></span>
+          </div>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              Более 120 стран являются участниками Гаагской конвенции 1961 года об апостиле, включая США, все страны ЕС, Великобританию, Австралию, Канаду, Израиль, Японию, Бразилию, Индию и многие другие. Для стран, не участвующих в конвенции (например, некоторые страны Ближнего Востока и Азии), требуется консульская легализация через посольство. Полный список доступен на сайте Гаагской конференции (hcch.net).
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <div class="faq-question" onclick="this.parentElement.classList.toggle('active')">
+            В чём разница между нотариальным и обычным переводом?
+            <span class="arrow"><span class="icon" ><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"/></svg></span></span>
+          </div>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              Нотариальный перевод заверяется российским нотариусом, который подтверждает личность и подпись переводчика. Это придаёт переводу юридическую силу — он принимается государственными органами, судами и консульствами. Обычный перевод не имеет юридического удостоверения и, как правило, не принимается для официальных целей. Для иммиграции, поступления в университет, судебных разбирательств или подачи в государственные органы почти всегда требуется нотариальный перевод.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section">
+    <div class="container">
+      <h2>Нужна помощь с легализацией документов?</h2>
+      <p>Свяжитесь с нами и получите бесплатную консультацию. Мы занимаемся апостилем, консульской легализацией, переводом и доставкой ваших документов из России.</p>
+      <div class="cta-buttons">
+        <a href="https://wa.me/79518994988" target="_blank" class="btn btn-whatsapp"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
       </div>
     </div>
   </section>
