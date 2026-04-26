@@ -784,26 +784,6 @@ img {
 /* ========================================
    CTA SECTION
    ======================================== */
-.cta-section {
-  background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
-  color: var(--white);
-  padding: 80px 0;
-  text-align: center;
-}
-
-.cta-section h2 {
-  font-size: 2.25rem;
-  font-weight: 700;
-  margin-bottom: 16px;
-}
-
-.cta-section p {
-  font-size: 1.1rem;
-  opacity: 0.9;
-  max-width: 600px;
-  margin: 0 auto 32px;
-}
-
 .cta-buttons {
   display: flex;
   gap: 16px;
@@ -1262,15 +1242,22 @@ img {
   border-radius: 28px;
   padding: 56px 48px;
   box-shadow: 0 24px 60px rgba(15, 23, 42, 0.22);
+  text-align: center;
 }
 
 .cta-section h2 {
   color: var(--gray-900);
+  font-size: 2.25rem;
+  font-weight: 700;
+  margin-bottom: 16px;
 }
 
 .cta-section p {
   color: var(--gray-600);
   opacity: 1;
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin: 0 auto 32px;
 }
 
 @media (max-width: 768px) {
