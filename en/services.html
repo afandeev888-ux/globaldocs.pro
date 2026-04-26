@@ -284,7 +284,221 @@
     <div class="container">
       <a href="/en/" class="navbar-brand">Global Docs <span>Pro</span></a>
       <div class="lang-switcher">
-  <span class="globe"><i class="fa-brands fa-whatsapp"></i> Write on WhatsApp</a><div class="sub-text">&#9889; Reply within 2 hours</div>';
+  <span class="globe"><i class="fa-solid fa-globe"></i></span>
+  <a href="/ru/" class="lang" onclick="sessionStorage.setItem('lang_choice','ru')">RU</a>
+  <a href="/en/" class="lang active" onclick="sessionStorage.setItem('lang_choice','en')">EN</a>
+  <a href="/de/" class="lang" onclick="sessionStorage.setItem('lang_choice','de')">DE</a>
+</div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="/en/" class="active">Home</a></li>
+        <li><a href="/en/services.html">Services</a></li>
+        <li><a href="/en/about.html">About</a></li>
+        <li><a href="/en/contacts.html">Contact</a></li>
+      </ul>
+      <button class="burger" id="burger" aria-label="Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- PAGE HEADER + CTA -->
+  <section class="page-header">
+    <div class="container">
+      <div class="breadcrumb">
+        <a href="/en/">Home</a> / Services
+      </div>
+      <h1>Our Services</h1>
+      <p class="page-desc">Everything you need to get your Russian documents legalized, translated and delivered to any country.</p>
+      <div class="compact-cta">
+        <a href="https://wa.me/79518994988?text=Hi%20Global%20Docs%20Pro!%20I%20need%20help%20with%20documents%20from%20Russia." target="_blank" class="hero-cta-btn">
+          <i class="fa-solid fa-comments"></i> Get Pricing
+        </a>
+        <span class="cta-note"><i class="fa-solid fa-circle-check"></i> Free consultation</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- CORE SERVICES -->
+  <section class="services-section">
+    <div class="container">
+      <span class="category-label">Core Services</span>
+      <h2 class="section-title">Document Legalization &amp; Certification</h2>
+      <div class="services-grid">
+
+        <a href="/en/apostille/" class="service-link-card">
+          <div class="card-icon"><i class="fa-solid fa-stamp"></i></div>
+          <h3>Apostille</h3>
+          <p class="card-desc">Official apostille certification for Russian documents. Accepted in 120+ Hague Convention countries.</p>
+          <span class="card-arrow">Learn more <i class="fa-solid fa-arrow-right"></i></span>
+        </a>
+
+        <a href="/en/notarial-translation/" class="service-link-card">
+          <div class="card-icon green"><i class="fa-solid fa-language"></i></div>
+          <h3>Notarial Translation</h3>
+          <p class="card-desc">Certified translation with notary authentication. 30+ languages. Essential for immigration and legal matters.</p>
+          <span class="card-arrow">Learn more <i class="fa-solid fa-arrow-right"></i></span>
+        </a>
+
+        <a href="/en/consular-legalization/" class="service-link-card">
+          <div class="card-icon orange"><i class="fa-solid fa-stamp"></i></div>
+          <h3>Consular Legalization</h3>
+          <p class="card-desc">Full consular legalization for non-Hague countries: UAE, China, Qatar, Canada and others.</p>
+          <span class="card-arrow">Learn more <i class="fa-solid fa-arrow-right"></i></span>
+        </a>
+
+        <a href="/en/criminal-record-certificate-with-apostille/" class="service-link-card">
+          <div class="card-icon purple"><i class="fa-solid fa-shield-halved"></i></div>
+          <h3>Police Clearance Certificate</h3>
+          <p class="card-desc">Obtain a police clearance certificate from the Russian MIA, apostille it and deliver it to you.</p>
+          <span class="card-arrow">Learn more <i class="fa-solid fa-arrow-right"></i></span>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- DOCUMENT RETRIEVAL & SUPPORT -->
+  <section class="services-section">
+    <div class="container">
+      <span class="category-label green">Support Services</span>
+      <h2 class="section-title">Document Retrieval &amp; Preparation</h2>
+      <div class="services-grid">
+
+        <a href="/en/zags-document-retrieval/" class="service-link-card">
+          <div class="card-icon green"><i class="fa-solid fa-file-lines"></i></div>
+          <h3>Document Retrieval from ZAGS</h3>
+          <p class="card-desc">Birth, marriage, divorce certificates and other ZAGS documents obtained on your behalf.</p>
+          <span class="card-arrow">Learn more <i class="fa-solid fa-arrow-right"></i></span>
+        </a>
+
+        <a href="/en/notarial-translation/" class="service-link-card">
+          <div class="card-icon"><i class="fa-solid fa-copy"></i></div>
+          <h3>Notary Copies &amp; Certified Translations</h3>
+          <p class="card-desc">Notarized copies and certified translations meeting the legal requirements of the receiving country.</p>
+          <span class="card-arrow">Learn more <i class="fa-solid fa-arrow-right"></i></span>
+        </a>
+
+        <a href="/en/#contact" class="service-link-card">
+          <div class="card-icon orange"><i class="fa-solid fa-truck-fast"></i></div>
+          <h3>International Delivery</h3>
+          <p class="card-desc">Secure and trackable delivery of original documents to any country with full insurance.</p>
+          <span class="card-arrow">Learn more <i class="fa-solid fa-arrow-right"></i></span>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- COUNTRY-SPECIFIC SERVICES -->
+  <section class="services-section">
+    <div class="container">
+      <span class="category-label orange">By Destination Country</span>
+      <h2 class="section-title">Complete Packages for Specific Countries</h2>
+      <div class="services-grid">
+
+        <a href="/en/documents-from-russia-to-germany/" class="service-link-card">
+          <div class="card-icon red"><span style="font-size:1.3rem;">🇩🇪</span></div>
+          <h3>Documents for Germany</h3>
+          <p class="card-desc">Apostille, sworn German translation and delivery for Ausländerbehörde, Standesamt.</p>
+          <span class="card-arrow">Learn more <i class="fa-solid fa-arrow-right"></i></span>
+        </a>
+
+        <a href="/en/documents-from-russia-to-usa/" class="service-link-card">
+          <div class="card-icon"><span style="font-size:1.3rem;">🇺🇸</span></div>
+          <h3>Documents for USA</h3>
+          <p class="card-desc">Apostille, certified English translation and delivery for USCIS, NVC, immigration petitions.</p>
+          <span class="card-arrow">Learn more <i class="fa-solid fa-arrow-right"></i></span>
+        </a>
+
+        <a href="/en/legalization-in-israel/" class="service-link-card">
+          <div class="card-icon" style="background:#eff6ff;"><span style="font-size:1.3rem;">🇮🇱</span></div>
+          <h3>Documents for Israel</h3>
+          <p class="card-desc">Apostille, Hebrew translation and delivery for Misrad Hapnim, Misrad Hachinuch.</p>
+          <span class="card-arrow">Learn more <i class="fa-solid fa-arrow-right"></i></span>
+        </a>
+
+        <a href="/en/legalization-in-spain/" class="service-link-card">
+          <div class="card-icon orange"><span style="font-size:1.3rem;">🇪🇸</span></div>
+          <h3>Documents for Spain</h3>
+          <p class="card-desc">Apostille, Spanish translation and delivery for immigration, residency and education.</p>
+          <span class="card-arrow">Learn more <i class="fa-solid fa-arrow-right"></i></span>
+        </a>
+
+        <a href="/en/legalization-in-germany/" class="service-link-card">
+          <div class="card-icon red"><span style="font-size:1.3rem;">🇩🇪</span></div>
+          <h3>Legalization for Germany</h3>
+          <p class="card-desc">Complete legalization: apostille, sworn translator translation and delivery to Germany.</p>
+          <span class="card-arrow">Learn more <i class="fa-solid fa-arrow-right"></i></span>
+        </a>
+
+        <a href="/en/legalization-in-italy/" class="service-link-card">
+          <div class="card-icon green"><span style="font-size:1.3rem;">🇮🇹</span></div>
+          <h3>Documents for Italy</h3>
+          <p class="card-desc">Apostille, sworn translation into Italian and delivery for Permesso di Soggiorno, Dichiarazione di Valore.</p>
+          <span class="card-arrow">Learn more <i class="fa-solid fa-arrow-right"></i></span>
+        </a>
+
+        <a href="/en/documents-for-cis-countries/" class="service-link-card">
+          <div class="card-icon" style="background:#f3f4f6;"><i class="fa-solid fa-globe"></i></div>
+          <h3>Documents for CIS Countries</h3>
+          <p class="card-desc">Document delivery to Kazakhstan, Belarus, Uzbekistan, Kyrgyzstan, Armenia and other CIS countries.</p>
+          <span class="card-arrow">Learn more <i class="fa-solid fa-arrow-right"></i></span>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- BOTTOM NOTE -->
+  <div class="bottom-note">
+    Not sure which service you need? <a href="https://wa.me/79518994988?text=Hi%20Global%20Docs%20Pro!%20I%20need%20help%20with%20documents%20from%20Russia." target="_blank">Contact us on WhatsApp</a> — we'll advise you for free.
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div>
+          <div class="footer-brand">Global Docs <span>Pro</span></div>
+          <p class="footer-tagline">Document delivery from Russia to anywhere in the world. Fast, reliable, affordable.</p>
+        </div>
+        <div class="footer-links">
+          <a href="/en/services.html">Services</a>
+          <a href="/en/about.html">About</a>
+          <a href="/en/useful-links/">Regulatory Acts</a>
+          <a href="/en/contacts.html">Contact</a>
+          <a href="/en/privacy.html">Privacy Policy</a>
+          <a href="/en/disclaimer.html">Terms &amp; Disclaimer</a>
+        </div>
+      </div>
+      <div class="footer-bottom">&copy; 2015–2026 GlobalDocs.pro. All rights reserved.</div>
+    </div>
+  </footer>
+
+  <!-- Mobile menu toggle -->
+  <script>
+    const burger = document.getElementById('burger');
+    const navLinks = document.getElementById('navLinks');
+    burger.addEventListener('click', () => {
+      burger.classList.toggle('active');
+      navLinks.classList.toggle('active');
+    });
+    navLinks.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        burger.classList.remove('active');
+        navLinks.classList.remove('active');
+      });
+    });
+  </script>
+
+  <!-- Mobile sticky WhatsApp bar -->
+  <script>
+  (function() {
+    var bar = document.createElement('div');
+    bar.className = 'mobile-sticky-bar';
+    bar.innerHTML = '<a href="https://wa.me/79518994988?text=Hi%20Global%20Docs%20Pro!%20I%20need%20help%20with%20documents%20from%20Russia." target="_blank"><i class="fa-brands fa-whatsapp"></i> Write on WhatsApp</a><div class="sub-text">⚡ Reply within 2 hours</div>';
     document.body.appendChild(bar);
 
     var shown = false;

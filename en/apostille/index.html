@@ -17,7 +17,6 @@
   <link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/apostille/">
   <link rel="alternate" hreflang="x-default" href="https://globaldocs.pro/en/apostille/">
   <link rel="stylesheet" href="../../style.css">
-  <link rel="stylesheet" href="/css/fontawesome/all.min.css">
   <link rel="stylesheet" href="../../page.css">
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
 
@@ -193,8 +192,151 @@
     <div class="container">
       <a href="/" class="navbar-brand">Global Docs <span>Pro</span></a>
 <div class="lang-switcher">
-  <span class="globe"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
-            <a href="https://t.me/rafael818" target="_blank" class="btn btn-telegram"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+  <span class="globe"><i class="fa-solid fa-globe"></i></span>
+  <a href="/ru/" class="lang" onclick="sessionStorage.setItem('lang_choice','ru')">RU</a>
+  <a href="/en/" class="lang active" onclick="sessionStorage.setItem('lang_choice','en')">EN</a>
+  <a href="/de/" class="lang" onclick="sessionStorage.setItem('lang_choice','de')">DE</a>
+</div>
+<ul class="nav-links" id="navLinks">
+        <li><a href="/">Home</a></li>
+        <li><a href="/#services">Services</a></li>
+        <li><a href="/en/about.html">About</a></li>
+        <li><a href="/#partners">Partners</a></li>
+        <li><a href="/#contact">Contact</a></li>
+      </ul>
+      <button class="burger" id="burger" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+
+  <section class="page-hero">
+    <div class="container">
+      <div class="breadcrumb"><a href="/">Home</a> / Apostille Services</div>
+      <h1>Apostille on Russian Documents</h1>
+      <p>We arrange apostille certification on any Russian document — birth certificates, diplomas, court decisions, powers of attorney and more. Fast processing from our Moscow office. Contact us for a free quote and individual timeline assessment.</p>
+      <div class="hero-buttons">
+        <a href="https://wa.me/79518994988" target="_blank" class="btn btn-whatsapp"><i class="fa-brands fa-whatsapp"></i> Get a Free Quote</a>
+        <a href="https://t.me/rafael818" target="_blank" class="btn btn-telegram"><i class="fa-brands fa-telegram"></i> Telegram</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="content-section">
+    <div class="container">
+      <div class="content-two-col">
+        <div class="text-content">
+
+          <h2>What Is an Apostille?</h2>
+          <p>An apostille is a standardized form of authentication issued under the 1961 Hague Convention Abolishing the Requirement of Legalisation for Foreign Public Documents. In simple terms, an apostille is a certificate that is attached to your document and confirms that the document is genuine — it verifies the authority of the official who signed it and the authenticity of their seal or stamp. With an apostille, your Russian document becomes legally valid in any country that is a member of the Hague Convention, which includes over 120 countries worldwide, such as the United States, Germany, United Kingdom, Australia, Canada, Israel, Japan, South Korea, India, Brazil and most European nations.</p>
+          <p>Before the apostille system existed, you would have to go through a lengthy and expensive process of consular legalization — getting your document certified by multiple government agencies and the embassy of the destination country. The apostille was created to simplify this process into a single certification. Once your document has an apostille, it can be used directly in any Hague Convention country without any further legalization.</p>
+          <p>It is important to understand that an apostille does not verify the content of your document — it only confirms that the signature, seal and stamp on the document are authentic. If you need the content translated, you will also need a certified translation. Global Docs Pro provides both services.</p>
+
+          <div class="info-box">
+            <p><span class="info-box-icon">📋</span> <strong>Hague Convention members:</strong> Over 120 countries accept apostilles, including USA, Germany, UK, Canada, Australia, Israel, Japan, South Korea, India, Brazil, South Africa, China and virtually all of Europe. <strong>Russia and the USA are both members.</strong></p>
+          </div>
+
+          <h2>Which Russian Documents Need an Apostille?</h2>
+          <p>Almost any official Russian document may need an apostille if it is to be used abroad. Below is a detailed list of the document categories we handle.</p>
+
+          <div class="doc-cards-grid">
+            <div class="doc-card"><div class="icon">📋</div><h3>Civil Registry Documents (ZAGS)</h3><p>Birth certificates, marriage certificates, death certificates, divorce certificates, change of name certificates. Apostille issued by regional ZAGS authorities or Ministry of Justice.</p></div>
+            <div class="doc-card"><div class="icon">🎓</div><h3>Educational Documents</h3><p>School diplomas, university degrees, academic transcripts, certificates of advanced training, PhD certificates. Apostille issued by regional education departments or Ministry of Education.</p></div>
+            <div class="doc-card"><div class="icon"><span class="icon" ><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z M2 16l3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z M7 21h10 M12 3v18 M8 6l4-4 4 4"/></svg></span></div><h3>Court Documents</h3><p>Court decisions, court orders, writs of execution, certificates from courts. Apostille issued by the regional court.</p></div>
+            <div class="doc-card"><div class="icon">📝</div><h3>Notarized Documents</h3><p>Powers of attorney, notarized copies, consent letters, declarations, agreements. Apostille issued by the regional Chamber of Notaries or Ministry of Justice.</p></div>
+            <div class="doc-card"><div class="icon">🏢</div><h3>Corporate & Commercial</h3><p>Articles of incorporation, extracts from the trade register (EGRUL/EGRIP), founding documents, audit reports. Apostille issued by the Federal Tax Service (FNS).</p></div>
+            <div class="doc-card"><div class="icon">🔒</div><h3>Police & Medical</h3><p>Police clearance certificates, certificates of no criminal record, medical certificates, vaccination records. Apostille issued by the issuing authority or Ministry of Justice.</p></div>
+          </div>
+
+          <h2>Which Authority Issues the Apostille?</h2>
+          <p>One of the most common mistakes people make is trying to get an apostille from the wrong authority. In Russia, different types of documents are apostilled by different government agencies. Submitting your document to the wrong authority will result in a rejection and wasted time. Our team knows exactly which authority handles each document type, which saves you weeks of frustration.</p>
+          <p>Civil registry documents (birth, marriage, death certificates) are apostilled by the regional ZAGS authority or the regional Ministry of Justice. Educational documents receive apostilles from the regional Department of Education and Science or the Ministry of Education in Moscow. Court decisions are apostilled by the president of the court that issued the document. Notarized documents are apostilled by the regional Chamber of Notaries. Commercial documents and EGRUL/EGRIP extracts are apostilled by the Federal Tax Service (FNS Russia). Police clearance certificates may be apostilled by the Ministry of Internal Affairs or the Ministry of Justice.</p>
+
+          <h2>How to Get an Apostille from Russia</h2>
+          <div class="timeline">
+            <div class="timeline-item"><div class="timeline-dot"></div><h3>1. Send Us Your Request</h3><p>Contact us via WhatsApp or Telegram and tell us which document needs an apostille. Send us a clear photo or scan. We will identify the correct issuing authority and provide a price quote. In most cases, you do not need to send us the physical document.</p></div>
+            <div class="timeline-item"><div class="timeline-dot"></div><h3>2. We Submit to the Authority</h3><p>We prepare the application and submit your document to the correct apostille authority. If your document requires a new original first (e.g., from ZAGS), we handle that too. You do not need to be in Russia.</p></div>
+            <div class="timeline-item"><div class="timeline-dot"></div><h3>3. Apostille is Issued</h3><p>The competent authority processes your application and attaches the apostille certificate. We verify that the apostille is correctly filled out and properly stamped. Processing time depends on the document type and authority.</p></div>
+            <div class="timeline-item"><div class="timeline-dot"></div><h3>4. Delivery to You</h3><p>We send you photos of the apostilled document for confirmation. Once approved, we ship the original to your address anywhere in the world via insured courier with full tracking.</p></div>
+          </div>
+
+          <h2>Apostille Processing and Prices</h2>
+          <p>The processing time depends on the type of document, the region in Russia where it was issued, and the current workload of the competent authority. We always provide an individual estimate after reviewing your request.</p>
+          <p>Our pricing is transparent — you receive a full cost breakdown before we start. The price depends on the document type, the issuing authority and whether you need express processing. There are no hidden fees. Contact us via WhatsApp or Telegram and we will provide your personalized quote.</p>
+
+          <h2>Why Choose Global Docs Pro for Your Apostille</h2>
+          <ul class="checklist">
+            <li>Over 9 years of experience with apostille services in Russia</li>
+            <li>We know exactly which authority handles each document type — no rejections</li>
+            <li>Over 300 documents processed every month for clients in 30+ countries</li>
+            <li>Express processing available when needed</li>
+            <li>Transparent pricing with no hidden fees</li>
+            <li>Personal support in English, Russian and German</li>
+            <li>Worldwide delivery with full tracking and insurance</li>
+            <li>We can also provide certified translations alongside the apostille</li>
+          </ul>
+
+          <h2>Apostille for Immigration Purposes</h2>
+          <p>One of the most common reasons our clients need an apostille is for immigration. For US immigration (USCIS, NVC), an apostille is not strictly required but highly recommended. For German authorities (Ausländerbehörde, Standesamt), an apostille is mandatory for civil registry documents. For UK authorities (Home Office, UK Visas and Immigration), an apostille is typically required along with a certified translation. Regardless of your destination country, having an apostille ensures your documents will be accepted without issues.</p>
+
+        </div>
+
+        <aside class="sidebar">
+          <div class="sidebar-card">
+            <h3>Get Your Apostille Now</h3>
+            <a href="https://wa.me/79518994988" target="_blank" class="btn btn-whatsapp"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+            <a href="https://t.me/rafael818" target="_blank" class="btn btn-telegram"><i class="fa-brands fa-telegram"></i> Telegram</a>
+            <ul class="sidebar-features">
+              <li>Free consultation</li>
+              <li>No obligation</li>
+              <li>Personal approach to each case</li>
+            </ul>
+          </div>
+          <div class="sidebar-card">
+            <h3>Individual Assessment</h3>
+            <ul class="sidebar-features">
+              <li>Processing time depends on document type and region</li>
+              <li>We provide an estimate after reviewing your request</li>
+              <li>Express processing available when possible</li>
+              <li>Insured international delivery</li>
+            </ul>
+          </div>
+          <div class="sidebar-card">
+            <h3>Popular Destinations</h3>
+            <div class="countries-grid" style="margin-top:12px;">
+              <a href="/en/documents-from-russia-to-germany/" class="country-link"><span class="flag">🇩🇪</span> Germany</a>
+              <a href="/en/documents-from-russia-to-usa/" class="country-link"><span class="flag">🇺🇸</span> USA</a>
+              <span class="country-link"><span class="flag">🇮🇱</span> Israel</span>
+              <span class="country-link"><span class="flag">🇬🇧</span> UK</span>
+              <span class="country-link"><span class="flag">🇨🇦</span> Canada</span>
+              <span class="country-link"><span class="flag">🇦🇺</span> Australia</span>
+              <a href="/en/documents-for-cis-countries/" class="country-link"><span class="flag">🌍</span> CIS Countries</a>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <section class="faq-section" id="faq">
+    <div class="container">
+      <div class="section-header"><h2>Frequently Asked Questions About Apostille</h2><p>The most common questions about getting an apostille on Russian documents.</p></div>
+      <div class="faq-list">
+        <div class="faq-item"><div class="faq-question">What is the difference between an apostille and consular legalization?<span class="arrow">▼</span></div><div class="faq-answer"><div class="faq-answer-inner">An apostille is a simplified form of legalization accepted by all 1961 Hague Convention countries (120+). Consular legalization involves certification by the embassy of the destination country and is used for non-Hague countries. For most destinations — USA, Germany, UK, Canada, Australia, Israel — an apostille is sufficient and much faster.</div></div></div>
+        <div class="faq-item"><div class="faq-question">How long does it take to get an apostille in Russia?<span class="arrow">▼</span></div><div class="faq-answer"><div class="faq-answer-inner">Processing time depends on the document type, the region and the current workload of the competent authority. We always provide an individual estimate after reviewing your request. Contact us for an assessment of your specific case.</div></div></div>
+        <div class="faq-item"><div class="faq-question">Do I need to come to Russia in person to get an apostille?<span class="arrow">▼</span></div><div class="faq-answer"><div class="faq-answer-inner">In most cases, no. We can handle the entire process on your behalf. If you have the physical document, send it to our Moscow office by courier. If you need a new document issued, we can obtain it using a notarized power of attorney.</div></div></div>
+        <div class="faq-item"><div class="faq-question">Does an apostille expire?<span class="arrow">▼</span></div><div class="faq-answer"><div class="faq-answer-inner">The apostille itself does not expire. However, the underlying document may expire — e.g., a police clearance certificate is typically valid for 3-6 months. Some authorities may request a recently issued apostille. We recommend a fresh apostille if yours is over one year old.</div></div></div>
+        <div class="faq-item"><div class="faq-question">Can I get an apostille on a copy of a document?<span class="arrow">▼</span></div><div class="faq-answer"><div class="faq-answer-inner">In most cases, the apostille is placed on the original. However, notarized copies can also receive an apostille. If you need to keep your original, we can arrange a notarized copy to be apostilled. For civil registry documents, we can request a duplicate from ZAGS.</div></div></div>
+        <div class="faq-item"><div class="faq-question">Do I also need a translation with the apostille?<span class="arrow">▼</span></div><div class="faq-answer"><div class="faq-answer-inner">In most cases, yes. Foreign authorities require both the apostille AND a certified translation. We provide both services — apostille and translation in one order.</div></div></div>
+        <div class="faq-item"><div class="faq-question">How much does an apostille cost?<span class="arrow">▼</span></div><div class="faq-answer"><div class="faq-answer-inner">The cost depends on the document type, issuing authority, region and whether you need express processing. We provide a detailed price quote before starting. Contact us with a photo of your document for an exact quote. No hidden fees.</div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-section">
+    <div class="container">
+      <h2>Need an Apostille on Your Russian Document?</h2>
+      <p>Contact us now for a free consultation. Send us a photo of your document and we will tell you exactly how to get it apostilled and how much it costs.</p>
+      <div class="cta-buttons">
+        <a href="https://wa.me/79518994988" target="_blank" class="btn btn-whatsapp"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
         <a href="https://t.me/rafael818" target="_blank" class="btn btn-telegram"><i class="fa-brands fa-telegram"></i> Telegram</a>
       </div>
     </div>
