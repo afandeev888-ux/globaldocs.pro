@@ -1213,68 +1213,51 @@ img {
   vertical-align: middle;
 }
 /* ========================================
-   CTA CARD OVERRIDES
+   CTA SECTION
    ======================================== */
 .cta-section {
   position: relative;
-  background: linear-gradient(180deg, #0f172a 0%, #1f2937 100%);
-  padding: 88px 0;
+  background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%);
+  padding: 100px 0;
   overflow: hidden;
+  color: var(--white);
 }
 
 .cta-section::before {
   content: '';
   position: absolute;
   inset: 0;
-  background:
-    radial-gradient(circle at top left, rgba(148, 163, 184, 0.18) 0%, transparent 36%),
-    radial-gradient(circle at bottom right, rgba(59, 130, 246, 0.12) 0%, transparent 34%);
+  background: radial-gradient(circle at center, rgba(15, 23, 42, 0.1) 0%, rgba(15, 23, 42, 0.9) 100%);
   pointer-events: none;
 }
 
 .cta-section .container {
   position: relative;
   z-index: 1;
-  max-width: 960px;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.98) 0%, #f8fafc 100%);
-  color: var(--gray-900);
-  border: 1px solid rgba(226, 232, 240, 0.9);
-  border-radius: 28px;
-  padding: 56px 48px;
-  box-shadow: 0 24px 60px rgba(15, 23, 42, 0.22);
+  max-width: 800px;
   text-align: center;
+  padding: 0 20px;
 }
 
 .cta-section h2 {
-  color: var(--gray-900);
+  color: var(--white);
   font-size: 2.25rem;
   font-weight: 700;
   margin-bottom: 16px;
+  text-shadow: 0 2px 10px rgba(0,0,0,0.3);
 }
 
 .cta-section p {
-  color: var(--gray-600);
-  opacity: 1;
-  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 1.15rem;
   max-width: 600px;
   margin: 0 auto 32px;
+  line-height: 1.7;
 }
 
 @media (max-width: 768px) {
   .cta-section {
-    padding: 72px 0;
-  }
-
-  .cta-section .container {
-    padding: 44px 28px;
-    border-radius: 24px;
-  }
-}
-
-@media (max-width: 480px) {
-  .cta-section .container {
-    padding: 36px 20px;
-    border-radius: 20px;
+    padding: 80px 0;
   }
 
   .cta-section h2 {
@@ -1283,6 +1266,20 @@ img {
 
   .cta-section p {
     font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .cta-section {
+    padding: 60px 0;
+  }
+
+  .cta-section h2 {
+    font-size: 1.6rem;
+  }
+
+  .cta-section p {
+    font-size: 0.95rem;
     margin-bottom: 24px;
   }
 }
