@@ -236,12 +236,58 @@
     </div>
   </section>
 
-  <section class="section">
+  <!-- CONTACT FORM -->
+  <section class="section" style="padding-top: 60px;">
     <div class="container">
+      <div class="contact-form-wrapper" style="max-width: 700px; margin: 0 auto 60px;">
+        <div class="contact-form-card" style="background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%); border-radius: 20px; padding: 40px; color: #fff; box-shadow: 0 20px 40px rgba(15, 23, 42, 0.15);">
+          <h2 style="text-align: center; margin-bottom: 10px; font-size: 1.75rem;">
+            <i class="fa-solid fa-envelope" style="margin-right: 10px;"></i>Anfrage senden
+          </h2>
+          <p style="text-align: center; margin-bottom: 30px; opacity: 0.85;">Füllen Sie das Formular aus — wir antworten innerhalb von 2 Stunden</p>
+          
+          <form id="contactForm" style="display: flex; flex-direction: column; gap: 20px;">
+            <div class="form-group">
+              <label for="name" style="display: flex; align-items: center; gap: 8px; margin-bottom: 8px; font-weight: 500;">
+                <i class="fa-solid fa-user" style="color: #4ade80;"></i> Ihr Name
+              </label>
+              <input type="text" id="name" name="name" required placeholder="Wie sollen wir Sie nennen?" 
+                style="width: 100%; padding: 14px 16px; border: none; border-radius: 10px; font-size: 1rem; background: rgba(255,255,255,0.95); color: #1f2937;">
+            </div>
+            
+            <div class="form-group">
+              <label for="contact" style="display: flex; align-items: center; gap: 8px; margin-bottom: 8px; font-weight: 500;">
+                <i class="fa-solid fa-phone" style="color: #4ade80;"></i> Telefon oder E-Mail
+              </label>
+              <input type="text" id="contact" name="contact" required placeholder="Wie können wir Sie erreichen?" 
+                style="width: 100%; padding: 14px 16px; border: none; border-radius: 10px; font-size: 1rem; background: rgba(255,255,255,0.95); color: #1f2937;">
+            </div>
+            
+            <div class="form-group">
+              <label for="message" style="display: flex; align-items: center; gap: 8px; margin-bottom: 8px; font-weight: 500;">
+                <i class="fa-solid fa-message" style="color: #4ade80;"></i> Nachricht
+              </label>
+              <textarea id="message" name="message" rows="4" required placeholder="Beschreiben Sie, welche Dokumente Sie benötigen..." 
+                style="width: 100%; padding: 14px 16px; border: none; border-radius: 10px; font-size: 1rem; resize: vertical; background: rgba(255,255,255,0.95); color: #1f2937;"></textarea>
+            </div>
+            
+            <button type="submit" id="submitBtn" style="background: #4ade80; color: #0f172a; border: none; padding: 16px 32px; border-radius: 50px; font-size: 1.1rem; font-weight: 700; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 10px; transition: all 0.3s ease;">
+              <i class="fa-solid fa-paper-plane"></i> Anfrage senden
+            </button>
+            
+            <div id="formStatus" style="text-align: center; margin-top: 10px; display: none;"></div>
+          </form>
+        </div>
+      </div>
+      
+      <div style="text-align: center; margin-bottom: 40px;">
+        <p style="color: var(--gray-500); font-size: 1rem;">oder kontaktieren Sie uns direkt</p>
+      </div>
+      
       <div class="contacts-container">
         <div class="contact-details">
           <h3>Unsere Daten</h3>
-          <p style="margin-bottom: 30px; color: var(--gray-600);">Sie können uns auf jedem bequemen Weg kontaktieren или unser Büro in Moskau besuchen.</p>
+          <p style="margin-bottom: 30px; color: var(--gray-600);">Sie können uns auf jedem bequemen Weg kontaktieren oder unser Büro in Moskau besuchen.</p>
           
           <div class="contact-info-list">
             <div class="contact-info-item">
@@ -306,6 +352,48 @@
     </div>
   </footer>
 
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script>
+    // EmailJS initialization
+    emailjs.init('HGVCgbFkAgBQjQBPs');
+    
+    // Form submission
+    const contactForm = document.getElementById('contactForm');
+    const submitBtn = document.getElementById('submitBtn');
+    const formStatus = document.getElementById('formStatus');
+    
+    contactForm.addEventListener('submit', function(e) {
+      e.preventDefault();
+      
+      // Show loading state
+      submitBtn.disabled = true;
+      submitBtn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Senden...';
+      
+      // Prepare template params
+      const templateParams = {
+        name: document.getElementById('name').value,
+        contact: document.getElementById('contact').value,
+        message: document.getElementById('message').value
+      };
+      
+      // Send email
+      emailjs.send('service_3nl3gwj', 'template_aeuq8wg', templateParams)
+        .then(function() {
+          formStatus.style.display = 'block';
+          formStatus.innerHTML = '<span style="color: #4ade80;"><i class="fa-solid fa-check-circle"></i> Anfrage gesendet! Wir melden uns bald bei Ihnen.</span>';
+          contactForm.reset();
+          submitBtn.innerHTML = '<i class="fa-solid fa-paper-plane"></i> Anfrage senden';
+          submitBtn.disabled = false;
+        })
+        .catch(function(error) {
+          formStatus.style.display = 'block';
+          formStatus.innerHTML = '<span style="color: #f87171;"><i class="fa-solid fa-exclamation-circle"></i> Fehler beim Senden. Bitte versuchen Sie es erneut oder schreiben Sie uns per WhatsApp.</span>';
+          submitBtn.innerHTML = '<i class="fa-solid fa-paper-plane"></i> Anfrage senden';
+          submitBtn.disabled = false;
+          console.error('EmailJS error:', error);
+        });
+    });
+  </script>
   <script>
     function setLanguage(lang) {
       try {
