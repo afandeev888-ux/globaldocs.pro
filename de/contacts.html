@@ -236,62 +236,21 @@
     </div>
   </section>
 
-  <!-- CONTACT FORM -->
+  <!-- CONTACTS + FORM -->
   <section class="section" style="padding-top: 60px;">
     <div class="container">
-      <div class="contact-form-wrapper" style="max-width: 700px; margin: 0 auto 60px;">
-        <div class="contact-form-card" style="background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%); border-radius: 20px; padding: 40px; color: #fff; box-shadow: 0 20px 40px rgba(15, 23, 42, 0.15);">
-          <h2 style="text-align: center; margin-bottom: 10px; font-size: 1.75rem;">
-            <i class="fa-solid fa-envelope" style="margin-right: 10px;"></i>Anfrage senden
+      <div class="contacts-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 50px; margin-bottom: 60px;">
+        
+        <!-- LEFT: Contact Info -->
+        <div class="contact-info-block">
+          <h2 style="margin-bottom: 10px; font-size: 1.75rem;">
+            <i class="fa-solid fa-location-dot" style="color: var(--primary); margin-right: 10px;"></i>Kontakt
           </h2>
-          <p style="text-align: center; margin-bottom: 30px; opacity: 0.85;">Füllen Sie das Formular aus — wir antworten innerhalb von 2 Stunden</p>
-          
-          <form id="contactForm" style="display: flex; flex-direction: column; gap: 20px;">
-            <div class="form-group">
-              <label for="name" style="display: flex; align-items: center; gap: 8px; margin-bottom: 8px; font-weight: 500;">
-                <i class="fa-solid fa-user" style="color: #4ade80;"></i> Ihr Name
-              </label>
-              <input type="text" id="name" name="name" required placeholder="Wie sollen wir Sie nennen?" 
-                style="width: 100%; padding: 14px 16px; border: none; border-radius: 10px; font-size: 1rem; background: rgba(255,255,255,0.95); color: #1f2937;">
-            </div>
-            
-            <div class="form-group">
-              <label for="contact" style="display: flex; align-items: center; gap: 8px; margin-bottom: 8px; font-weight: 500;">
-                <i class="fa-solid fa-phone" style="color: #4ade80;"></i> Telefon oder E-Mail
-              </label>
-              <input type="text" id="contact" name="contact" required placeholder="Wie können wir Sie erreichen?" 
-                style="width: 100%; padding: 14px 16px; border: none; border-radius: 10px; font-size: 1rem; background: rgba(255,255,255,0.95); color: #1f2937;">
-            </div>
-            
-            <div class="form-group">
-              <label for="message" style="display: flex; align-items: center; gap: 8px; margin-bottom: 8px; font-weight: 500;">
-                <i class="fa-solid fa-message" style="color: #4ade80;"></i> Nachricht
-              </label>
-              <textarea id="message" name="message" rows="4" required placeholder="Beschreiben Sie, welche Dokumente Sie benötigen..." 
-                style="width: 100%; padding: 14px 16px; border: none; border-radius: 10px; font-size: 1rem; resize: vertical; background: rgba(255,255,255,0.95); color: #1f2937;"></textarea>
-            </div>
-            
-            <button type="submit" id="submitBtn" style="background: #4ade80; color: #0f172a; border: none; padding: 16px 32px; border-radius: 50px; font-size: 1.1rem; font-weight: 700; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 10px; transition: all 0.3s ease;">
-              <i class="fa-solid fa-paper-plane"></i> Anfrage senden
-            </button>
-            
-            <div id="formStatus" style="text-align: center; margin-top: 10px; display: none;"></div>
-          </form>
-        </div>
-      </div>
-      
-      <div style="text-align: center; margin-bottom: 40px;">
-        <p style="color: var(--gray-500); font-size: 1rem;">oder kontaktieren Sie uns direkt</p>
-      </div>
-      
-      <div class="contacts-container">
-        <div class="contact-details">
-          <h3>Unsere Daten</h3>
-          <p style="margin-bottom: 30px; color: var(--gray-600);">Sie können uns auf jedem bequemen Weg kontaktieren oder unser Büro in Moskau besuchen.</p>
+          <p style="margin-bottom: 30px; color: var(--gray-600);">Erreichen Sie uns über Ihren bevorzugten Kanal</p>
           
           <div class="contact-info-list">
             <div class="contact-info-item">
-              <div class="icon"><i class="fa-solid fa-file-lines"></i></div>
+              <div class="icon" style="background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%);"><i class="fa-solid fa-location-dot" style="color: #fff;"></i></div>
               <div class="contact-info-content">
                 <h4>Büroadresse</h4>
                 <p>Bolschaja Tulskaja Str., 11, Moskau, Russland</p>
@@ -299,7 +258,7 @@
             </div>
             
             <div class="contact-info-item">
-              <div class="icon"><i class="fa-solid fa-file-lines"></i></div>
+              <div class="icon" style="background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%);"><i class="fa-solid fa-envelope" style="color: #fff;"></i></div>
               <div class="contact-info-content">
                 <h4>E-Mail</h4>
                 <a href="mailto:contact@globaldocs.pro">contact@globaldocs.pro</a>
@@ -307,7 +266,7 @@
             </div>
             
             <div class="contact-info-item">
-              <div class="icon"><i class="fa-solid fa-file-lines"></i></div>
+              <div class="icon" style="background: linear-gradient(135deg, #25D366 0%, #128C7E 100%);"><i class="fa-brands fa-whatsapp" style="color: #fff;"></i></div>
               <div class="contact-info-content">
                 <h4>WhatsApp</h4>
                 <a href="https://wa.me/79518994988" target="_blank">+7 (951) 899-49-88</a>
@@ -315,7 +274,7 @@
             </div>
             
             <div class="contact-info-item">
-              <div class="icon"><i class="fa-solid fa-file-lines"></i></div>
+              <div class="icon" style="background: linear-gradient(135deg, #0088cc 0%, #005f8f 100%);"><i class="fa-brands fa-telegram" style="color: #fff;"></i></div>
               <div class="contact-info-content">
                 <h4>Telegram</h4>
                 <a href="https://t.me/rafael818" target="_blank">@rafael818</a>
@@ -324,12 +283,69 @@
           </div>
         </div>
         
-        <div class="map-container">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d411.1169867998008!2d37.623510397818876!3d55.710131810463096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54b4122fe4ef1%3A0xe688f14627d543b2!2z0KLQvtGA0LPQvtCy0L4t0LTQtdC70L7QstC-0Lkg0LrQvtC80L_Qu9C10LrRgSDQotGD0LvRjNGB0LrQuNC5IHwg0KLRg9C70YzRgdC60LDRjyB8INCR0LjQt9C90LXRgS3RhtC10L3RgtGALCDRgtC-0YDQs9C-0LLRi9C5INGG0LXQvdGC0YA!5e1!3m2!1sru!2sru!4v1777306976799!5m2!1sru!2sru" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <!-- RIGHT: Contact Form -->
+        <div class="contact-form-block">
+          <div class="contact-form-card" style="background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%); border-radius: 20px; padding: 35px; color: #fff; box-shadow: 0 20px 40px rgba(15, 23, 42, 0.15);">
+            <h2 style="text-align: center; margin-bottom: 8px; font-size: 1.5rem;">
+              <i class="fa-solid fa-envelope" style="margin-right: 10px;"></i>Anfrage senden
+            </h2>
+            <p style="text-align: center; margin-bottom: 25px; opacity: 0.85; font-size: 0.95rem;">Antwort innerhalb von 2 Stunden</p>
+            
+            <form id="contactForm" style="display: flex; flex-direction: column; gap: 18px;">
+              <div class="form-group">
+                <label for="name" style="display: flex; align-items: center; gap: 8px; margin-bottom: 6px; font-weight: 500; font-size: 0.95rem;">
+                  <i class="fa-solid fa-user" style="color: #4ade80;"></i> Ihr Name
+                </label>
+                <input type="text" id="name" name="name" required placeholder="Wie sollen wir Sie nennen?" 
+                  style="width: 100%; padding: 12px 14px; border: none; border-radius: 10px; font-size: 1rem; background: rgba(255,255,255,0.95); color: #1f2937;">
+              </div>
+              
+              <div class="form-group">
+                <label for="contact" style="display: flex; align-items: center; gap: 8px; margin-bottom: 6px; font-weight: 500; font-size: 0.95rem;">
+                  <i class="fa-solid fa-phone" style="color: #4ade80;"></i> Telefon oder E-Mail
+                </label>
+                <input type="text" id="contact" name="contact" required placeholder="Wie können wir Sie erreichen?" 
+                  style="width: 100%; padding: 12px 14px; border: none; border-radius: 10px; font-size: 1rem; background: rgba(255,255,255,0.95); color: #1f2937;">
+              </div>
+              
+              <div class="form-group">
+                <label for="message" style="display: flex; align-items: center; gap: 8px; margin-bottom: 6px; font-weight: 500; font-size: 0.95rem;">
+                  <i class="fa-solid fa-message" style="color: #4ade80;"></i> Nachricht
+                </label>
+                <textarea id="message" name="message" rows="3" required placeholder="Beschreiben Sie, welche Dokumente Sie benötigen..." 
+                  style="width: 100%; padding: 12px 14px; border: none; border-radius: 10px; font-size: 1rem; resize: vertical; background: rgba(255,255,255,0.95); color: #1f2937;"></textarea>
+              </div>
+              
+              <button type="submit" id="submitBtn" style="background: #4ade80; color: #0f172a; border: none; padding: 14px 28px; border-radius: 50px; font-size: 1rem; font-weight: 700; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 10px; transition: all 0.3s ease;">
+                <i class="fa-solid fa-paper-plane"></i> Anfrage senden
+              </button>
+              
+              <div id="formStatus" style="text-align: center; margin-top: 8px; display: none;"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+      
+      <!-- MAP - Full Width Centered -->
+      <div class="map-section" style="max-width: 900px; margin: 0 auto;">
+        <h3 style="text-align: center; margin-bottom: 20px; font-size: 1.3rem;">
+          <i class="fa-solid fa-map-location-dot" style="color: var(--primary); margin-right: 10px;"></i>Unser Büro auf der Karte
+        </h3>
+        <div class="map-container" style="width: 100%; height: 400px; border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow-md);">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d411.1169867998008!2d37.623510397818876!3d55.710131810463096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54b4122fe4ef1%3A0xe688f14627d543b2!2z0KLQvtGA0LPQvtCy0L4t0LTQtdC70L7QstC-0Lkg0LrQvtC80L_Qu9C10LrRgSDQotGD0LvRjNGB0LrQuNC5IHwg0KLRg9C70YzRgdC60LDRjyB8INCr0LjQt9C90LXRgS3RhtC10L3RgtGALCDRgtC-0YDQs9C-0LLRi9C5INGG0LXQvdGC0YA!5e1!3m2!1sru!2sru!4v1777306976799!5m2!1sru!2sru" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" style="width: 100%; height: 100%; border: 0;"></iframe>
         </div>
       </div>
     </div>
   </section>
+  
+  <style>
+    @media (max-width: 900px) {
+      .contacts-grid {
+        grid-template-columns: 1fr !important;
+        gap: 40px !important;
+      }
+    }
+  </style>
 
   <footer class="footer">
     <div class="container">
