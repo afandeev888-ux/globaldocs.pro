@@ -378,8 +378,11 @@
       };
       
       // Send email
+      console.log('Sending with params:', templateParams);
+      
       emailjs.send('service_3nl3gwj', 'template_aeuq8wg', templateParams)
-        .then(function() {
+        .then(function(response) {
+          console.log('SUCCESS!', response.status, response.text);
           formStatus.style.display = 'block';
           formStatus.innerHTML = '<span style="color: #4ade80;"><i class="fa-solid fa-check-circle"></i> Заявка отправлена! Мы свяжемся с вами в ближайшее время.</span>';
           contactForm.reset();
@@ -387,11 +390,19 @@
           submitBtn.disabled = false;
         })
         .catch(function(error) {
+          console.error('FAILED...', error);
           formStatus.style.display = 'block';
-          formStatus.innerHTML = '<span style="color: #f87171;"><i class="fa-solid fa-exclamation-circle"></i> Ошибка отправки. Попробуйте ещё раз или напишите нам в WhatsApp.</span>';
+          let errorMsg = 'Ошибка отправки. ';
+          if (error && error.text) {
+            errorMsg += error.text;
+          } else if (error && error.message) {
+            errorMsg += error.message;
+          } else {
+            errorMsg += 'Попробуйте ещё раз или напишите нам в WhatsApp.';
+          }
+          formStatus.innerHTML = '<span style="color: #f87171;"><i class="fa-solid fa-exclamation-circle"></i> ' + errorMsg + '</span>';
           submitBtn.innerHTML = '<i class="fa-solid fa-paper-plane"></i> Отправить заявку';
           submitBtn.disabled = false;
-          console.error('EmailJS error:', error);
         });
     });
   </script>
