@@ -1,0 +1,30 @@
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build temp
+node_modules/
+dist/
+.cache/
+
+# Internal folders (not for site)
+download/
+upload/
+skills/
+globaldocs-site/
+globaldocs.pro/
+
+# Logs
+*.log
+npm-debug.log*

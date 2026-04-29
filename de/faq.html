@@ -1,0 +1,1106 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FAQ — Global Docs Pro | Häufig gestellte Fragen</title>
+  <meta name="description" content="Antworten auf häufig gestellte Fragen zur Dokumentenbeschaffung aus Russland. Apostille, Legalisierung, Übersetzung, internationale Zustellung.">
+  <meta property="og:title" content="FAQ — Global Docs Pro">
+  <meta property="og:description" content="Antworten auf häufige Fragen zur Dokumentenbeschaffung aus Russland.">
+  <meta property="og:locale" content="de_DE">
+  <meta property="og:url" content="https://globaldocs.pro/de/faq.html">
+  <link rel="canonical" href="https://globaldocs.pro/de/faq.html">
+  <link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/faq.html">
+  <link rel="alternate" hreflang="ru" href="https://globaldocs.pro/ru/faq.html">
+  <link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/faq.html">
+  <link rel="alternate" hreflang="x-default" href="https://globaldocs.pro/en/faq.html">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="/css/fontawesome/all.min.css">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+  <style>
+    /* FAQ Page Styles */
+    .faq-hero {
+      background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%);
+      color: #fff;
+      padding: 140px 0 80px;
+      text-align: center;
+    }
+
+    .faq-hero h1 {
+      font-size: 2.5rem;
+      font-weight: 800;
+      margin-bottom: 16px;
+    }
+
+    .faq-hero p {
+      font-size: 1.1rem;
+      opacity: 0.85;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .faq-section {
+      padding: 80px 0;
+    }
+
+    .faq-categories {
+      display: flex;
+      gap: 12px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-bottom: 50px;
+    }
+
+    .faq-category-btn {
+      padding: 10px 24px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      border: 2px solid #e5e7eb;
+      border-radius: 999px;
+      background: #fff;
+      color: #4b5563;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .faq-category-btn:hover,
+    .faq-category-btn.active {
+      background: #1a56db;
+      border-color: #1a56db;
+      color: #fff;
+    }
+
+    .faq-list {
+      max-width: 850px;
+      margin: 0 auto;
+    }
+
+    .faq-group {
+      margin-bottom: 40px;
+    }
+
+    .faq-group-title {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: #111827;
+      margin-bottom: 20px;
+      padding-bottom: 12px;
+      border-bottom: 2px solid #e5e7eb;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .faq-group-title i {
+      color: #1a56db;
+    }
+
+    .faq-item {
+      border: 1px solid #e5e7eb;
+      border-radius: 12px;
+      margin-bottom: 12px;
+      overflow: hidden;
+      background: #fff;
+      transition: all 0.2s ease;
+    }
+
+    .faq-item:hover {
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    }
+
+    .faq-question {
+      width: 100%;
+      padding: 20px 24px;
+      font-size: 1rem;
+      font-weight: 600;
+      color: #1f2937;
+      background: #fff;
+      border: none;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+      text-align: left;
+      font-family: inherit;
+      transition: background 0.2s ease;
+    }
+
+    .faq-question:hover {
+      background: #f9fafb;
+    }
+
+    .faq-question i {
+      font-size: 1.25rem;
+      color: #6b7280;
+      transition: transform 0.3s ease;
+      flex-shrink: 0;
+    }
+
+    .faq-item.active .faq-question i {
+      transform: rotate(180deg);
+      color: #1a56db;
+    }
+
+    .faq-answer {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s ease;
+    }
+
+    .faq-item.active .faq-answer {
+      max-height: 500px;
+    }
+
+    .faq-answer-content {
+      padding: 0 24px 24px;
+      font-size: 0.95rem;
+      color: #4b5563;
+      line-height: 1.7;
+    }
+
+    .faq-answer-content p {
+      margin-bottom: 12px;
+    }
+
+    .faq-answer-content ul {
+      margin: 12px 0;
+      padding-left: 24px;
+    }
+
+    .faq-answer-content li {
+      margin-bottom: 8px;
+    }
+
+    .faq-answer-content a {
+      color: #1a56db;
+      text-decoration: underline;
+    }
+
+    .faq-cta {
+      background: #f9fafb;
+      padding: 60px 0;
+      text-align: center;
+    }
+
+    .faq-cta h2 {
+      font-size: 1.75rem;
+      font-weight: 700;
+      color: #111827;
+      margin-bottom: 12px;
+    }
+
+    .faq-cta p {
+      color: #6b7280;
+      margin-bottom: 24px;
+      font-size: 1.05rem;
+    }
+
+    @media (max-width: 768px) {
+      .faq-hero {
+        padding: 120px 0 60px;
+      }
+
+      .faq-hero h1 {
+        font-size: 1.75rem;
+      }
+
+      .faq-question {
+        padding: 16px 20px;
+        font-size: 0.95rem;
+      }
+
+      .faq-answer-content {
+        padding: 0 20px 20px;
+        font-size: 0.9rem;
+      }
+    }
+    /* FAQ chevron animation */
+    .faq-item .fa-chevron-down {
+      transition: transform 0.3s ease;
+    }
+    .faq-item.active .fa-chevron-down {
+      transform: rotate(180deg);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="/de/" class="navbar-brand">Global Docs <span>Pro</span></a>
+      <div class="lang-switcher">
+        <span class="globe"><i class="fa-solid fa-globe"></i></span>
+        <a href="/ru/faq.html" class="lang" onclick="sessionStorage.setItem('lang_choice','ru')">RU</a>
+        <a href="/en/faq.html" class="lang" onclick="sessionStorage.setItem('lang_choice','en')">EN</a>
+        <a href="/de/faq.html" class="lang active" onclick="sessionStorage.setItem('lang_choice','de')">DE</a>
+      </div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="/de/#services">Dienstleistungen</a></li>
+        <li><a href="/de/about.html">Über uns</a></li>
+        <li><a href="/de/faq.html">FAQ</a></li>
+        <li><a href="/de/contacts.html">Kontakt</a></li>
+      </ul>
+      <button class="burger" id="burger" aria-label="Menü">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- FAQ HERO -->
+  <section class="faq-hero">
+    <div class="container">
+      <h1>Häufig gestellte Fragen</h1>
+      <p>Antworten auf häufige Fragen zur Dokumentenbeschaffung, Apostille, Legalisierung und unseren Dienstleistungen.</p>
+    </div>
+  </section>
+
+  <!-- FAQ SECTION -->
+  <section class="faq-section">
+    <div class="container">
+      <div class="faq-list">
+
+        <!-- Allgemeine Fragen -->
+        <div class="faq-group">
+          <h3 class="faq-group-title"><i class="fa-regular fa-circle-question"></i> Allgemeine Fragen</h3>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              Welche Dienstleistungen bietet Global Docs Pro an?
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-content">
+                <p>Wir bieten umfassende Dokumentendienstleistungen für Kunden, die russische Dokumente im Ausland benötigen:</p>
+                <ul>
+                  <li><strong>Dokumentenbeschaffung:</strong> Wir beschaffen Geburts-, Heirats-, Scheidungs-, Sterbeurkunden, Diplome, Führungszeugnisse und andere Dokumente aus russischen Registern (ZAGS) in Ihrem Namen.</li>
+                  <li><strong>Apostille:</strong> Wir arrangieren die Apostille-Beglaubigung für Dokumente, die in Ländern des Haager Übereinkommens verwendet werden.</li>
+                  <li><strong>Konsularische Legalisierung:</strong> Für Länder außerhalb des Haager Übereinkommens (VAE, China, Kanada usw.) führen wir den vollständigen Legalisierungsprozess durch.</li>
+                  <li><strong>Übersetzung:</strong> Professionelle beglaubigte Übersetzungen ins Englische, Deutsche, Hebräische, Spanische, Italienische, Französische und andere Sprachen.</li>
+                  <li><strong>Internationale Zustellung:</strong> Sichere Kurierzustellung mit Sendungsverfolgung in jedes Land weltweit.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              Wie lange dauert der gesamte Prozess?
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-content">
+                <p>Die Bearbeitungszeit hängt von der Art des Dokuments und den erforderlichen Verfahren ab:</p>
+                <ul>
+                  <li><strong>Dokumentenbeschaffung aus ZAGS:</strong> 5-15 Werktage</li>
+                  <li><strong>Apostille:</strong> 3-7 Werktage</li>
+                  <li><strong>Konsularische Legalisierung:</strong> 10-20 Werktage (je nach Land)</li>
+                  <li><strong>Übersetzung:</strong> 1-3 Werktage</li>
+                  <li><strong>Internationale Zustellung:</strong> 3-7 Werktage je nach Zielort</li>
+                </ul>
+                <p>Kontaktieren Sie uns für eine individuelle Einschätzung Ihres speziellen Falls.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              Muss ich persönlich nach Russland reisen?
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-content">
+                <p><strong>Nein, Sie müssen nicht nach Russland reisen.</strong> Das ist der Hauptvorteil unseres Service. Wir arbeiten remote in Ihrem Namen mit einer notariellen Vollmacht. Sie können in Ihrem Wohnland bleiben, und wir beschaffen, verarbeiten und liefern Ihre Dokumente an Ihre Haustür weltweit.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              Welche Dokumente können Sie beschaffen?
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-content">
+                <p>Wir können praktisch alle ZAGS-Dokumente beschaffen:</p>
+                <ul>
+                  <li>Geburtsurkunden</li>
+                  <li>Heiratsurkunden</li>
+                  <li>Scheidungsurkunden</li>
+                  <li>Sterbeurkunden</li>
+                  <li>Namensänderungsurkunden</li>
+                  <li>Führungszeugnisse</li>
+                  <li>Bildungsdokumente (Diplome, Zeugnisse)</li>
+                  <li>Archivdokumente und Auszüge</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Apostille & Legalisierung -->
+        <div class="faq-group">
+          <h3 class="faq-group-title"><i class="fa-solid fa-stamp"></i> Apostille & Legalisierung</h3>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              Was ist eine Apostille und wann brauche ich sie?
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-content">
+                <p>Eine Apostille ist eine internationale Beglaubigung, die die Echtheit eines öffentlichen Dokuments bestätigt. Sie wird nach dem Haager Übereinkommen von 1961 ausgestellt und ermöglicht die Anerkennung von Dokumenten in Mitgliedsländern ohne weitere Legalisierung.</p>
+                <p><strong>Sie brauchen eine Apostille, wenn:</strong></p>
+                <ul>
+                  <li>Ihr Dokument in einem Land des Haager Übereinkommens verwendet wird (Deutschland, Italien, Spanien, Frankreich, USA, Israel und über 100 weitere Länder)</li>
+                  <li>Die empfangende Behörde eine Beglaubigung des Dokuments verlangt</li>
+                </ul>
+                <p><strong>Konsularische Legalisierung (keine Apostille) erforderlich, wenn:</strong></p>
+                <ul>
+                  <li>Das Zielland nicht dem Haager Übereinkommen angehört (VAE, China, Kanada, Katar, Saudi-Arabien usw.)</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              Welche Länder akzeptieren Apostille?
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-content">
+                <p>Über 120 Länder akzeptieren Apostille, darunter:</p>
+                <ul>
+                  <li><strong>Europa:</strong> Deutschland, Italien, Spanien, Frankreich, Niederlande, Schweiz, Österreich, Polen, Tschechien und die meisten EU-Länder</li>
+                  <li><strong>Amerika:</strong> USA, Mexiko, Brasilien, Argentinien, Chile</li>
+                  <li><strong>Asien:</strong> Japan, Südkorea, Indien</li>
+                  <li><strong>Sonstige:</strong> Israel, Australien, Neuseeland, Südafrika</li>
+                </ul>
+                <p><strong>Länder NICHT im Haager Übereinkommen:</strong> VAE, China, Kanada, Katar, Saudi-Arabien, Thailand, Vietnam und einige andere benötigen die vollständige konsularische Legalisierung.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              Was ist der Unterschied zwischen Apostille und konsularischer Legalisierung?
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-content">
+                <p><strong>Apostille:</strong></p>
+                <ul>
+                  <li>Ein-Schritt-Beglaubigung durch das Justizministerium</li>
+                  <li>Schneller (3-7 Tage)</li>
+                  <li>Gültig in allen Ländern des Haager Übereinkommens</li>
+                  <li>Geringere Kosten</li>
+                </ul>
+                <p><strong>Konsularische Legalisierung:</strong></p>
+                <ul>
+                  <li>Mehrstufiger Prozess: Justizministerium → Außenministerium → Konsulat</li>
+                  <li>Länger (10-20+ Tage)</li>
+                  <li>Erforderlich für Nicht-Haager-Länder (VAE, China, Kanada usw.)</li>
+                  <li>Höhere Kosten aufgrund von Konsulargebühren</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Dokumente für bestimmte Länder -->
+        <div class="faq-group">
+          <h3 class="faq-group-title"><i class="fa-solid fa-globe"></i> Dokumente für bestimmte Länder</h3>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              Was brauche ich für Dokumente für Deutschland?
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-content">
+                <p>Für Deutschland benötigen Sie normalerweise:</p>
+                <ul>
+                  <li><strong>Apostille</strong> auf dem ursprünglichen russischen Dokument</li>
+                  <li><strong>Beglaubigte Übersetzung</strong> (beeidigte Übersetzung) von einem in Deutschland staatlich zugelassenen Übersetzer</li>
+                  <li>In einigen Fällen: notariell beglaubigte Kopien</li>
+                </ul>
+                <p>Wir bieten das komplette Paket: Dokumentenbeschaffung, Apostille, beglaubigte Übersetzung ins Deutsche und Kurierzustellung an Ihre deutsche Adresse.</p>
+                <p><a href="/de/dokumentenlegalisierung-deutschland/">Mehr erfahren über Dokumente für Deutschland →</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              Was brauche ich für Dokumente für Italien?
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-content">
+                <p>Für Italien ist das Standardverfahren:</p>
+                <ul>
+                  <li><strong>Apostille</strong> auf dem russischen Dokument</li>
+                  <li><strong>Beglaubigte Übersetzung</strong> (traduzione giurata) von einem beim italienischen Gericht registrierten Übersetzer</li>
+                  <li>Manche Dokumente benötigen eine Legalisierung beim italienischen Konsulat in Russland</li>
+                </ul>
+                <p>Wir übernehmen den gesamten Prozess einschließlich der Zusammenarbeit mit italienisch zertifizierten Übersetzern.</p>
+                <p><a href="/de/legalisierung-fuer-italien/">Mehr erfahren über Dokumente für Italien →</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              Was brauche ich für Dokumente für Israel?
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-content">
+                <p>Für Israel benötigen Sie in der Regel:</p>
+                <ul>
+                  <li><strong>Apostille</strong> (Israel akzeptiert Apostille als Land des Haager Übereinkommens)</li>
+                  <li><strong>Übersetzung</strong> ins Hebräische von einem notariellen Übersetzer</li>
+                  <li>Manche Dokumente benötigen eine notarielle Beglaubigung durch einen israelischen Notar</li>
+                </ul>
+                <p><a href="/de/legalisierung-fuer-israel/">Mehr erfahren über Dokumente für Israel →</a></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              Was ist mit Dokumenten für USA oder Kanada?
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-content">
+                <p><strong>USA:</strong> Akzeptieren Apostille. Sie benötigen Apostille + Übersetzung ins Englische (in der Regel reicht eine notarielle Übersetzung).</p>
+                <p><strong>Kanada:</strong> Akzeptiert KEINE Apostille. Kanada erfordert die vollständige konsularische Legalisierung: Notarielle Beglaubigung → Justizministerium → Außenministerium → Kanadisches Konsulat. Dies ist ein komplexerer Prozess, den wir für unsere Kunden durchführen.</p>
+                <p><a href="/de/documents-from-russia-to-usa/">Mehr erfahren über Dokumente für USA →</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Zahlung & Zustellung -->
+        <div class="faq-group">
+          <h3 class="faq-group-title"><i class="fa-solid fa-text-square"></i> Zahlung & Zustellung</h3>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              Wie viel kosten Ihre Dienstleistungen?
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-content">
+                <p>Die Kosten hängen von mehreren Faktoren ab:</p>
+                <ul>
+                  <li>Art der benötigten Dokumente</li>
+                  <li>Ob Apostille oder konsularische Legalisierung erforderlich ist</li>
+                  <li>Übersetzungsanforderungen (Sprache, Zertifizierungsart)</li>
+                  <li>Zielland für die Zustellung</li>
+                </ul>
+                <p><strong>Wir bieten kostenlose Angebote ohne Verpflichtung.</strong> Kontaktieren Sie uns über WhatsApp mit den Details Ihres Bedarfs, und wir nennen Ihnen einen genauen Preis vor Beginn der Arbeit. Keine versteckten Gebühren.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              Wann muss ich bezahlen?
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-content">
+                <p>Wir arbeiten für die meisten Dienstleistungen <strong>ohne Vorauszahlung</strong>:</p>
+                <ul>
+                  <li>Sie erhalten ein Angebot und bestätigen den Auftrag</li>
+                  <li>Wir bearbeiten Ihre Dokumente</li>
+                  <li>Wir senden Ihnen Fotos/Scans der fertigen Dokumente zur Überprüfung</li>
+                  <li>Sie zahlen nach Bestätigung, dass alles korrekt ist</li>
+                  <li>Wir versenden Ihre Dokumente</li>
+                </ul>
+                <p>Bei konsularischer Legalisierung mit erheblichen Konsulargebühren kann eine Teilvorauszahlung erforderlich sein.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              Welche Zahlungsmethoden akzeptieren Sie?
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-content">
+                <p>Wir akzeptieren verschiedene Zahlungsmethoden zu Ihrer bequem:</p>
+                <ul>
+                  <li>Banküberweisung (SWIFT/IBAN)</li>
+                  <li>Kredit-/Debitkarten</li>
+                  <li>PayPal</li>
+                  <li>Kryptowährung (USDT, BTC)</li>
+                  <li>Zahlungssysteme (Wise, Revolut)</li>
+                </ul>
+                <p>Wir stellen die Zahlungsdaten bei Auftragsbestätigung zur Verfügung.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              Wie liefern Sie Dokumente zu?
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-content">
+                <p>Wir nutzen zuverlässige internationale Kurierdienste:</p>
+                <ul>
+                  <li><strong>Zustelldienste:</strong> DHL, FedEx, UPS, EMS</li>
+                  <li><strong>Sendungsverfolgung:</strong> Vollständige Sendungsnummer wird bereitgestellt</li>
+                  <li><strong>Versicherung:</strong> Dokumente sind während des Transports versichert</li>
+                  <li><strong>Lieferzeit:</strong> 3-7 Werktage je nach Zielort</li>
+                  <li><strong>Abdeckung:</strong> Wir liefern in jedes Land weltweit</li>
+                </ul>
+                <p>Vor dem Versand senden wir Ihnen Fotos der Dokumente zur Überprüfung. Sie wissen immer, wo sich Ihre Dokumente befinden.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Vollmacht -->
+        <div class="faq-group">
+          <h3 class="faq-group-title"><i class="fa-solid fa-file-lines"></i> Vollmacht</h3>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              Muss ich eine Vollmacht vorlegen?
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-content">
+                <p>Ja, für die meisten Dokumentenbeschaffungsdienste ist eine notarielle Vollmacht erforderlich. Sie gibt uns die Befugnis, in Ihrem Namen bei russischen Behörden zu handeln.</p>
+                <p><strong>Wie erhalten Sie eine Vollmacht:</strong></p>
+                <ul>
+                  <li><strong>Wenn Sie sich außerhalb Russlands befinden:</strong> Besuchen Sie das russische Konsulat in Ihrem Land. Sie können die Vollmacht beglaubigen.</li>
+                  <li><strong>Wenn Sie sich in Russland befinden:</strong> Jeder russische Notar kann sie ausstellen.</li>
+                  <li><strong>Einige Dokumente können ohne Vollmacht beschafft werden:</strong> Führungszeugnisse, bestimmte Archivdokumente.</li>
+                </ul>
+                <p>Wir stellen die genaue Vorlage und Anweisungen für die Vollmacht bereit, nachdem Sie uns kontaktiert haben.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              Kann ich Dokumente ohne Vollmacht erhalten?
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-content">
+                <p>Einige Dokumente können ohne Vollmacht beschafft werden:</p>
+                <ul>
+                  <li><strong>Führungszeugnis:</strong> Kann auf Basis Ihrer Passdaten beschafft werden (keine Vollmacht erforderlich)</li>
+                  <li><strong>Archivauszüge:</strong> Einige können elektronisch angefordert werden</li>
+                  <li><strong>Bildungsdokumente:</strong> Einige Hochschulen ermöglichen elektronische Anfragen</li>
+                </ul>
+                <p>Für ZAGS-Personenstandsurkunden (Geburts-, Heiratsurkunden usw.) ist in der Regel eine Vollmacht erforderlich. Kontaktieren Sie uns, um Ihre spezifische Situation zu besprechen.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Technische Fragen -->
+        <div class="faq-group">
+          <h3 class="faq-group-title"><i class="fa-solid fa-cog"></i> Technische Fragen</h3>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              Kann eine Apostille auf eine Dokumentenkopie gesetzt werden?
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-content">
+                <p><strong>Nein, eine Apostille kann nur auf das Originaldokument gesetzt werden.</strong> Dies ist eine internationale Anforderung des Haager Übereinkommens. Die Apostille beglaubigt die Unterschrift und das Siegel auf dem Originaldokument.</p>
+                <p><strong>Alternativen:</strong></p>
+                <ul>
+                  <li>Notariell beglaubigte Kopie des Dokuments mit Apostille auf der Beglaubigung</li>
+                  <li>Beschaffung eines Duplikats vom ZAGS und Apostille darauf</li>
+                </ul>
+                <p>Wir helfen bei beiden Optionen. Kontaktieren Sie uns für eine Beratung zu Ihrem spezifischen Fall.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              Wie lange ist eine Apostille gültig?
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-content">
+                <p><strong>Eine Apostille hat kein Verfallsdatum.</strong> Sie bleibt unbegrenzt gültig, solange das Dokument, das sie beglaubigt, gültig ist.</p>
+                <p>Es ist jedoch wichtig zu beachten:</p>
+                <ul>
+                  <li><strong>Gültigkeit des Dokuments selbst:</strong> Manche Dokumente haben eine begrenzte Gültigkeitsdauer (z.B. Führungszeugnis — 3 Monate)</li>
+                  <li><strong>Anforderungen des Ziellandes:</strong> Manche Länder verlangen „frische" Dokumente (z.B. nicht älter als 3-6 Monate)</li>
+                  <li><strong>Anforderungen der spezifischen Behörde:</strong> Klären Sie immer die Anforderungen der Institution, bei der Sie die Dokumente einreichen</li>
+                </ul>
+                <p>Wir empfehlen, vor der Bearbeitung die Anforderungen der Empfängerbehörde zu prüfen.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              Was tun, wenn mein Dokument verloren oder beschädigt ist?
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-content">
+                <p><strong>Wir helfen bei der Wiederbeschaffung verlorener Dokumente!</strong> Dies ist einer unserer Kernservices.</p>
+                <p><strong>Wiederbeschaffungsprozess:</strong></p>
+                <ul>
+                  <li>Wir ermitteln, in welchem Archiv/Register die Aufzeichnung Ihres Dokuments liegt</li>
+                  <li>Wir beschaffen ein Duplikat (Neuausstellung) in Ihrem Namen</li>
+                  <li>Wir arrangieren Apostille/Legalisierung bei Bedarf</li>
+                  <li>Wir liefern das Dokument an Sie</li>
+                </ul>
+                <p>Für die Wiederbeschaffung von Personenstandsurkunden ist eine Vollmacht erforderlich. Kontaktieren Sie uns — wir informieren Sie, welche Daten für die Suche benötigt werden.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              Kann ich eine Kopie statt des Originals verwenden?
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-content">
+                <p>Das hängt von den Anforderungen der Empfängerbehörde und des Landes ab:</p>
+                <ul>
+                  <li><strong>Für offizielle Verfahren im Ausland:</strong> Meistens ist ein Original mit Apostille erforderlich</li>
+                  <li><strong>Für einige Zwecke:</strong> Eine notariell beglaubigte Kopie kann ausreichen</li>
+                  <li><strong>Für vorläufige Schritte:</strong> Manchmal werden einfache Kopien akzeptiert</li>
+                </ul>
+                <p><strong>Tipp:</strong> Klären Sie immer die genauen Anforderungen bei der Institution, bei der Sie die Dokumente einreichen. Wir helfen Ihnen zu verstehen und genau das vorzubereiten, was benötigt wird.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Express-Service -->
+        <div class="faq-group">
+          <h3 class="faq-group-title"><i class="fa-solid fa-bolt"></i> Express-Service</h3>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              Kann die Dokumentenbearbeitung beschleunigt werden?
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-content">
+                <p><strong>Ja, wir bieten beschleunigte Bearbeitung!</strong> Wir verstehen, dass Dokumente manchmal dringend benötigt werden.</p>
+                <p><strong>Express-Optionen:</strong></p>
+                <ul>
+                  <li><strong>Dringende Apostille:</strong> 1-2 Werktage statt der üblichen 3-7</li>
+                  <li><strong>Dringende Legalisierung:</strong> Wir optimieren den Prozess und nutzen persönliche Kontakte</li>
+                  <li><strong>Express-Zustellung:</strong> DHL Express, FedEx International Priority (1-3 Tage)</li>
+                </ul>
+                <p>Express-Service kostet mehr. Kontaktieren Sie uns über WhatsApp für Preise und zur Bestätigung, ob beschleunigte Bearbeitung für Ihren Fall möglich ist.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              Wie viel kostet eine dringende Apostille oder Legalisierung?
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-content">
+                <p>Die Kosten hängen von der Art des Service und dem Zeitrahmen ab:</p>
+                <ul>
+                  <li><strong>Dringende Apostille (1-2 Tage):</strong> +50-100% der Basiskosten</li>
+                  <li><strong>Dringende konsularische Legalisierung:</strong> Variiert individuell, abhängig von Land und Konsulat</li>
+                  <li><strong>Express-Zustellung:</strong> Abhängig vom Zielland (meist 50-150$)</li>
+                </ul>
+                <p>Kontaktieren Sie uns für ein genaues Angebot. Wir sagen Ihnen ehrlich, ob beschleunigte Bearbeitung für Ihren Fall realistisch ist und wie viel sie kostet.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              Welche sind die schnellstmöglichen Zeitrahmen für Notfälle?
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-content">
+                <p>Minimale Zeitrahmen (unter günstigen Bedingungen):</p>
+                <ul>
+                  <li><strong>Dokumentenbeschaffung aus ZAGS (Moskau):</strong> Ab 1-2 Werktagen</li>
+                  <li><strong>Apostille:</strong> Ab 1 Werktag</li>
+                  <li><strong>Übersetzung:</strong> Ab wenigen Stunden</li>
+                  <li><strong>Zustellung nach Europa:</strong> Ab 1-2 Tagen (DHL Express)</li>
+                </ul>
+                <p><strong>Wichtig:</strong> Express-Bearbeitung ist nicht immer möglich — sie hängt von der Auslastung der Behörden und Konsulate ab. Schreiben Sie uns, wir klären das!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- GUS-Staaten -->
+        <div class="faq-group">
+          <h3 class="faq-group-title"><i class="fa-solid fa-map-marker-alt"></i> Dokumente für GUS-Staaten</h3>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              Benötigen Kasachstan, Usbekistan oder Kirgisistan eine Apostille?
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-content">
+                <p><strong>GUS-Staaten haben vereinfachte Verfahren!</strong> Die meisten GUS-Staaten benötigen KEINE Apostille.</p>
+                <p><strong>Dokumente für GUS-Staaten:</strong></p>
+                <ul>
+                  <li><strong>Kasachstan, Kirgisistan, Armenien, Belarus:</strong> Notariell beglaubigte Übersetzung ist ausreichend. Keine Apostille erforderlich.</li>
+                  <li><strong>Usbekistan, Tadschikistan, Turkmenistan:</strong> Notarielle Übersetzung ist meist ausreichend, aber bei der Empfängerbehörde erfragen.</li>
+                  <li><strong>Moldau:</strong> Akzeptiert Apostille (Mitgliedstaat des Haager Übereinkommens)</li>
+                </ul>
+                <p>Wir helfen bei der Ermittlung der genauen Anforderungen für Ihr Land. Kontaktieren Sie uns!</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              Wie funktioniert die Dokumentenlegalisierung für GUS-Staaten?
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-content">
+                <p>Der Prozess ist einfacher als für Nicht-GUS-Länder:</p>
+                <ul>
+                  <li><strong>Schritt 1:</strong> Dokument aus ZAGS/Archiv beschaffen</li>
+                  <li><strong>Schritt 2:</strong> Notarielle Übersetzung in die Amtssprache des Ziellandes</li>
+                  <li><strong>Schritt 3:</strong> Bei Bedarf — Beglaubigung beim Konsulat des Ziellandes</li>
+                </ul>
+                <p>Zeitrahmen: meist 5-10 Werktage. Kosten sind niedriger als für Länder mit Apostille/Legalisierung.</p>
+                <p><a href="/de/dokumente-fuer-gus-staaten/">Mehr erfahren über Dokumente für GUS-Staaten →</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Elektronische Dokumente -->
+        <div class="faq-group">
+          <h3 class="faq-group-title"><i class="fa-solid fa-laptop"></i> Elektronische Dokumente</h3>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              Arbeiten Sie mit Dokumenten von Gosuslugi (russisches Behördenportal)?
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-content">
+                <p><strong>Ja, wir arbeiten mit elektronischen Dokumenten!</strong></p>
+                <p><strong>Was wir tun können:</strong></p>
+                <ul>
+                  <li>Elektronische Dokumente von Gosuslugi annehmen</li>
+                  <li>Hilfe bei der Beschaffung eines Papier-Originals für die Apostille</li>
+                  <li>Elektronische Apostille (e-Apostille) arrangieren bei Bedarf</li>
+                </ul>
+                <p><strong>Wichtig:</strong> Die meisten Länder verlangen noch ein Papier-Original mit Apostille. Aber der Trend ändert sich — einige Länder akzeptieren bereits elektronische Apostillen. Prüfen Sie die aktuellen Anforderungen!</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              Was ist eine elektronische Apostille (e-Apostille)?
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-content">
+                <p><strong>Eine e-Apostille</strong> ist eine digitale Version einer Apostille mit elektronischer Signatur. 2023 in Russland eingeführt.</p>
+                <p><strong>Vorteile:</strong></p>
+                <ul>
+                  <li>Schnellere Bearbeitung (manchmal am selben Tag)</li>
+                  <li>Kann per E-Mail versendet werden</li>
+                  <li>Online über das Register überprüfbar</li>
+                </ul>
+                <p><strong>Einschränkungen:</strong></p>
+                <ul>
+                  <li>Nicht von allen Ländern akzeptiert</li>
+                  <li>Nicht für alle Dokumententypen geeignet</li>
+                </ul>
+                <p>Kontaktieren Sie uns — wir beraten Sie, ob eine e-Apostille für Ihre Situation und Ihr Zielland funktioniert.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              Kann ich Dokumente in elektronischem Format erhalten?
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-content">
+                <p>Einige Dokumente können elektronisch bezogen werden:</p>
+                <ul>
+                  <li><strong>Führungszeugnis:</strong> Elektronische Version über Gosuslugi verfügbar</li>
+                  <li><strong>EGRYUL/EGRIP-Auszüge:</strong> Werden elektronisch ausgestellt</li>
+                  <li><strong>Einige Archivbescheinigungen:</strong> Können online bestellt werden</li>
+                </ul>
+                <p><strong>Aber:</strong> Für die Verwendung im Ausland wird meist ein Papier-Original mit Apostille benötigt. Wir helfen bei der Beschaffung von beidem.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Garantien & Sicherheit -->
+        <div class="faq-group">
+          <h3 class="faq-group-title"><i class="fa-solid fa-shield-halved"></i> Garantien & Sicherheit</h3>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              Was ist, wenn mein Dokument im Ausland abgelehnt wird?
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-content">
+                <p><strong>Wir garantieren korrekte Bearbeitung!</strong> Wenn Ihr Dokument aufgrund unseres Fehlers abgelehnt wird — machen wir es kostenlos neu.</p>
+                <p><strong>Wie wir Qualität sicherstellen:</strong></p>
+                <ul>
+                  <li>In Betrieb seit 2015, Tausende erfolgreich bearbeiteter Dokumente</li>
+                  <li>Wir kennen die Anforderungen jedes Landes und spezifischer Institutionen</li>
+                  <li>Vor Arbeitsbeginn klären wir alle Details und Anforderungen</li>
+                  <li>Wir senden Fotos der fertiggestellten Dokumente zur Überprüfung</li>
+                </ul>
+                <p><strong>Tipp:</strong> Klären Sie immer die genauen Anforderungen bei der Empfängerbehörde vor der Bearbeitung. Das spart Zeit und Geld.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              Wie garantieren Sie Ergebnisse?
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-content">
+                <p>Unsere Garantien:</p>
+                <ul>
+                  <li><strong>Zahlung bei Fertigstellung:</strong> Für die meisten Dienstleistungen zahlen Sie erst, nachdem Sie Fotos der fertiggestellten Dokumente gesehen haben</li>
+                  <li><strong>Transparenz:</strong> Sie kennen immer den Auftragsstatus, wir senden Berichte</li>
+                  <li><strong>Erfahrung:</strong> 10+ Jahre Betrieb, wir kennen alle Nuancen und Fallstricke</li>
+                  <li><strong>Persönlicher Ansatz:</strong> Jeder Fall wird von einem Spezialisten bearbeitet, der für das Ergebnis verantwortlich ist</li>
+                </ul>
+                <p>Wenn etwas nicht nach Plan läuft — kontaktieren wir Sie und besprechen Lösungen.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              Wie sind meine persönlichen Daten geschützt?
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-content">
+                <p>Die Sicherheit Ihrer Daten hat für uns oberste Priorität:</p>
+                <ul>
+                  <li><strong>Minimale Daten:</strong> Wir fordern nur das, was für die Arbeit notwendig ist</li>
+                  <li><strong>Sichere Speicherung:</strong> Dokumente werden verschlüsselt gespeichert</li>
+                  <li><strong>Löschung nach Abschluss:</strong> Auf Wunsch löschen wir alle Kopien nach der Zustellung</li>
+                  <li><strong>Vertraulichkeit:</strong> Wir geben keine Daten an Dritte weiter</li>
+                  <li><strong>Sichere Kommunikation:</strong> WhatsApp und Telegram mit Verschlüsselung</li>
+                </ul>
+                <p>Weitere Details finden Sie in unserer <a href="/de/privacy.html">Datenschutzerklärung</a>.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Länder mit besonderen Anforderungen -->
+        <div class="faq-group">
+          <h3 class="faq-group-title"><i class="fa-solid fa-passport"></i> Länder mit besonderen Anforderungen</h3>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              Wie legalisiere ich ein Dokument für die VAE?
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-content">
+                <p><strong>Die VAE sind kein Mitglied des Haager Übereinkommens</strong> — vollständige konsularische Legalisierung ist erforderlich.</p>
+                <p><strong>Prozess für VAE:</strong></p>
+                <ul>
+                  <li>Notarielle Beglaubigung des Dokuments</li>
+                  <li>Apostille im Justizministerium</li>
+                  <li>Beglaubigung im Außenministerium Russlands</li>
+                  <li>Legalisation in der Botschaft der VAE in Moskau</li>
+                  <li>Übersetzung ins Arabische/Englische (meist in den VAE erledigt)</li>
+                </ul>
+                <p><strong>Zeitrahmen:</strong> 15-25 Werktage. <strong>Kosten:</strong> Höher aufgrund der konsularischen Gebühren der VAE.</p>
+                <p>Wir haben Erfahrung mit Dokumenten für die VAE. Kontaktieren Sie uns für eine Beratung!</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              Was sind die Besonderheiten der Legalisierung für China?
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-content">
+                <p><strong>China ist kein Mitglied des Haager Übereinkommens</strong> — konsularische Legalisierung ist erforderlich.</p>
+                <p><strong>Prozess:</strong></p>
+                <ul>
+                  <li>Notarielle Beglaubigung des Dokuments</li>
+                  <li>Apostille im Justizministerium</li>
+                  <li>Beglaubigung im Außenministerium Russlands</li>
+                  <li>Legalisation im Konsulat der VR China (abhängig von der Zielregion)</li>
+                </ul>
+                <p><strong>Besonderheiten:</strong></p>
+                <ul>
+                  <li>Das chinesische Konsulat arbeitet langsam (2-3 Wochen)</li>
+                  <li>Übersetzung ins Chinesische ist erforderlich (wir können das arrangieren)</li>
+                  <li>Konsularische Gebühren hängen vom Dokumententyp ab</li>
+                </ul>
+                <p>Planen Sie im Voraus — der Prozess dauert 3-4 Wochen.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              Wird nach dem Brexit eine Apostille für Großbritannien benötigt?
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-content">
+                <p><strong>Das Vereinigte Königreich ist nach dem Brexit im Haager Übereinkommen geblieben.</strong> Apostillen werden weiterhin akzeptiert!</p>
+                <p><strong>Für Großbritannien benötigen Sie:</strong></p>
+                <ul>
+                  <li>Apostille auf dem russischen Dokument</li>
+                  <li>Übersetzung ins Englische (notarielle Übersetzung ist meist ausreichend)</li>
+                </ul>
+                <p>Das Verfahren hat sich nach dem EU-Austritt des UK nicht geändert. Wenn Sie mit einem Visum nach Großbritannien ziehen — benötigen Sie eine Apostille auf Ihren Dokumenten.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              Was wird für Dokumente für Spanien oder Frankreich benötigt?
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-content">
+                <p>Spanien und Frankreich sind Länder des Haager Übereinkommens, daher:</p>
+                <ul>
+                  <li><strong>Apostille</strong> auf dem originalen russischen Dokument</li>
+                  <li><strong>Übersetzung:</strong> Beeidigte Übersetzung (traducción jurada / traduction assermentée)</li>
+                </ul>
+                <p><strong>Besonderheiten Spanien:</strong></p>
+                <ul>
+                  <li>Übersetzung muss von einem in Spanien akkreditierten Übersetzer erstellt werden</li>
+                  <li>Manche Dokumente erfordern zusätzliche Beglaubigungen</li>
+                </ul>
+                <p><strong>Besonderheiten Frankreich:</strong></p>
+                <ul>
+                  <li>Übersetzung von einem Übersetzer, der von einem französischen Gericht ermächtigt ist</li>
+                  <li>Manchmal ist eine Legalisation beim französischen Konsulat erforderlich</li>
+                </ul>
+                <p>Wir arbeiten mit zertifizierten Übersetzern für beide Länder.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA SECTION -->
+  <section class="faq-cta">
+    <div class="container">
+      <h2>Noch Fragen?</h2>
+      <p>Kontaktieren Sie uns direkt — wir beantworten gerne alle Ihre Fragen und bieten eine kostenlose Beratung.</p>
+      <div class="cta-buttons">
+        <a href="https://wa.me/79518994988?text=Hi%20Global%20Docs%20Pro!%20I%20have%20a%20question%20about%20your%20services." target="_blank" class="btn btn-whatsapp"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+        <a href="https://t.me/rafael818" target="_blank" class="btn btn-telegram"><i class="fa-brands fa-telegram"></i> Telegram</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div>
+          <div class="footer-brand">Global Docs <span>Pro</span></div>
+          <p class="footer-tagline">Dokumentenbeschaffung aus Russland weltweit. Schnell, zuverlässig, erschwinglich.</p>
+        </div>
+        <div class="footer-links">
+          <a href="/de/#services">Dienstleistungen</a>
+          <a href="/de/about.html">Über uns</a>
+          <a href="/de/faq.html">FAQ</a>
+          <a href="/de/useful-links/">Gesetzliche Grundlagen</a>
+          <a href="/de/contacts.html">Kontakt</a>
+          <a href="/de/partners.html">Partner</a>
+          <a href="/de/privacy.html">Datenschutz</a>
+          <a href="/de/disclaimer.html">Haftungsausschluss</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        © 2015–2026 GlobalDocs.pro. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile menu toggle
+    const burger = document.getElementById('burger');
+    const navLinks = document.getElementById('navLinks');
+
+    burger.addEventListener('click', () => {
+      burger.classList.toggle('active');
+      navLinks.classList.toggle('active');
+    });
+
+    navLinks.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        burger.classList.remove('active');
+        navLinks.classList.remove('active');
+      });
+    });
+
+    // FAQ Accordion
+    document.querySelectorAll('.faq-question').forEach(button => {
+      button.addEventListener('click', () => {
+        const faqItem = button.parentElement;
+        const isActive = faqItem.classList.contains('active');
+
+        // Close all other FAQ items
+        document.querySelectorAll('.faq-item').forEach(item => {
+          item.classList.remove('active');
+        });
+
+        // Toggle current item
+        if (!isActive) {
+          faqItem.classList.add('active');
+        }
+      });
+    });
+  </script>
+
+</body>
+</html>
