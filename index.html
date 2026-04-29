@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Global Docs Pro</title>
-  <meta name="description" content="Global Docs Pro language routing page.">
+  <title>Global Docs Pro — Apostille, Legalization & Translation for 90 Countries</title>
+  <meta name="description" content="Global Docs Pro provides apostille, legalization and translation services for Russian documents. Delivery to 90 countries worldwide.">
   <meta name="robots" content="index,follow">
   <link rel="canonical" href="https://globaldocs.pro/en/">
-  <meta property="og:title" content="Global Docs Pro — Language Selector">
-  <meta property="og:description" content="Select your language for Global Docs Pro.">
+  <meta property="og:title" content="Global Docs Pro — Apostille & Legalization for 90 Countries">
+  <meta property="og:description" content="Apostille, legalization and translation of Russian documents for use abroad. Full service with delivery to 90 countries.">
   <meta property="og:locale" content="en_US">
   <meta property="og:url" content="https://globaldocs.pro/">
   <link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/">
@@ -16,8 +16,72 @@
   <link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/">
   <link rel="alternate" hreflang="x-default" href="https://globaldocs.pro/">
   <meta name="yandex-verification" content="b30514d0fecb3c2a" />
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+      min-height: 100vh;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .lang-selector {
+      text-align: center;
+      padding: 40px;
+      background: rgba(255,255,255,0.95);
+      border-radius: 20px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+      max-width: 500px;
+    }
+    .lang-selector h1 {
+      color: #1a1a2e;
+      margin-bottom: 10px;
+      font-size: 28px;
+    }
+    .lang-selector p {
+      color: #666;
+      margin-bottom: 30px;
+    }
+    .lang-buttons {
+      display: flex;
+      gap: 15px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .lang-btn {
+      display: inline-block;
+      padding: 15px 30px;
+      background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+      color: white;
+      text-decoration: none;
+      border-radius: 10px;
+      font-weight: 600;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .lang-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 30px rgba(37, 99, 235, 0.4);
+    }
+    .lang-btn.ru { background: linear-gradient(135deg, #dc2626 0%, #b91c1c 100%); }
+    .lang-btn.de { background: linear-gradient(135deg, #16a34a 0%, #15803d 100%); }
+  </style>
 </head>
 <body>
+
+  <!-- For users without JavaScript -->
+  <noscript>
+    <div class="lang-selector">
+      <h1>Global Docs Pro</h1>
+      <p>Select your language / Выберите язык / Sprache wählen</p>
+      <div class="lang-buttons">
+        <a href="/en/" class="lang-btn">English</a>
+        <a href="/ru/" class="lang-btn ru">Русский</a>
+        <a href="/de/" class="lang-btn de">Deutsch</a>
+      </div>
+    </div>
+  </noscript>
+
   <script>
     function resolveLangFromBrowser() {
       var lang = (navigator.language || navigator.userLanguage || "").toLowerCase().substring(0, 2);
@@ -52,5 +116,4 @@
   </script>
 
 </body>
-
 </html>
