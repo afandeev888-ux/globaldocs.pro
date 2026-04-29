@@ -869,7 +869,7 @@ img {
 .footer-tagline {
   font-size: 0.95rem;
   color: var(--gray-500);
-  max-width: 300px;
+  line-height: 1.5;
 }
 
 .footer-links {
