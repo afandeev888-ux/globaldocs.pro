@@ -717,6 +717,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+  <url>
+    <loc>https://globaldocs.pro/ru/blog/dokumenty-dlya-repatriacii-v-izrail/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 
   <!-- Blog (English) -->
   <url>
@@ -749,6 +754,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+  <url>
+    <loc>https://globaldocs.pro/en/blog/documents-for-repatriation-to-israel/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 
   <!-- Blog (German) -->
   <url>
@@ -780,6 +790,11 @@
     <loc>https://globaldocs.pro/de/blog/dokumente-fuer-auswanderung-nach-deutschland-2025/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://globaldocs.pro/de/blog/dokumente-fuer-repatriierung-nach-israel/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://globaldocs.pro/de/blog/fuehrungszeugnis-aus-dem-ausland-beantragen/</loc>
