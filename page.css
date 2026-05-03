@@ -380,6 +380,10 @@ a.doc-card:hover h3 {
   transform: rotate(180deg);
 }
 
+.faq-item.active .faq-answer {
+  max-height: 500px;
+}
+
 .faq-answer {
   max-height: 0;
   overflow: hidden;
