@@ -1,21 +1,14 @@
-# Редирект HTTP → HTTPS
+# ========================================
+# РЕДИРЕКТЫ HTTP → HTTPS и WWW → БЕЗ WWW
+# ========================================
 RewriteEngine On
 
-# Проверяем, что запрос не HTTPS
+# Универсальный редирект: www → без www И http → https
+# Работает для всех вариантов: http://www, https://www, http://безwww
+RewriteCond %{HTTP_HOST} ^www\. [NC,OR]
 RewriteCond %{HTTPS} off
-
-# Редирект на HTTPS с тем же хостом и URI
-RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
-
-# Редирект www → без www (выберите один вариант)
-
-# Вариант А: www → без www (рекомендуется)
-RewriteCond %{HTTP_HOST} ^www\.globaldocs\.pro$ [NC]
-RewriteRule ^(.*)$ https://globaldocs.pro/$1 [L,R=301]
-
-# Вариант Б: без www → www (раскомментируйте если нужен www)
-# RewriteCond %{HTTP_HOST} ^globaldocs\.pro$ [NC]
-# RewriteRule ^(.*)$ https://www.globaldocs.pro/$1 [L,R=301]
+RewriteCond %{HTTP_HOST} ^(?:www\.)?(.+)$ [NC]
+RewriteRule ^(.*)$ https://%1/$1 [L,R=301]
 
 # HSTS - форсирование HTTPS в браузере (1 год)
 Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
