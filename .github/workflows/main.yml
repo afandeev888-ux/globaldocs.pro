@@ -1,0 +1,30 @@
+name: Manual FTP Deploy
+
+# Тот самый триггер ручного запуска
+on:
+  workflow_dispatch:
+
+jobs:
+  web-deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+    steps:
+      # 1. Копируем код из репозитория в виртуальную машину GitHub
+      - name: Get latest code
+        uses: actions/checkout@v3
+
+      # 2. (ОПЦИОНАЛЬНО) Если у вас React/Vue, раскомментируйте строки ниже для сборки:
+      # - name: Install and Build
+      #   run: |
+      #     npm install
+      #     npm run build
+
+      # 3. Сама отправка по FTP
+      - name: Sync files via FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          # local-dir: ./dist/  # Если есть сборка, укажите папку билда
+          server-dir: /public_html/ # Папка на вашем хостинге
