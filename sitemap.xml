@@ -4,19 +4,20 @@
 
   <!-- Landing Pages -->
   <url>
-    <loc>https://globaldocs.pro/en/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://globaldocs.pro/en/"/>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
     <loc>https://globaldocs.pro/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://globaldocs.pro/"/>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://globaldocs.pro/en/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://globaldocs.pro/"/>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -25,6 +26,7 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://globaldocs.pro/"/>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>

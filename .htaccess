@@ -4,6 +4,20 @@
 RewriteEngine On
 
 # ========================================
+# ЯЗЫКОВОЙ РЕДИРЕКТ (только для корня)
+# Немецкий → /de/, Английский → /en/, Остальные → / (русский)
+# ========================================
+RewriteCond %{HTTP:Accept-Language} ^de [NC]
+RewriteCond %{REQUEST_URI} ^/$
+RewriteCond %{QUERY_STRING} ^$
+RewriteRule ^$ /de/ [R=302,L]
+
+RewriteCond %{HTTP:Accept-Language} ^en [NC]
+RewriteCond %{REQUEST_URI} ^/$
+RewriteCond %{QUERY_STRING} ^$
+RewriteRule ^$ /en/ [R=302,L]
+
+# ========================================
 # РЕДИРЕКТ /ru/ → / (RU теперь в корне)
 # ========================================
 RewriteCond %{REQUEST_URI} ^/ru/(.*)$
