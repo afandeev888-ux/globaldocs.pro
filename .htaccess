@@ -3,6 +3,12 @@
 # ========================================
 RewriteEngine On
 
+# ========================================
+# РЕДИРЕКТ /ru/ → / (RU теперь в корне)
+# ========================================
+RewriteCond %{REQUEST_URI} ^/ru/(.*)$
+RewriteRule ^ru/(.*)$ /$1 [L,R=301]
+
 # WWW → без WWW (только HTTPS)
 RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
 RewriteRule ^(.*)$ https://%1/$1 [L,R=301]

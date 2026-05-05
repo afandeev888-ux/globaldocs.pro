@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>О нас — Global Docs Pro</title>
+  <meta name="description" content="Global Docs Pro — компания, которая с 2015 года помогает получать документы из России. Узнайте о нашей команде, миссии и ценностях.">
+  <meta property="og:title" content="О нас — Global Docs Pro">
+  <meta property="og:description" content="Узнайте больше о Global Docs Pro — вашей надёжной компании по доставке документов из России в любую точку мира.">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:url" content="https://globaldocs.pro/about.html">
+  <meta property="og:image" content="https://globaldocs.pro/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://globaldocs.pro/og-image.png">
+  <link rel="canonical" href="https://globaldocs.pro/about.html">
+  <link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/about.html">
+  <link rel="alternate" hreflang="ru" href="https://globaldocs.pro/about.html">
+  <link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/about.html">
+  <link rel="alternate" hreflang="x-default" href="https://globaldocs.pro/en/about.html">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="/css/fontawesome/all.min.css">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <style>
+    .about-page-hero {
+      padding: 120px 0 80px;
+      background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%);
+      color: var(--white);
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .about-page-hero::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background-image: url('/img/about-hero.jpg');
+      background-size: cover;
+      background-position: center;
+      opacity: 0.12;
+      filter: grayscale(50%);
+    }
+    .about-page-hero::after {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: radial-gradient(circle at center, rgba(15,23,42,0) 0%, rgba(15,23,42,0.8) 100%);
+    }
+    .about-page-hero .container {
+      position: relative;
+      z-index: 2;
+    }
+    .about-page-hero .breadcrumb {
+      font-size: 0.85rem;
+      opacity: 0.7;
+      margin-bottom: 20px;
+    }
+    .about-page-hero .breadcrumb a {
+      color: var(--white);
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+    .about-page-hero .breadcrumb a:hover {
+      opacity: 1;
+    }
+    .about-page-hero h1 {
+      font-size: 3rem;
+      font-weight: 800;
+      line-height: 1.15;
+      margin-bottom: 20px;
+      letter-spacing: -1px;
+      text-shadow: 0 2px 10px rgba(0,0,0,0.3);
+    }
+    .about-page-hero p {
+      font-size: 1.2rem;
+      color: rgba(255,255,255,0.85);
+      max-width: 650px;
+      margin: 0 auto;
+      line-height: 1.7;
+    }
+    .about-story {
+      padding: 100px 0;
+    }
+    .about-story-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 60px;
+      align-items: center;
+    }
+    .about-story-text h2 {
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--gray-900);
+      margin-bottom: 24px;
+      letter-spacing: -0.5px;
+    }
+    .about-story-text p {
+      font-size: 1rem;
+      color: var(--gray-600);
+      line-height: 1.8;
+      margin-bottom: 16px;
+    }
+    .about-story-visual {
+      background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%);
+      border-radius: var(--radius-xl);
+      padding: 48px;
+      color: var(--white);
+      position: relative;
+      overflow: hidden;
+    }
+    .about-story-visual::before {
+      content: '';
+      position: absolute;
+      top: -50px;
+      right: -50px;
+      width: 200px;
+      height: 200px;
+      background: rgba(255,255,255,0.1);
+      border-radius: 50%;
+    }
+    .about-story-visual .year {
+      font-size: 4rem;
+      font-weight: 800;
+      margin-bottom: 8px;
+      opacity: 0.9;
+    }
+    .about-story-visual .label {
+      font-size: 1.1rem;
+      opacity: 0.8;
+      margin-bottom: 32px;
+    }
+    .about-story-visual .stats-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      position: relative;
+      z-index: 1;
+    }
+    .about-story-visual .stat-box {
+      background: rgba(255,255,255,0.12);
+      border: 1px solid rgba(255,255,255,0.15);
+      border-radius: var(--radius-lg);
+      padding: 20px;
+      text-align: center;
+    }
+    .about-story-visual .stat-box .number {
+      font-size: 1.75rem;
+      font-weight: 800;
+      display: block;
+    }
+    .about-story-visual .stat-box .desc {
+      font-size: 0.85rem;
+      opacity: 0.8;
+      margin-top: 4px;
+    }
+    .values-section {
+      padding: 100px 0;
+      background: var(--gray-50);
+    }
+    .values-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+      margin-top: 48px;
+    }
+    .value-card {
+      background: var(--white);
+      border: 1px solid var(--gray-200);
+      border-radius: var(--radius-xl);
+      padding: 36px;
+      transition: var(--transition);
+      text-align: center;
+    }
+    .value-card:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-xl);
+    }
+    .value-card .icon {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+    .value-card h3 {
+      font-size: 1.15rem;
+      font-weight: 600;
+      color: var(--gray-900);
+      margin-bottom: 12px;
+    }
+    .value-card p {
+      font-size: 0.92rem;
+      color: var(--gray-500);
+      line-height: 1.7;
+    }
+    .team-section {
+      padding: 100px 0;
+    }
+    .team-section h2 {
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--gray-900);
+      margin-bottom: 12px;
+      letter-spacing: -0.5px;
+    }
+    .team-section > .container > p {
+      font-size: 1.1rem;
+      color: var(--gray-500);
+      max-width: 600px;
+      margin: 0 auto 48px;
+    }
+    .team-features {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .team-feature {
+      display: flex;
+      gap: 16px;
+      padding: 24px;
+      background: var(--white);
+      border: 1px solid var(--gray-200);
+      border-radius: var(--radius-lg);
+      transition: var(--transition);
+    }
+    .team-feature:hover {
+      box-shadow: var(--shadow-md);
+      border-color: var(--primary-light);
+    }
+    .team-feature .icon {
+      width: 48px;
+      height: 48px;
+      flex-shrink: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--primary-light);
+      border-radius: var(--radius-lg);
+      font-size: 1.3rem;
+    }
+    .team-feature h3 {
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--gray-900);
+      margin-bottom: 6px;
+    }
+    .team-feature p {
+      font-size: 0.88rem;
+      color: var(--gray-500);
+      line-height: 1.6;
+    }
+    @media (max-width: 1024px) {
+      .about-story-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+      }
+      .values-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .team-features {
+        grid-template-columns: 1fr;
+      }
+    }
+    @media (max-width: 768px) {
+      .about-page-hero {
+        padding: 120px 0 60px;
+      }
+      .about-page-hero h1 {
+        font-size: 2rem;
+      }
+      .about-page-hero p {
+        font-size: 1rem;
+      }
+      .about-story,
+      .values-section,
+      .team-section {
+        padding: 60px 0;
+      }
+      .values-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+    @media (max-width: 480px) {
+      .about-page-hero h1 {
+        font-size: 1.7rem;
+      }
+      .about-story-visual {
+        padding: 32px;
+      }
+      .about-story-visual .year {
+        font-size: 3rem;
+      }
+    }
+  </style>
+
+  <!-- JSON-LD: Organization -->
+  <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "LegalService",
+    "name": "Global Docs Pro",
+    "description": "Доставка документов из России в любую точку мира. Апостиль, легализация, перевод, международная доставка.",
+    "url": "https://globaldocs.pro",
+    "logo": "https://globaldocs.pro/favicon.ico",
+    "telephone": "+79518994988",
+    "email": "contact@globaldocs.pro",
+    "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "ул. Большая Тульская, д. 11",
+        "addressLocality": "Москва",
+        "postalCode": "115191",
+        "addressCountry": "RU"
+    },
+    "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 55.7101,
+        "longitude": 37.6235
+    },
+    "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+        ],
+        "opens": "09:00",
+        "closes": "19:00"
+    },
+    "sameAs": [
+        "https://wa.me/79518994988",
+        "https://t.me/rafael818"
+    ],
+    "priceRange": "$$",
+    "inLanguage": "ru"
+}
+  </script>
+
+  <!-- JSON-LD: BreadcrumbList -->
+  <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+        {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Главная",
+            "item": "https://globaldocs.pro/"
+        },
+        {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "О нас",
+            "item": "https://globaldocs.pro/about.html"
+        }
+    ]
+}
+  </script>
+  <script defer src="https://cloud.umami.is/script.js" data-website-id="b76191fa-2f07-426d-a8af-6cbcb5ab4469"></script>
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="container">
+      <a href="/" class="navbar-brand">Global Docs <span>Pro</span></a>
+<div class="lang-switcher">
+  <span class="globe"><i class="fa-solid fa-globe"></i></span>
+  <a href="/" class="lang active" onclick="sessionStorage.setItem('lang_choice','ru')">RU</a>
+  <a href="/en/" class="lang" onclick="sessionStorage.setItem('lang_choice','en')">EN</a>
+  <a href="/de/" class="lang" onclick="sessionStorage.setItem('lang_choice','de')">DE</a>
+</div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="/services.html">Услуги</a></li>
+        <li><a href="/#how">Как это работает</a></li>
+        <li><a href="/blog/">Полезные статьи</a></li>
+        <li><a href="/contacts.html">Контакты</a></li>
+      </ul>
+      <button class="burger" id="burger" aria-label="Меню">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <section class="about-page-hero">
+    <div class="container">
+      <div class="breadcrumb"><a href="/">Главная</a> / О нас</div>
+      <h1>О компании Global Docs Pro</h1>
+      <p>С 2015 года мы помогаем людям по всему миру получать, легализовать и доставлять документы из России — быстро, надёжно и без лишних хлопот.</p>
+    </div>
+  </section>
+
+  <section class="about-story">
+    <div class="container">
+      <div class="about-story-grid">
+        <div class="about-story-text">
+          <h2>Наша история</h2>
+          <p>Global Docs Pro была основана в 2015 году в Москве с простой, но важной целью — помочь людям, которые переехали из России, получить необходимые документы без необходимости лично приезжать в страну. Сначала это были единичные запросы от знакомых: получить свидетельство о рождении, оформить апостиль, перевести справку.</p>
+          <p>С годами спрос только рос. Люди из Германии, США, Израиля, Испании, Канады и десятков других стран обращались к нам за помощью. Мы расширяли команду, налаживали контакты с ведомствами и курьерскими службами, оттачивали процессы. Сегодня Global Docs Pro — это полноценная компания с многолетним опытом работы в сфере международной документации.</p>
+          <p>Мы гордимся тем, что сотни клиентов доверяют нам свои документы. Каждый запрос для нас — это не просто бюрократическая процедура, а реальная помощь человеку в решении жизненно важных вопросов: от получения визы до воссоединения семьи.</p>
+        </div>
+        <div class="about-story-visual">
+          <div class="year">2015</div>
+          <div class="label">Год основания компании</div>
+          <div class="stats-row">
+            <div class="stat-box">
+              <span class="number">9+</span>
+              <span class="desc">Лет опыта</span>
+            </div>
+            <div class="stat-box">
+              <span class="number">30+</span>
+              <span class="desc">Стран доставки</span>
+            </div>
+            <div class="stat-box">
+              <span class="number">1000+</span>
+              <span class="desc">Довольных клиентов</span>
+            </div>
+            <div class="stat-box">
+              <span class="number">24/7</span>
+              <span class="desc">Онлайн поддержка</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="values-section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Наши ценности</h2>
+        <p>Принципы, которыми мы руководствуемся в работе каждый день.</p>
+      </div>
+      <div class="values-grid">
+        <div class="value-card">
+          <div class="icon"><i class="fa-solid fa-shield-halved"></i></div>
+          <h3>Надёжность</h3>
+          <p>Мы выполняем взятые на себя обязательства и доставляем документы точно в срок. Каждый этап процесса отслеживается и контролируется, чтобы вы всегда были в курсе статуса вашего заказа.</p>
+        </div>
+        <div class="value-card">
+          <div class="icon"><i class="fa-solid fa-lock"></i></div>
+          <h3>Конфиденциальность</h3>
+          <p>Ваши персональные данные и документы защищены с максимальной осторожностью. Мы строго соблюдаем законодательство о защите данных и никогда не передаём информацию третьим лицам.</p>
+        </div>
+        <div class="value-card">
+          <div class="icon"><i class="fa-solid fa-handshake"></i></div>
+          <h3>Честность</h3>
+          <p>Прозрачные цены без скрытых платежей, честные сроки и реальная оценка возможностей. Мы предпочитаем сказать правду заранее, чем обещать невыполнимое.</p>
+        </div>
+        <div class="value-card">
+          <div class="icon"><i class="fa-solid fa-heart"></i></div>
+          <h3>Забота о клиенте</h3>
+          <p>Мы понимаем, что за каждым запросом стоит реальная человеческая история. Поэтому мы относимся к каждому клиенту с вниманием, эмпатией и индивидуальным подходом.</p>
+        </div>
+        <div class="value-card">
+          <div class="icon"><i class="fa-solid fa-bolt"></i></div>
+          <h3>Скорость</h3>
+          <p>Мы ценим ваше время и работаем максимально оперативно. Наши процессы оптимизированы для быстрой обработки, чтобы вы получили документы как можно скорее.</p>
+        </div>
+        <div class="value-card">
+          <div class="icon"><i class="fa-solid fa-globe"></i></div>
+          <h3>Глобальный охват</h3>
+          <p>Неважно, в какой стране вы находитесь — мы доставим документы туда, где вы нуждаетесь. Наша сеть партнёров и курьерских служб покрывает весь мир.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="team-section">
+    <div class="container">
+      <h2>Почему клиенты доверяют нам</h2>
+      <p>Мы построили репутацию на результатах, а не на обещаниях.</p>
+      <div class="team-features">
+        <div class="team-feature">
+          <div class="icon"><i class="fa-solid fa-file-lines"></i></div>
+          <div>
+            <h3>Офис в Москве</h3>
+            <p>Наша команда работает непосредственно в Москве, что позволяет быстро взаимодействовать с государственными органами и ведомствами.</p>
+          </div>
+        </div>
+        <div class="team-feature">
+          <div class="icon"><i class="fa-solid fa-file-lines"></i></div>
+          <div>
+            <h3>Лицензированная деятельность</h3>
+            <p>Мы работаем в полном соответствии с законодательством РФ и имеем все необходимые лицензии для оказания наших услуг.</p>
+          </div>
+        </div>
+        <div class="team-feature">
+          <div class="icon"><i class="fa-solid fa-file-lines"></i></div>
+          <div>
+            <h3>Связь на вашем языке</h3>
+            <p>Мы общаемся на русском, английском, немецком и иврите. Вам не придётся использовать переводчик — мы говорим на вашем языке.</p>
+          </div>
+        </div>
+        <div class="team-feature">
+          <div class="icon"><i class="fa-solid fa-file-lines"></i></div>
+          <div>
+            <h3>Личный менеджер</h3>
+            <p>За каждым клиентом закреплён персональный менеджер, который ведёт заказ от начала до конца и всегда на связи.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-section">
+    <div class="container">
+      <h2>Нужны документы из России?</h2>
+      <p>Свяжитесь с нами прямо сейчас и получите бесплатную консультацию. Мы поможем получить ваши документы быстро и без лишних хлопот.</p>
+      <div class="cta-buttons">
+        <a href="https://wa.me/79518994988" target="_blank" class="btn btn-whatsapp"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+        <a href="https://t.me/rafael818" target="_blank" class="btn btn-telegram"><i class="fa-brands fa-telegram"></i> Telegram</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div>
+          <div class="footer-brand">Global Docs <span>Pro</span></div>
+          <p class="footer-tagline">Апостиль и легализация документов из России — быстро и надёжно<br>Доставка в 90 стран</p>
+        </div>
+                        <div class="footer-links">
+          <a href="/services.html">Услуги</a>
+          <a href="/faq.html">FAQ</a>
+          <a href="/contacts.html">Контакты</a>
+          <a href="/about.html">О нас</a>
+          <a href="/partners.html">Партнёрам</a>
+          <a href="/blog/">Полезные статьи</a>
+          <a href="/useful-links/">Нормативные акты</a>
+          <a href="/privacy.html">Политика конфиденциальности</a>
+          <a href="/disclaimer.html">Отказ от ответственности</a>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2015–2026 GlobalDocs.pro. All rights reserved.</div>
+    </div>
+  </footer>
+
+  <script>
+    function setLanguage(lang) {
+      try { localStorage.setItem('lang_choice', lang); } catch (e) {}
+    }
+    const burger = document.getElementById('burger');
+    const navLinks = document.getElementById('navLinks');
+    burger.addEventListener('click', () => { burger.classList.toggle('active'); navLinks.classList.toggle('active'); });
+    navLinks.querySelectorAll('a').forEach(link => { link.addEventListener('click', () => { burger.classList.remove('active'); navLinks.classList.remove('active'); }); });
+  </script>
+
+</body>
+
+</html>
