@@ -2,24 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
-  <!-- Root Page (Language Selector) -->
-  <url>
-    <loc>https://globaldocs.pro/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/"/>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/ru/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://globaldocs.pro/"/>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
-  </url>
-
   <!-- Landing Pages -->
   <url>
     <loc>https://globaldocs.pro/en/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/ru/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://globaldocs.pro/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://globaldocs.pro/en/"/>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
