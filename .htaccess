@@ -1,7 +1,42 @@
 # ========================================
+# ОСНОВНЫЕ НАСТРОЙКИ
+# ========================================
+Options -Indexes +FollowSymLinks
+AddDefaultCharset UTF-8
+ServerSignature Off
+
+# ========================================
 # СТРАНИЦА ОШИБОК
 # ========================================
 ErrorDocument 404 /404.html
+
+# ========================================
+# ЗАЩИТА СКРЫТЫХ ФАЙЛОВ
+# ========================================
+<FilesMatch "^\.">
+  Order allow,deny
+  Deny from all
+</FilesMatch>
+
+# Защита敏感 файлов
+<FilesMatch "\.(git|env|htaccess|htpasswd|ini|log|sh|sql)$">
+  Order allow,deny
+  Deny from all
+</FilesMatch>
+
+# ========================================
+# MIME-ТИПЫ (для шрифтов и SVG)
+# ========================================
+<IfModule mod_mime.c>
+  AddType application/font-woff .woff
+  AddType application/font-woff2 .woff2
+  AddType application/vnd.ms-fontobject .eot
+  AddType font/ttf .ttf
+  AddType font/otf .otf
+  AddType image/svg+xml .svg .svgz
+  AddType image/webp .webp
+  AddType application/manifest+json .webmanifest
+</IfModule>
 
 # ========================================
 # КЭШИРОВАНИЕ СТАТИКИ
@@ -11,11 +46,12 @@ ErrorDocument 404 /404.html
   ExpiresByType image/jpeg "access plus 1 month"
   ExpiresByType image/png "access plus 1 month"
   ExpiresByType image/gif "access plus 1 month"
-  ExpiresByType image/x-icon "access plus 1 month"
+  ExpiresByType image/x-icon "access plus 1 year"
   ExpiresByType image/webp "access plus 1 month"
   ExpiresByType image/svg+xml "access plus 1 month"
   ExpiresByType text/css "access plus 1 week"
   ExpiresByType application/javascript "access plus 1 week"
+  ExpiresByType text/javascript "access plus 1 week"
   ExpiresByType font/woff "access plus 1 year"
   ExpiresByType font/woff2 "access plus 1 year"
   ExpiresByType application/font-woff "access plus 1 year"
@@ -24,24 +60,78 @@ ErrorDocument 404 /404.html
 </IfModule>
 
 # ========================================
-# СЖАТИЕ GZIP
+# ЗАГОЛОВКИ CACHE-CONTROL
+# ========================================
+<IfModule mod_headers.c>
+  # HTML - не кэшировать
+  <FilesMatch "\.(html|htm)$">
+    Header set Cache-Control "no-cache, no-store, must-revalidate"
+    Header set Pragma "no-cache"
+    Header set Expires "0"
+  </FilesMatch>
+
+  # CSS и JS - кэш на неделю
+  <FilesMatch "\.(css|js)$">
+    Header set Cache-Control "max-age=604800, public"
+  </FilesMatch>
+
+  # Изображения - кэш на месяц
+  <FilesMatch "\.(ico|jpg|jpeg|png|gif|webp|svg)$">
+    Header set Cache-Control "max-age=2592000, public"
+  </FilesMatch>
+
+  # Шрифты - кэш на год
+  <FilesMatch "\.(woff|woff2|ttf|otf|eot)$">
+    Header set Cache-Control "max-age=31536000, public"
+  </FilesMatch>
+</IfModule>
+
+# ========================================
+# СЖАТИЕ GZIP / DEFLATE
 # ========================================
 <IfModule mod_deflate.c>
   AddOutputFilterByType DEFLATE text/html
   AddOutputFilterByType DEFLATE text/css
   AddOutputFilterByType DEFLATE application/javascript
+  AddOutputFilterByType DEFLATE text/javascript
   AddOutputFilterByType DEFLATE application/json
   AddOutputFilterByType DEFLATE text/xml
   AddOutputFilterByType DEFLATE application/xml
   AddOutputFilterByType DEFLATE image/svg+xml
-  AddOutputFilterByType DEFLATE text/javascript
+  AddOutputFilterByType DEFLATE application/x-font-ttf
+  AddOutputFilterByType DEFLATE font/opentype
+
+  # Не сжимать уже сжатые файлы
+  SetEnvIfNoCase Request_URI \.(?:gif|jpe?g|png|webp|woff2?)$ no-gzip
 </IfModule>
 
 # ========================================
 # ЗАГОЛОВКИ БЕЗОПАСНОСТИ
 # ========================================
 <IfModule mod_headers.c>
+  # Защита от MIME-type sniffing
   Header always set X-Content-Type-Options "nosniff"
+
+  # Защита от кликджекинга
   Header always set X-Frame-Options "SAMEORIGIN"
+
+  # XSS Protection (устарело, но полезно для старых браузеров)
+  Header always set X-XSS-Protection "1; mode=block"
+
+  # Политика Referrer
   Header always set Referrer-Policy "strict-origin-when-cross-origin"
+
+  # Permissions Policy (современный аналог Feature-Policy)
+  Header always set Permissions-Policy "geolocation=(), microphone=(), camera=(), payment=(), usb=()"
+
+  # Удалить заголовок X-Powered-By (скрыть версию PHP/сервера)
+  Header always unset X-Powered-By
 </IfModule>
+
+# ========================================
+# ETag ДЛЯ ВАЛИДАЦИИ КЭША
+# ========================================
+<IfModule mod_headers.c>
+  Header unset ETag
+</IfModule>
+FileETag None
