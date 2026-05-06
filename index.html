@@ -70,6 +70,29 @@
 }
   </script>
   <script defer src="https://cloud.umami.is/script.js" data-website-id="b76191fa-2f07-426d-a8af-6cbcb5ab4469"></script>
+
+  <!-- Языковой редирект по браузеру -->
+  <script>
+  (function() {
+    // Проверяем, что это первый визит и пользователь на главной
+    if (window.location.pathname === '/' && !sessionStorage.getItem('lang_choice')) {
+      var lang = navigator.language || navigator.userLanguage || '';
+      lang = lang.toLowerCase();
+
+      // Немецкий браузер → /de/
+      if (lang.indexOf('de') === 0) {
+        sessionStorage.setItem('lang_choice', 'de');
+        window.location.href = '/de/';
+      }
+      // Английский браузер → /en/
+      else if (lang.indexOf('en') === 0) {
+        sessionStorage.setItem('lang_choice', 'en');
+        window.location.href = '/en/';
+      }
+      // Остальные (включая русский) остаются на /
+    }
+  })();
+  </script>
 </head>
 <body>
 
