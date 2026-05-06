@@ -19,4 +19,4 @@ jobs:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          server-dir: /home/f1263416/domains/globaldocs.pro/public_html/
+          server-dir: domains/globaldocs.pro/public_html/
