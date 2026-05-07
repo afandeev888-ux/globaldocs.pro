@@ -438,6 +438,32 @@
     <priority>0.9</priority>
   </url>
 
+  <!-- International Document Delivery -->
+  <url>
+    <loc>https://globaldocs.pro/dostavka-dokumentov/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/dostavka-dokumentov/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/international-document-delivery/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/internationale-dokumentenversand/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://globaldocs.pro/en/international-document-delivery/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/dostavka-dokumentov/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/international-document-delivery/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/internationale-dokumentenversand/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://globaldocs.pro/de/internationale-dokumentenversand/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/dostavka-dokumentov/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/international-document-delivery/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/internationale-dokumentenversand/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
   <!-- Documents for Kazakhstan -->
   <url>
     <loc>https://globaldocs.pro/dokumenty-dlya-kazahstana/</loc>
