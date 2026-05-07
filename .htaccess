@@ -6,6 +6,13 @@ AddDefaultCharset UTF-8
 ServerSignature Off
 
 # ========================================
+# РЕДИРЕКТ С WWW НА БЕЗ-WWW
+# ========================================
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
+
+# ========================================
 # СТРАНИЦА ОШИБОК
 # ========================================
 ErrorDocument 404 /404.html
