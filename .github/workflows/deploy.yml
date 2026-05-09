@@ -1,0 +1,35 @@
+name: 🚀 Auto Deploy HTML to FTP
+
+# Срабатывает автоматически при любом пуше в main
+# Также можно запустить вручную через вкладку Actions -> Run workflow
+on:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      # 1. Скачиваем код из репозитория
+      - name: 🛒 Checkout code
+        uses: actions/checkout@v4
+
+      # 2. Деплой на FTP
+      - name: 🚀 FTP Deploy
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          
+          # ВАЖНО: Убедись, что этот путь ведет в ПАПКУ САЙТА, а не выше
+          server-dir: domains/globaldocs.pro/public_html/
+          
+          # Исключаем лишние файлы (чтобы на хостинге не было папки .git и readme)
+          exclude: |
+            **/.git*
+            **/.github*/**
+            **/README.md
+            **/.gitignore
+            **/deploy.yml
