@@ -771,4 +771,14 @@
     <priority>0.8</priority>
   </url>
 
+  <!-- Moving to Israel from Russia 2026 Article -->
+  <url>
+    <loc>https://globaldocs.pro/blog/dokumenty-dlya-pereezda-v-izrail-iz-rossii/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/blog/dokumenty-dlya-pereezda-v-izrail-iz-rossii/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/blog/documents-for-moving-to-israel-from-russia/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/blog/dokumente-fuer-umzug-nach-israel-aus-russland/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
 </urlset>
