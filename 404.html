@@ -145,11 +145,20 @@
       </div>
       <div class="lang-links">
         <p>Choose your language:</p>
-        <a href="/">Русский</a>
-        <a href="/en/">English</a>
-        <a href="/de/">Deutsch</a>
+        <a href="/" onclick="setLanguage('ru');return true">Русский</a>
+        <a href="/en/" onclick="setLanguage('en');return true">English</a>
+        <a href="/de/" onclick="setLanguage('de');return true">Deutsch</a>
       </div>
     </div>
   </div>
+
+  <script>
+    function setLanguage(lang) {
+      try {
+        localStorage.setItem('lang_choice', lang);
+      } catch (e) {}
+      document.cookie = 'lang_choice=' + lang + ';path=/;max-age=31536000;SameSite=Lax';
+    }
+  </script>
 </body>
 </html>

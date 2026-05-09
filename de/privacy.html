@@ -97,9 +97,9 @@
       <a href="/de/" class="navbar-brand">Global Docs <span>Pro</span></a>
 <div class="lang-switcher">
   <span class="globe"><i class="fa-solid fa-globe"></i></span>
-  <a href="/privacy.html" class="lang" onclick="sessionStorage.setItem('lang_choice','ru')">RU</a>
-  <a href="/en/privacy.html" class="lang" onclick="sessionStorage.setItem('lang_choice','en')">EN</a>
-  <a href="/de/privacy.html" class="lang active" onclick="sessionStorage.setItem('lang_choice','de')">DE</a>
+  <a href="/privacy.html" class="lang" onclick="setLanguage('ru');return true">RU</a>
+  <a href="/en/privacy.html" class="lang" onclick="setLanguage('en');return true">EN</a>
+  <a href="/de/privacy.html" class="lang active" onclick="setLanguage('de');return true">DE</a>
 </div>
     </div>
   </nav>
@@ -217,6 +217,16 @@
       <div class="footer-bottom">© 2015–2026 GlobalDocs.pro. All rights reserved.</div>
     </div>
   </footer>
+
+
+  <script>
+    function setLanguage(lang) {
+      try {
+        localStorage.setItem('lang_choice', lang);
+      } catch (e) {}
+      document.cookie = 'lang_choice=' + lang + ';path=/;max-age=31536000;SameSite=Lax';
+    }
+  </script>
 
 </body>
 </html>

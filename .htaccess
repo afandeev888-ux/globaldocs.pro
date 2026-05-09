@@ -21,14 +21,35 @@ RewriteRule ^ru/(.*)$ /$1 [L,R=301]
 
 # ========================================
 # ЯЗЫКОВОЙ РЕДИРЕКТ (только для корня)
+# Если пользователь уже выбрал язык (кука lang_choice) — honour choice, не редиректим.
+# Если куки нет — редирект по Accept-Language браузера.
 # Немецкий → /de/, Английский → /en/, Остальные → / (русский)
 # Стоит ПОСЛЕ HTTPS-редиректа, чтобы не было двойных переходов
 # ========================================
+
+# Пользователь вручную выбрал русский — остаёмся на /
+RewriteCond %{HTTP_COOKIE} lang_choice=ru [NC]
+RewriteCond %{REQUEST_URI} ^/$
+RewriteRule ^$ - [L]
+
+# Пользователь вручную выбрал английский → /en/
+RewriteCond %{HTTP_COOKIE} lang_choice=en [NC]
+RewriteCond %{REQUEST_URI} ^/$
+RewriteRule ^$ /en/ [R=302,L]
+
+# Пользователь вручную выбрал немецкий → /de/
+RewriteCond %{HTTP_COOKIE} lang_choice=de [NC]
+RewriteCond %{REQUEST_URI} ^/$
+RewriteRule ^$ /de/ [R=302,L]
+
+# Авто-редирект по Accept-Language (только если НЕТ куки lang_choice)
+RewriteCond %{HTTP_COOKIE} !lang_choice= [NC]
 RewriteCond %{HTTP:Accept-Language} ^de [NC]
 RewriteCond %{REQUEST_URI} ^/$
 RewriteCond %{QUERY_STRING} ^$
 RewriteRule ^$ /de/ [R=302,L]
 
+RewriteCond %{HTTP_COOKIE} !lang_choice= [NC]
 RewriteCond %{HTTP:Accept-Language} ^en [NC]
 RewriteCond %{REQUEST_URI} ^/$
 RewriteCond %{QUERY_STRING} ^$

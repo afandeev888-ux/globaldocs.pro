@@ -77,25 +77,38 @@
     })(window, document, "clarity", "script", "woizo7zahg");
 </script>
 
-  <!-- Языковой редирект по браузеру -->
+  <!-- Языковой редирект: honour user choice (cookie/localStorage), fallback to browser language -->
   <script>
   (function() {
-    // Проверяем, что это первый визит и пользователь на главной
-    if (window.location.pathname === '/' && !sessionStorage.getItem('lang_choice')) {
-      var lang = navigator.language || navigator.userLanguage || '';
-      lang = lang.toLowerCase();
+    if (window.location.pathname !== '/') return;
 
-      // Немецкий браузер → /de/
-      if (lang.indexOf('de') === 0) {
-        sessionStorage.setItem('lang_choice', 'de');
-        window.location.href = '/de/';
-      }
-      // Английский браузер → /en/
-      else if (lang.indexOf('en') === 0) {
-        sessionStorage.setItem('lang_choice', 'en');
-        window.location.href = '/en/';
-      }
-      // Остальные (включая русский) остаются на /
+    // 1) Проверяем сохранённый выбор пользователя (cookie или localStorage)
+    var saved = null;
+    try { saved = localStorage.getItem('lang_choice'); } catch(e) {}
+    if (!saved) {
+      var match = document.cookie.match(/(?:^|;\s*)lang_choice=([^;]*)/);
+      if (match) saved = match[1];
+    }
+
+    // 2) Если пользователь уже выбрал язык — редиректим по его выбору
+    if (saved) {
+      if (saved === 'en') { window.location.replace('/en/'); return; }
+      if (saved === 'de') { window.location.replace('/de/'); return; }
+      // saved === 'ru' — остаёмся на /
+      return;
+    }
+
+    // 3) Первый визит, нет сохранённого выбора — редирект по языку браузера
+    var lang = (navigator.language || navigator.userLanguage || '').toLowerCase();
+    if (lang.indexOf('de') === 0) {
+      document.cookie = 'lang_choice=de;path=/;max-age=31536000;SameSite=Lax';
+      window.location.replace('/de/');
+    } else if (lang.indexOf('en') === 0) {
+      document.cookie = 'lang_choice=en;path=/;max-age=31536000;SameSite=Lax';
+      window.location.replace('/en/');
+    } else {
+      // Русский и остальные — остаёмся на / (русская версия)
+      document.cookie = 'lang_choice=ru;path=/;max-age=31536000;SameSite=Lax';
     }
   })();
   </script>
@@ -107,9 +120,9 @@
       <a href="/" class="navbar-brand">Global Docs <span>Pro</span></a>
       <div class="lang-switcher">
   <span class="globe"><i class="fa-solid fa-globe"></i></span>
-  <a href="/" class="lang active" onclick="sessionStorage.setItem('lang_choice','ru')">RU</a>
-  <a href="/en/" class="lang" onclick="sessionStorage.setItem('lang_choice','en')">EN</a>
-  <a href="/de/" class="lang" onclick="sessionStorage.setItem('lang_choice','de')">DE</a>
+  <a href="/" class="lang active" onclick="setLanguage('ru');return true">RU</a>
+  <a href="/en/" class="lang" onclick="setLanguage('en');return true">EN</a>
+  <a href="/de/" class="lang" onclick="setLanguage('de');return true">DE</a>
 </div>
             <ul class="nav-links" id="navLinks">
         <li><a href="/services.html">Услуги</a></li>
@@ -340,6 +353,7 @@
       try {
         localStorage.setItem('lang_choice', lang);
       } catch (e) {}
+      document.cookie = 'lang_choice=' + lang + ';path=/;max-age=31536000;SameSite=Lax';
     }
     const burger = document.getElementById('burger');
     const navLinks = document.getElementById('navLinks');

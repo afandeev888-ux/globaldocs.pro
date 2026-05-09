@@ -92,9 +92,9 @@
       <a href="/" class="navbar-brand">Global Docs <span>Pro</span></a>
       <div class="lang-switcher">
   <span class="globe"><i class="fa-solid fa-globe"></i></span>
-  <a href="/blog/dokumenty-dlya-vnzh-i-grazhdanstva-ispanii/" class="lang active" onclick="sessionStorage.setItem('lang_choice','ru')">RU</a>
-  <a href="/en/blog/documents-for-spanish-residence-permit-and-citizenship/" class="lang" onclick="sessionStorage.setItem('lang_choice','en')">EN</a>
-  <a href="/de/blog/dokumente-fuer-aufenthaltserlaubnis-und-staatsbuergerschaft-spaniens/" class="lang" onclick="sessionStorage.setItem('lang_choice','de')">DE</a>
+  <a href="/blog/dokumenty-dlya-vnzh-i-grazhdanstva-ispanii/" class="lang active" onclick="setLanguage('ru');return true">RU</a>
+  <a href="/en/blog/documents-for-spanish-residence-permit-and-citizenship/" class="lang" onclick="setLanguage('en');return true">EN</a>
+  <a href="/de/blog/dokumente-fuer-aufenthaltserlaubnis-und-staatsbuergerschaft-spaniens/" class="lang" onclick="setLanguage('de');return true">DE</a>
 </div>
             <ul class="nav-links" id="navLinks">
         <li><a href="/services.html">Услуги</a></li>
@@ -453,7 +453,17 @@
     </div>
   </footer>
 
+  
   <script>
+    function setLanguage(lang) {
+      try {
+        localStorage.setItem('lang_choice', lang);
+      } catch (e) {}
+      document.cookie = 'lang_choice=' + lang + ';path=/;max-age=31536000;SameSite=Lax';
+    }
+  </script>
+
+<script>
     const burger = document.getElementById('burger');
     const navLinks = document.getElementById('navLinks');
     burger.addEventListener('click', () => { burger.classList.toggle('active'); navLinks.classList.toggle('active'); });
