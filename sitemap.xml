@@ -725,4 +725,30 @@
     <priority>0.8</priority>
   </url>
 
+  <!-- Power of Attorney from Abroad Article -->
+  <url>
+    <loc>https://globaldocs.pro/blog/doverennost-iz-za-granitsy/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/blog/doverennost-iz-za-granitsy/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/blog/power-of-attorney-from-abroad/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/blog/vollmacht-aus-dem-ausland/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://globaldocs.pro/en/blog/power-of-attorney-from-abroad/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/blog/doverennost-iz-za-granitsy/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/blog/power-of-attorney-from-abroad/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/blog/vollmacht-aus-dem-ausland/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://globaldocs.pro/de/blog/vollmacht-aus-dem-ausland/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/blog/doverennost-iz-za-granitsy/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/blog/power-of-attorney-from-abroad/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/blog/vollmacht-aus-dem-ausland/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
 </urlset>
