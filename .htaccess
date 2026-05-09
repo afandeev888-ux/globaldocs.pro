@@ -56,6 +56,29 @@ RewriteCond %{QUERY_STRING} ^$
 RewriteRule ^$ /en/ [R=302,L]
 
 # ========================================
+# 301 РЕДИРЕКТЫ ДЛЯ ДУБЛИРУЮЩИХСЯ СТАТЕЙ БЛОГА
+# Консолидация: слабые дубликаты → лучшие статьи
+# ========================================
+
+# Справка о несудимости: kak-poluchit → spravka (RU)
+Redirect 301 /blog/kak-poluchit-spravku-ob-otsutstvii-sudimosti-iz-za-granicy/ https://globaldocs.pro/blog/spravka-o-nesudimosti-iz-za-granitsy/
+
+# Criminal record: how-to-get → criminal-record-certificate (EN)
+Redirect 301 /en/blog/how-to-get-criminal-record-certificate-from-abroad/ https://globaldocs.pro/en/blog/criminal-record-certificate-from-abroad/
+
+# Führungszeugnis: beantragen → aus-dem-ausland (DE)
+Redirect 301 /de/blog/fuehrungszeugnis-aus-dem-ausland-beantragen/ https://globaldocs.pro/de/blog/fuehrungszeugnis-aus-dem-ausland/
+
+# Израиль: emigraciya → pereezd (RU)
+Redirect 301 /blog/dokumenty-dlya-emigracii-v-izrail-2026/ https://globaldocs.pro/blog/dokumenty-dlya-pereezda-v-izrail-iz-rossii/
+
+# Israel: emigration → moving-from-russia (EN)
+Redirect 301 /en/blog/documents-for-emigration-to-israel-2026/ https://globaldocs.pro/en/blog/documents-for-moving-to-israel-from-russia/
+
+# Israel: auswanderung → umzug-aus-russland (DE)
+Redirect 301 /de/blog/dokumente-fuer-auswanderung-nach-israel-2026/ https://globaldocs.pro/de/blog/dokumente-fuer-umzug-nach-israel-aus-russland/
+
+# ========================================
 # ЗАГОЛОВКИ БЕЗОПАСНОСТИ
 # ========================================
 

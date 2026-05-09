@@ -1433,6 +1433,77 @@ img {
   font-weight: 500;
 }
 
+.blog-category {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 3px 10px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  margin-right: 6px;
+}
+
+.blog-category.cat-apostille {
+  background: #eef2ff;
+  color: #4338ca;
+}
+
+.blog-category.cat-emigration {
+  background: #ecfdf5;
+  color: #047857;
+}
+
+.blog-category.cat-documents {
+  background: #fff7ed;
+  color: #c2410c;
+}
+
+.blog-category.cat-translation {
+  background: #fdf4ff;
+  color: #9333ea;
+}
+
+.blog-category.cat-practice {
+  background: #fef3c7;
+  color: #b45309;
+}
+
+.blog-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 30px;
+}
+
+.blog-filter-btn {
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 6px 16px;
+  border-radius: 20px;
+  border: 2px solid var(--gray-200);
+  background: transparent;
+  color: var(--gray-600);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.blog-filter-btn:hover,
+.blog-filter-btn.active {
+  background: var(--primary);
+  color: #fff;
+  border-color: var(--primary);
+}
+
+.blog-card[data-category] {
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.blog-card.hidden {
+  display: none;
+}
+
 .blog-card h2 {
   font-size: 1.2rem;
   font-weight: 700;

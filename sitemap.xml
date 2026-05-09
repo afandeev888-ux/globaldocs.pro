@@ -120,8 +120,9 @@
   </url>
   <url>
     <loc>https://globaldocs.pro/de/dokumentenlegalisierung-deutschland/</loc>
-    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/dokumentenlegalisierung-deutschland/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/documents-from-russia-to-germany/"/>
     <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/legalizaciya-dokumentov-v-germanii/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/dokumentenlegalisierung-deutschland/"/>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -150,7 +151,7 @@
     <priority>0.9</priority>
   </url>
 
-  <!-- Police Clearance Certificate (NEW) -->
+  <!-- Police Clearance Certificate -->
   <url>
     <loc>https://globaldocs.pro/spravka-ob-otsutstvii-sudimosti-s-apostilem/</loc>
     <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/spravka-ob-otsutstvii-sudimosti-s-apostilem/"/>
@@ -470,35 +471,30 @@
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
-
   <!-- Documents for Armenia -->
   <url>
     <loc>https://globaldocs.pro/dokumenty-dlya-armenii/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
-
   <!-- Documents for Moldova -->
   <url>
     <loc>https://globaldocs.pro/dokumenty-dlya-moldovy/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
-
   <!-- Documents for Georgia -->
   <url>
     <loc>https://globaldocs.pro/dokumenty-dlya-gruzii/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
-
   <!-- Documents for Kyrgyzstan -->
   <url>
     <loc>https://globaldocs.pro/dokumenty-dlya-kyrgyzstana/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
-
   <!-- Documents for Turkmenistan -->
   <url>
     <loc>https://globaldocs.pro/dokumenty-dlya-turkmenistana/</loc>
@@ -610,122 +606,115 @@
     <priority>0.3</priority>
   </url>
 
-  <!-- Blog (Russian) -->
+  <!-- ======================== -->
+  <!-- BLOG PAGES               -->
+  <!-- ======================== -->
+
+  <!-- Blog Index Pages -->
   <url>
     <loc>https://globaldocs.pro/blog/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/blog/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/blog/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/blog/"/>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://globaldocs.pro/blog/apostil-na-diplom-i-obrazovatelnye-dokumenty/</loc>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/blog/apostil-na-diplom-i-obrazovatelnye-dokumenty/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/blog/apostille-on-diploma-and-educational-documents/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/blog/apostille-auf-diplom-und-bildungsdokumente/"/>
-    <changefreq>monthly</changefreq>
+    <loc>https://globaldocs.pro/en/blog/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/blog/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/blog/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/blog/"/>
+    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://globaldocs.pro/en/blog/apostille-on-diploma-and-educational-documents/</loc>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/blog/apostil-na-diplom-i-obrazovatelnye-dokumenty/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/blog/apostille-on-diploma-and-educational-documents/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/blog/apostille-auf-diplom-und-bildungsdokumente/"/>
-    <changefreq>monthly</changefreq>
+    <loc>https://globaldocs.pro/de/blog/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/blog/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/blog/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/blog/"/>
+    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://globaldocs.pro/de/blog/apostille-auf-diplom-und-bildungsdokumente/</loc>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/blog/apostil-na-diplom-i-obrazovatelnye-dokumenty/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/blog/apostille-on-diploma-and-educational-documents/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/blog/apostille-auf-diplom-und-bildungsdokumente/"/>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://globaldocs.pro/blog/spisok-stran-gaagskoy-konvencii-2026/</loc>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/blog/spisok-stran-gaagskoy-konvencii-2026/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/blog/hague-convention-countries-list-2026/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/blog/liste-der-haager-konvention-laender-2026/"/>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://globaldocs.pro/en/blog/hague-convention-countries-list-2026/</loc>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/blog/spisok-stran-gaagskoy-konvencii-2026/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/blog/hague-convention-countries-list-2026/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/blog/liste-der-haager-konvention-laender-2026/"/>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://globaldocs.pro/de/blog/liste-der-haager-konvention-laender-2026/</loc>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/blog/spisok-stran-gaagskoy-konvencii-2026/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/blog/hague-convention-countries-list-2026/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/blog/liste-der-haager-konvention-laender-2026/"/>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://globaldocs.pro/blog/kak-poluchit-spravku-ob-otsutstvii-sudimosti-iz-za-granicy/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://globaldocs.pro/blog/elektronnyy-apostil-e-apostille-v-rossii/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://globaldocs.pro/blog/novyy-zakon-o-legalizacii-dokumentov-2026/</loc>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/blog/novyy-zakon-o-legalizacii-dokumentov-2026/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/blog/new-document-legalization-law-2026/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/blog/neues-gesetz-zur-dokumentenlegalisierung-2026/"/>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://globaldocs.pro/en/blog/new-document-legalization-law-2026/</loc>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/blog/novyy-zakon-o-legalizacii-dokumentov-2026/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/blog/new-document-legalization-law-2026/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/blog/neues-gesetz-zur-dokumentenlegalisierung-2026/"/>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://globaldocs.pro/de/blog/neues-gesetz-zur-dokumentenlegalisierung-2026/</loc>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/blog/novyy-zakon-o-legalizacii-dokumentov-2026/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/blog/new-document-legalization-law-2026/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/blog/neues-gesetz-zur-dokumentenlegalisierung-2026/"/>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
   </url>
 
-  <!-- Lost Documents Abroad Article -->
+  <!-- Blog: Documents for USA from Russia -->
   <url>
-    <loc>https://globaldocs.pro/blog/chto-delat-esli-dokument-uteryan-za-granicey/</loc>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/blog/chto-delat-esli-dokument-uteryan-za-granicey/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/blog/what-to-do-if-document-lost-abroad/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/blog/was-tun-bei-dokumentenverlust-im-ausland/"/>
+    <loc>https://globaldocs.pro/blog/dokumenty-dlya-ssha-iz-rossii/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/blog/dokumenty-dlya-ssha-iz-rossii/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/blog/documents-for-usa-from-russia/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/blog/dokumente-fuer-usa-aus-russland/"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://globaldocs.pro/en/blog/what-to-do-if-document-lost-abroad/</loc>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/blog/chto-delat-esli-dokument-uteryan-za-granicey/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/blog/what-to-do-if-document-lost-abroad/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/blog/was-tun-bei-dokumentenverlust-im-ausland/"/>
+    <loc>https://globaldocs.pro/en/blog/documents-for-usa-from-russia/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/blog/dokumenty-dlya-ssha-iz-rossii/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/blog/documents-for-usa-from-russia/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/blog/dokumente-fuer-usa-aus-russland/"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://globaldocs.pro/de/blog/was-tun-bei-dokumentenverlust-im-ausland/</loc>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/blog/chto-delat-esli-dokument-uteryan-za-granicey/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/blog/what-to-do-if-document-lost-abroad/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/blog/was-tun-bei-dokumentenverlust-im-ausland/"/>
+    <loc>https://globaldocs.pro/de/blog/dokumente-fuer-usa-aus-russland/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/blog/dokumenty-dlya-ssha-iz-rossii/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/blog/documents-for-usa-from-russia/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/blog/dokumente-fuer-usa-aus-russland/"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
-  <!-- Power of Attorney from Abroad Article -->
+  <!-- Blog: Sworn Translation 2026 -->
+  <url>
+    <loc>https://globaldocs.pro/blog/prisyazhnyy-perevod-2026/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/blog/prisyazhnyy-perevod-2026/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/blog/sworn-translation-2026/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/blog/beeidigter-uebersetzer-2026/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://globaldocs.pro/en/blog/sworn-translation-2026/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/blog/prisyazhnyy-perevod-2026/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/blog/sworn-translation-2026/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/blog/beeidigter-uebersetzer-2026/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://globaldocs.pro/de/blog/beeidigter-uebersetzer-2026/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/blog/prisyazhnyy-perevod-2026/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/blog/sworn-translation-2026/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/blog/beeidigter-uebersetzer-2026/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Blog: Moving to Israel from Russia -->
+  <url>
+    <loc>https://globaldocs.pro/blog/dokumenty-dlya-pereezda-v-izrail-iz-rossii/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/blog/dokumenty-dlya-pereezda-v-izrail-iz-rossii/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/blog/documents-for-moving-to-israel-from-russia/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/blog/dokumente-fuer-umzug-nach-israel-aus-russland/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://globaldocs.pro/en/blog/documents-for-moving-to-israel-from-russia/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/blog/dokumenty-dlya-pereezda-v-izrail-iz-rossii/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/blog/documents-for-moving-to-israel-from-russia/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/blog/dokumente-fuer-umzug-nach-israel-aus-russland/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://globaldocs.pro/de/blog/dokumente-fuer-umzug-nach-israel-aus-russland/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/blog/dokumenty-dlya-pereezda-v-izrail-iz-rossii/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/blog/documents-for-moving-to-israel-from-russia/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/blog/dokumente-fuer-umzug-nach-israel-aus-russland/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Blog: Power of Attorney from Abroad -->
   <url>
     <loc>https://globaldocs.pro/blog/doverennost-iz-za-granitsy/</loc>
     <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/blog/doverennost-iz-za-granitsy/"/>
@@ -751,7 +740,85 @@
     <priority>0.8</priority>
   </url>
 
-  <!-- Apostille on Birth Certificate Article -->
+  <!-- Blog: Lost Documents Abroad -->
+  <url>
+    <loc>https://globaldocs.pro/blog/chto-delat-esli-dokument-uteryan-za-granicey/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/blog/chto-delat-esli-dokument-uteryan-za-granicey/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/blog/what-to-do-if-document-lost-abroad/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/blog/was-tun-bei-dokumentenverlust-im-ausland/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://globaldocs.pro/en/blog/what-to-do-if-document-lost-abroad/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/blog/chto-delat-esli-dokument-uteryan-za-granicey/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/blog/what-to-do-if-document-lost-abroad/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/blog/was-tun-bei-dokumentenverlust-im-ausland/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://globaldocs.pro/de/blog/was-tun-bei-dokumentenverlust-im-ausland/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/blog/chto-delat-esli-dokument-uteryan-za-granicey/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/blog/what-to-do-if-document-lost-abroad/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/blog/was-tun-bei-dokumentenverlust-im-ausland/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Blog: Apostille on Diploma -->
+  <url>
+    <loc>https://globaldocs.pro/blog/apostil-na-diplom-i-obrazovatelnye-dokumenty/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/blog/apostil-na-diplom-i-obrazovatelnye-dokumenty/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/blog/apostille-on-diploma-and-educational-documents/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/blog/apostille-auf-diplom-und-bildungsdokumente/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://globaldocs.pro/en/blog/apostille-on-diploma-and-educational-documents/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/blog/apostil-na-diplom-i-obrazovatelnye-dokumenty/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/blog/apostille-on-diploma-and-educational-documents/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/blog/apostille-auf-diplom-und-bildungsdokumente/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://globaldocs.pro/de/blog/apostille-auf-diplom-und-bildungsdokumente/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/blog/apostil-na-diplom-i-obrazovatelnye-dokumenty/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/blog/apostille-on-diploma-and-educational-documents/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/blog/apostille-auf-diplom-und-bildungsdokumente/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Blog: Emigration to Germany -->
+  <url>
+    <loc>https://globaldocs.pro/blog/dokumenty-dlya-emigracii-v-germaniyu-2026/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/blog/dokumenty-dlya-emigracii-v-germaniyu-2026/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/blog/documents-for-emigration-to-germany-2026/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/blog/dokumente-fuer-auswanderung-nach-deutschland-2026/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://globaldocs.pro/en/blog/documents-for-emigration-to-germany-2026/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/blog/dokumenty-dlya-emigracii-v-germaniyu-2026/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/blog/documents-for-emigration-to-germany-2026/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/blog/dokumente-fuer-auswanderung-nach-deutschland-2026/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://globaldocs.pro/de/blog/dokumente-fuer-auswanderung-nach-deutschland-2026/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/blog/dokumenty-dlya-emigracii-v-germaniyu-2026/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/blog/documents-for-emigration-to-germany-2026/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/blog/dokumente-fuer-auswanderung-nach-deutschland-2026/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Blog: Apostille on Birth Certificate -->
   <url>
     <loc>https://globaldocs.pro/blog/apostil-na-svidetelstvo-o-rozhdenii/</loc>
     <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/blog/apostil-na-svidetelstvo-o-rozhdenii/"/>
@@ -760,23 +827,201 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-
-  <!-- Emigration to Israel 2026 Article -->
   <url>
-    <loc>https://globaldocs.pro/blog/dokumenty-dlya-emigracii-v-izrail-2026/</loc>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/blog/dokumenty-dlya-emigracii-v-izrail-2026/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/blog/documents-for-emigration-to-israel-2026/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/blog/dokumente-fuer-auswanderung-nach-israel-2026/"/>
+    <loc>https://globaldocs.pro/en/blog/apostille-on-birth-certificate/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/blog/apostil-na-svidetelstvo-o-rozhdenii/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/blog/apostille-on-birth-certificate/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/blog/apostille-auf-geburtsurkunde/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://globaldocs.pro/de/blog/apostille-auf-geburtsurkunde/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/blog/apostil-na-svidetelstvo-o-rozhdenii/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/blog/apostille-on-birth-certificate/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/blog/apostille-auf-geburtsurkunde/"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
-  <!-- Moving to Israel from Russia 2026 Article -->
+  <!-- Blog: Hague Convention Countries -->
   <url>
-    <loc>https://globaldocs.pro/blog/dokumenty-dlya-pereezda-v-izrail-iz-rossii/</loc>
-    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/blog/dokumenty-dlya-pereezda-v-izrail-iz-rossii/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/blog/documents-for-moving-to-israel-from-russia/"/>
-    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/blog/dokumente-fuer-umzug-nach-israel-aus-russland/"/>
+    <loc>https://globaldocs.pro/blog/spisok-stran-gaagskoy-konvencii-2026/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/blog/spisok-stran-gaagskoy-konvencii-2026/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/blog/hague-convention-countries-list-2026/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/blog/liste-der-haager-konvention-laender-2026/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://globaldocs.pro/en/blog/hague-convention-countries-list-2026/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/blog/spisok-stran-gaagskoy-konvencii-2026/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/blog/hague-convention-countries-list-2026/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/blog/liste-der-haager-konvention-laender-2026/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://globaldocs.pro/de/blog/liste-der-haager-konvention-laender-2026/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/blog/spisok-stran-gaagskoy-konvencii-2026/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/blog/hague-convention-countries-list-2026/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/blog/liste-der-haager-konvention-laender-2026/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Blog: Criminal Record Certificate from Abroad (kept version) -->
+  <url>
+    <loc>https://globaldocs.pro/blog/spravka-o-nesudimosti-iz-za-granitsy/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/blog/spravka-o-nesudimosti-iz-za-granitsy/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/blog/criminal-record-certificate-from-abroad/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/blog/fuehrungszeugnis-aus-dem-ausland/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://globaldocs.pro/en/blog/criminal-record-certificate-from-abroad/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/blog/spravka-o-nesudimosti-iz-za-granitsy/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/blog/criminal-record-certificate-from-abroad/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/blog/fuehrungszeugnis-aus-dem-ausland/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://globaldocs.pro/de/blog/fuehrungszeugnis-aus-dem-ausland/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/blog/spravka-o-nesudimosti-iz-za-granitsy/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/blog/criminal-record-certificate-from-abroad/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/blog/fuehrungszeugnis-aus-dem-ausland/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Blog: Electronic Apostille -->
+  <url>
+    <loc>https://globaldocs.pro/blog/elektronnyy-apostil-e-apostille-v-rossii/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/blog/elektronnyy-apostil-e-apostille-v-rossii/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/blog/electronic-apostille-e-apostille-in-russia/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/blog/elektronische-apostille-e-apostille-in-russland/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://globaldocs.pro/en/blog/electronic-apostille-e-apostille-in-russia/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/blog/elektronnyy-apostil-e-apostille-v-rossii/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/blog/electronic-apostille-e-apostille-in-russia/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/blog/elektronische-apostille-e-apostille-in-russland/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://globaldocs.pro/de/blog/elektronische-apostille-e-apostille-in-russland/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/blog/elektronnyy-apostil-e-apostille-v-rossii/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/blog/electronic-apostille-e-apostille-in-russia/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/blog/elektronische-apostille-e-apostille-in-russland/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Blog: New Legalization Law 2026 -->
+  <url>
+    <loc>https://globaldocs.pro/blog/novyy-zakon-o-legalizacii-dokumentov-2026/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/blog/novyy-zakon-o-legalizacii-dokumentov-2026/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/blog/new-document-legalization-law-2026/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/blog/neues-gesetz-zur-dokumentenlegalisierung-2026/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://globaldocs.pro/en/blog/new-document-legalization-law-2026/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/blog/novyy-zakon-o-legalizacii-dokumentov-2026/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/blog/new-document-legalization-law-2026/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/blog/neues-gesetz-zur-dokumentenlegalisierung-2026/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://globaldocs.pro/de/blog/neues-gesetz-zur-dokumentenlegalisierung-2026/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/blog/novyy-zakon-o-legalizacii-dokumentov-2026/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/blog/new-document-legalization-law-2026/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/blog/neues-gesetz-zur-dokumentenlegalisierung-2026/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Blog: Spanish Residence Permit -->
+  <url>
+    <loc>https://globaldocs.pro/blog/dokumenty-dlya-vnzh-i-grazhdanstva-ispanii/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/blog/dokumenty-dlya-vnzh-i-grazhdanstva-ispanii/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/blog/documents-for-spanish-residence-permit-and-citizenship/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/blog/dokumente-fuer-aufenthaltserlaubnis-und-staatsbuergerschaft-spaniens/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://globaldocs.pro/en/blog/documents-for-spanish-residence-permit-and-citizenship/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/blog/dokumenty-dlya-vnzh-i-grazhdanstva-ispanii/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/blog/documents-for-spanish-residence-permit-and-citizenship/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/blog/dokumente-fuer-aufenthaltserlaubnis-und-staatsbuergerschaft-spaniens/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://globaldocs.pro/de/blog/dokumente-fuer-aufenthaltserlaubnis-und-staatsbuergerschaft-spaniens/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/blog/dokumenty-dlya-vnzh-i-grazhdanstva-ispanii/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/blog/documents-for-spanish-residence-permit-and-citizenship/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/blog/dokumente-fuer-aufenthaltserlaubnis-und-staatsbuergerschaft-spaniens/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Blog: Portuguese Residence Permit -->
+  <url>
+    <loc>https://globaldocs.pro/blog/dokumenty-dlya-vnzh-portugalii/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/blog/dokumenty-dlya-vnzh-portugalii/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/blog/documents-for-portuguese-residence-permit/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/blog/dokumente-fuer-portugiesische-aufenthaltserlaubnis/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://globaldocs.pro/en/blog/documents-for-portuguese-residence-permit/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/blog/dokumenty-dlya-vnzh-portugalii/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/blog/documents-for-portuguese-residence-permit/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/blog/dokumente-fuer-portugiesische-aufenthaltserlaubnis/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://globaldocs.pro/de/blog/dokumente-fuer-portugiesische-aufenthaltserlaubnis/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/blog/dokumenty-dlya-vnzh-portugalii/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/blog/documents-for-portuguese-residence-permit/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/blog/dokumente-fuer-portugiesische-aufenthaltserlaubnis/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Blog: Birth Certificate from ZAGS Abroad -->
+  <url>
+    <loc>https://globaldocs.pro/blog/kak-poluchit-svidetelstvo-o-rozhdenii-iz-zagsa-za-granitsey/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/blog/kak-poluchit-svidetelstvo-o-rozhdenii-iz-zagsa-za-granitsey/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/blog/how-to-obtain-birth-certificate-from-zags-abroad/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/blog/geburtsurkunde-aus-dem-standesamt-aus-dem-ausland-beantragen/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://globaldocs.pro/en/blog/how-to-obtain-birth-certificate-from-zags-abroad/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/blog/kak-poluchit-svidetelstvo-o-rozhdenii-iz-zagsa-za-granitsey/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/blog/how-to-obtain-birth-certificate-from-zags-abroad/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/blog/geburtsurkunde-aus-dem-standesamt-aus-dem-ausland-beantragen/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://globaldocs.pro/de/blog/geburtsurkunde-aus-dem-standesamt-aus-dem-ausland-beantragen/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/blog/kak-poluchit-svidetelstvo-o-rozhdenii-iz-zagsa-za-granitsey/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/blog/how-to-obtain-birth-certificate-from-zags-abroad/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/blog/geburtsurkunde-aus-dem-standesamt-aus-dem-ausland-beantragen/"/>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
