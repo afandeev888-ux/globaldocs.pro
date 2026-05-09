@@ -751,4 +751,24 @@
     <priority>0.8</priority>
   </url>
 
+  <!-- Apostille on Birth Certificate Article -->
+  <url>
+    <loc>https://globaldocs.pro/blog/apostil-na-svidetelstvo-o-rozhdenii/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/blog/apostil-na-svidetelstvo-o-rozhdenii/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/blog/apostille-on-birth-certificate/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/blog/apostille-auf-geburtsurkunde/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Emigration to Israel 2025 Article -->
+  <url>
+    <loc>https://globaldocs.pro/blog/dokumenty-dlya-emigracii-v-izrail-2025/</loc>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://globaldocs.pro/blog/dokumenty-dlya-emigracii-v-izrail-2025/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://globaldocs.pro/en/blog/documents-for-emigration-to-israel-2025/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://globaldocs.pro/de/blog/dokumente-fuer-auswanderung-nach-israel-2025/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
 </urlset>
