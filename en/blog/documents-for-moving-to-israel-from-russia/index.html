@@ -415,8 +415,31 @@
         y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
     })(window, document, "clarity", "script", "woizo7zahg");
 </script>
+  <link rel="stylesheet" href="../../../style.css">
+  <link rel="stylesheet" href="/css/fontawesome/all.min.css">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
 </head>
 <body>
+  <nav class="navbar">
+    <div class="container">
+      <a href="/en/" class="navbar-brand">Global Docs <span>Pro</span></a>
+      <div class="lang-switcher">
+  <span class="globe"><i class="fa-solid fa-globe"></i></span>
+  <a href="/blog/dokumenty-dlya-pereezda-v-izrail-iz-rossii/" class="lang" onclick="setLanguage('ru');return true">RU</a>
+  <a href="/en/blog/documents-for-moving-to-israel-from-russia/" class="lang active" onclick="setLanguage('en');return true">EN</a>
+  <a href="/de/blog/dokumente-fuer-umzug-nach-israel-aus-russland/" class="lang" onclick="setLanguage('de');return true">DE</a>
+</div>
+            <ul class="nav-links" id="navLinks">
+        <li><a href="/en/services.html">Services</a></li>
+        <li><a href="/en/#how">How It Works</a></li>
+        <li><a href="/en/blog/">Useful Articles</a></li>
+        <li><a href="/en/contacts.html">Contact</a></li>
+      </ul>
+      <button class="burger" id="burger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
   <article class="article-container">
     <nav class="breadcrumb">
       <a href="https://globaldocs.pro/en/">Home</a> &rarr;
@@ -856,5 +879,44 @@
     </div>
 
   </article>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div>
+          <div class="footer-brand">Global Docs <span>Pro</span></div>
+          <p class="footer-tagline">Apostille and legalization of documents from Russia — fast and reliable<br>Delivery to 90 countries</p>
+        </div>
+        <div class="footer-links">
+          <a href="/en/services.html">Services</a>
+          <a href="/en/about.html">About Us</a>
+          <a href="/en/blog/">Useful Articles</a>
+          <a href="/en/faq.html">FAQ</a>
+          <a href="/en/useful-links/">Legal Framework</a>
+          <a href="/en/contacts.html">Contact</a>
+          <a href="/en/partners.html">Partners</a>
+          <a href="/en/privacy.html">Privacy Policy</a>
+          <a href="/en/disclaimer.html">Disclaimer</a>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2015–2026 GlobalDocs.pro. All rights reserved.</div>
+    </div>
+  </footer>
+  
+  <script>
+    function setLanguage(lang) {
+      try {
+        localStorage.setItem('lang_choice', lang);
+      } catch (e) {}
+      document.cookie = 'lang_choice=' + lang + ';path=/;max-age=31536000;SameSite=Lax';
+    }
+  </script>
+
+<script>
+    const burger = document.getElementById('burger');
+    const navLinks = document.getElementById('navLinks');
+    burger.addEventListener('click', () => { burger.classList.toggle('active'); navLinks.classList.toggle('active'); });
+    navLinks.querySelectorAll('a').forEach(link => { link.addEventListener('click', () => { burger.classList.remove('active'); navLinks.classList.remove('active'); }); });
+  </script>
 </body>
 </html>
