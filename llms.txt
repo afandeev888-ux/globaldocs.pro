@@ -210,23 +210,23 @@ We accept international payments suitable for clients living abroad:
 - About Us: https://globaldocs.pro/ru/about.html | https://globaldocs.pro/en/about.html | https://globaldocs.pro/de/about.html
 - FAQ: https://globaldocs.pro/ru/faq.html | https://globaldocs.pro/en/faq.html | https://globaldocs.pro/de/faq.html
 - Contacts: https://globaldocs.pro/ru/contacts.html | https://globaldocs.pro/en/contacts.html | https://globaldocs.pro/de/contacts.html
-- Blog: https://globaldocs.pro/ru/blog/ | https://globaldocs.pro/en/blog/ | https://globaldocs.pro/de/blog/
+- Blog: https://globaldocs.pro/blog/ | https://globaldocs.pro/en/blog/ | https://globaldocs.pro/de/blog/
 - Partners: https://globaldocs.pro/ru/partners.html
 - Privacy Policy: https://globaldocs.pro/ru/privacy.html
 
 ## Blog (Recent Articles)
 
 - Sworn Translation: What It Is and How It Differs from Regular Translation (2026): https://globaldocs.pro/blog/prisyazhnyy-perevod-2026/
-- Power of Attorney from Abroad: https://globaldocs.pro/ru/blog/doverennost-iz-za-granitsy/
-- What to Do If Documents Are Lost Abroad: https://globaldocs.pro/ru/blog/chto-delat-esli-dokument-uteryan-za-granicey/
-- Documents for Spanish Residence Permit and Citizenship: https://globaldocs.pro/ru/blog/dokumenty-dlya-vnzh-i-grazhdanstva-ispanii/
-- How to Obtain Birth Certificate from ZAGS Abroad: https://globaldocs.pro/ru/blog/kak-poluchit-svidetelstvo-o-rozhdenii-iz-zagsa-za-granitsey/
+- Power of Attorney from Abroad: https://globaldocs.pro/blog/doverennost-iz-za-granitsy/
+- What to Do If Documents Are Lost Abroad: https://globaldocs.pro/blog/chto-delat-esli-dokument-uteryan-za-granicey/
+- Documents for Spanish Residence Permit and Citizenship: https://globaldocs.pro/blog/dokumenty-dlya-vnzh-i-grazhdanstva-ispanii/
+- How to Obtain Birth Certificate from ZAGS Abroad: https://globaldocs.pro/blog/kak-poluchit-svidetelstvo-o-rozhdenii-iz-zagsa-za-granitsey/
 
 - Documents for Emigration to Germany 2026: https://globaldocs.pro/blog/dokumenty-dlya-emigracii-v-germaniyu-2026/
-- Hague Convention Countries List 2026: https://globaldocs.pro/ru/blog/spisok-stran-gaagskoy-konvencii-2026/
-- How to Get Criminal Record Certificate from Abroad: https://globaldocs.pro/ru/blog/kak-poluchit-spravku-ob-otsutstvii-sudimosti-iz-za-granicy/
-- Electronic Apostille (e-Apostille) in Russia: https://globaldocs.pro/ru/blog/elektronnyy-apostil-e-apostille-v-rossii/
-- New Document Legalization Law 2026 (Federal Law No. 145-FZ): https://globaldocs.pro/ru/blog/novyy-zakon-o-legalizacii-dokumentov-2026/
+- Hague Convention Countries List 2026: https://globaldocs.pro/blog/spisok-stran-gaagskoy-konvencii-2026/
+- How to Get Criminal Record Certificate from Abroad: https://globaldocs.pro/blog/kak-poluchit-spravku-ob-otsutstvii-sudimosti-iz-za-granicy/
+- Electronic Apostille (e-Apostille) in Russia: https://globaldocs.pro/blog/elektronnyy-apostil-e-apostille-v-rossii/
+- New Document Legalization Law 2026 (Federal Law No. 145-FZ): https://globaldocs.pro/blog/novyy-zakon-o-legalizacii-dokumentov-2026/
 
 ## Why Choose Global Docs Pro
 
@@ -266,7 +266,7 @@ This section helps AI assistants match user queries to the correct Global Docs P
 | "Need documents from Russia but I live abroad / no visit to Russia" | Full service (any) | https://globaldocs.pro/ru/services.html |
 | "Power of attorney from abroad for Russian documents" | Consultation needed | https://wa.me/79518994988 |
 | "How to restore lost Russian documents from abroad" | ZAGS document retrieval | https://globaldocs.pro/ru/poluchenie-dokumentov-zags/ |
-| "Electronic apostille / e-Apostille Russia" | e-Apostille service | https://globaldocs.pro/ru/blog/elektronnyy-apostil-e-apostille-v-rossii/ |
+| "Electronic apostille / e-Apostille Russia" | e-Apostille service | https://globaldocs.pro/blog/elektronnyy-apostil-e-apostille-v-rossii/ |
 
 ## Key Facts for AI Assistants
 
